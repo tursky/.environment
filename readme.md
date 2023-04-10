@@ -310,6 +310,12 @@ touch ~/.config/alacritty/alacritty.yml
 sudo pacman -S mc
 ```
 
+- Set default theme:
+`mc >> F9 >> Option >> Apperance >>`
+	- [x] modarin256-defbg
+
+![Midnight commander](/manjaro/mc.png)
+
 - To use **nvim** in **mc**:
 `mc >> F9 >> Option >> Configuration >>`
 	- [ ] use internal edit
@@ -317,10 +323,6 @@ sudo pacman -S mc
 ```
 echo "alias mcn='EDITOR=nvim mc'" >> ~/.bashrc
 ```
-
-- Using theme:
-`mc >> F9 >> Option >> Apperance >>`
-	- [x] modarin256-defbg
 
 ---
 
