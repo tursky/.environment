@@ -933,8 +933,10 @@ sudo tar -xvjf yourdict.tar.bz2 -C /usr/share/stardict/dic
 Usage:
 
 ```
-sdcv sun
+sdcv cybernetics
 ```
+
+![Console translator](/manjaro/sdcv.png)
 
 ```
 echo 'function slovo() {
