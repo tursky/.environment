@@ -1022,4 +1022,10 @@ sudo snap install tex-match
 
 ---
 
+# Testing machine: IBM T61p
+
+![Manjaro screenfetch](/manjaro/screenfetch.png)
+
+---
+
 # EOF
