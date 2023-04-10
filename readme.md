@@ -186,7 +186,9 @@ sudo pacman -S gnu-free-fonts
 ---
 
 # System processing, cleaning
-Use `htop` in terminal or `kill PID` to manage running processes.
+Use `htop` in terminal or `kill PID` to manage running processes:
+
+![Console administration](/manjaro/htop.png)
 
 ## Cleaning
 
