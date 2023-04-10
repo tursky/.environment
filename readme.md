@@ -36,7 +36,7 @@
 	- [PHP](#php)
 	- [Python](#python)
 		- [Install using pyenv](#install-using-pyenv)
-		- [Vendor libs for computing etc](#vendor-libs-for-computing-etc)
+		- [Vendor libs for calculus etc](#vendor-libs-for-calculus-etc)
 		- [Compiling from source](#compiling-from-source)
 	- [Haskell](#haskell)
 	- [Kotlin](#kotlin)
@@ -460,7 +460,7 @@ Upgrade pip:
 pip install --upgrade pip
 ```
 
-### Vendor libs for computing etc
+### Vendor libs for calculus etc
 
 ```
 pip install numpy sympy pandas scipy matplotlib tensorflow jupyterlab qiskit handcalcs pylint black black[jupyter] flask psycopg[binary] psycopg[pool] pyqt5 clang-format
