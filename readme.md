@@ -190,6 +190,9 @@ Can be used in LaTeX:
 
 ```
 sudo pacman -S gnu-free-fonts
+```
+
+```
 sudo pamac build otf-xits
 ```
 
