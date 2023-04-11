@@ -22,7 +22,7 @@
 3. [Vendor package managers](#vendor-package-managers)
 4. [Fonts](#fonts)
 5. [System processing, cleaning](#system-processing-cleaning)
-6. [Console](#console)
+6. [Console environment](#console-environment)
 	- [Neovim](#neovim)
 	- [Tmux](#tmux)
 	- [Bat](#bat)
@@ -225,7 +225,7 @@ sudo pacman -Scc
 
 ---
 
-# Console
+# Console environment
 
 Terminal command line setup:
 
