@@ -84,29 +84,32 @@
 
 # Installing programms
 
+Update environment:
+
 ```
-# Update environment
 sudo pacman -Syu
 ```
 
+Install, remove, find package:
+
 ```
-# Install, remove, find package
 sudo pacman -S package
 sudo pacman -Ss package
-
 sudo pacman -R package
 sudo pacman -Rs package
 ```
 
+Install package to build from source, AUR etc.:
+
 ```
-# Install package to build from source, AUR etc.
 sudo pacman -S base-devel
 ```
 
 ## Burn an ISO image
 
+List of mounted partitions:
+
 ```
-# List of mounted partitions
 sudo fdisk -l
 ```
 
