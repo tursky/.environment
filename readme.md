@@ -140,7 +140,11 @@ sudo pacman -S chromium
 Add/remove software using `yay`, `snapd` and `pamac`:
 
 ```
-sudo pacman -S yay snapd
+sudo pacman -S yay
+```
+
+```
+sudo pacman -S snapd
 sudo ln -s /var/lib/snapd/snap /snap
 ```
 
