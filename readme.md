@@ -144,24 +144,27 @@ sudo pacman -S yay snapd
 sudo ln -s /var/lib/snapd/snap /snap
 ```
 
+Usage `pamac`:
+
 ```
-# Usage PAMAC
 pamac search
 pamac build
 pamac remove
 pamac list
 ```
 
+Usage `yay`:
+
 ```
-# Usage YAY
 yay -S package
 yay -Rns package
 yay -Syu
 yay package
 ```
 
+Usage `snapd`:
+
 ```
-# Usage SNAPD
 sudo snap install package
 sudo snap remove package
 snap find package
