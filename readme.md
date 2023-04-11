@@ -219,6 +219,9 @@ echo "export PS1='\[\033[01;32m\][\u\[\033[01;37m\] \W\[\033[01;32m\]]#\[\033[00
 ![Xfce console](/manjaro/terminal.png)
 
 ### Neovim
+
+Vim-based text editor:
+
 ```
 sudo pacman -S neovim
 ```
@@ -238,8 +241,9 @@ echo "set clipboard=unnamedplus" >> ~/.config/nvim/init.vim
 
 ### Tmux
 
+Terminal multiplexor:
+
 ```
-# Terminal multiplexor
 sudo pacman -S tmux
 ```
 
@@ -282,8 +286,9 @@ exit
 
 ### Bat
 
+Console code-preview utility:
+
 ```
-# Console code-preview utility
 sudo pacman -S bat
 ```
 
@@ -294,8 +299,9 @@ bat file
 
 ### Alacritty
 
+Terminal emulator:
+
 ```
-# Modern terminal emulator
 sudo pacman -S alacritty
 ```
 
@@ -306,6 +312,9 @@ touch ~/.config/alacritty/alacritty.yml
 ```
 
 ### Midnight commander
+
+Cross-platform file manager: 
+
 ```
 sudo pacman -S mc
 ```
