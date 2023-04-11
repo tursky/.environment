@@ -174,16 +174,23 @@ sudo snap refresh <application>
 
 # Fonts
 
+Microsoft Windows fonts (Times New Roman etc.):
+
 ```
-# Microsoft Windows fonts (Times New Roman etc.)
 sudo pamac build ttf-ms-fonts
+```
 
-# Mono Fonts by JetBrains (IDEA)
+Mono Fonts by JetBrains (IDEA):
+
+```
 sudo pacman -S ttf-jetbrains-mono
+```
 
-# Can be used in LaTeX
-sudo pamac build otf-xits
+Can be used in LaTeX:
+
+```
 sudo pacman -S gnu-free-fonts
+sudo pamac build otf-xits
 ```
 
 ---
@@ -195,18 +202,21 @@ Use `htop` in terminal or `kill PID` to manage running processes:
 
 ## Cleaning
 
+List packages:
+
 ```
-# List packages
 ls /var/cache/pacman/pkg/ | less
 ```
 
+Remove all pkg except those installed:
+
 ```
-# Remove all pkg except those installed
 sudo pacman -Sc
 ``` 
 
+Remove all files from pkg cache:
+
 ```
-# Remove all files from pkg cache
 sudo pacman -Scc
 ```
 
@@ -214,8 +224,9 @@ sudo pacman -Scc
 
 # Console
 
+Terminal command line setup:
+
 ```
-# Terminal command line setup
 echo "export PS1='\[\033[01;32m\][\u\[\033[01;37m\] \W\[\033[01;32m\]]#\[\033[00m\] '" >> ~/.bashrc
 ```
 
@@ -229,14 +240,15 @@ Vim-based text editor:
 sudo pacman -S neovim
 ```
 
+Install clipboard provider:
+
 ```
-# Install clipboard provider
 sudo pacman -S xclip
 ```
 
-```
-# Settings
+Settings:
 
+```
 mkdir ~/.config/nvim
 touch ~/.config/nvim/init.vim
 echo "set clipboard=unnamedplus" >> ~/.config/nvim/init.vim
@@ -250,9 +262,9 @@ Terminal multiplexor:
 sudo pacman -S tmux
 ```
 
-```
-# Settings
+Set up:
 
+```
 mkdir ~/.config/tmux
 touch ~/.config/tmux/tmux.conf
 
@@ -261,7 +273,7 @@ set -g mouse on
 " >> ~/.config/tmux/tmux.conf
 ```
 
-**Usage:**
+Usage:
 ```
 # Create a new session
 tmux new-session
@@ -308,8 +320,9 @@ Terminal emulator:
 sudo pacman -S alacritty
 ```
 
+Set up:
+
 ```
-# Setup
 mkdir ~/.config/alacritty
 touch ~/.config/alacritty/alacritty.yml
 ```
