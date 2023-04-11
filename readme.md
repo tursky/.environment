@@ -137,7 +137,7 @@ sudo pacman -S chromium
 
 # Vendor package managers
 
-Add/remove software using `yay`, `snapd` and `pamac`
+Add/remove software using `yay`, `snapd` and `pamac`:
 
 ```
 sudo pacman -S yay snapd
