@@ -931,10 +931,9 @@ pamac install inkscape
 
 ## VirtualBox
 
-First, you need to install the packages virtualbox and linux*-virtualbox-host-modules.
+First, you need to install the packages virtualbox and linux*-virtualbox-host-modules. To list what kernels is installed use:
 
 ```
-# To list what kernels is installed use
 mhwd-kernel -li
 ```
 
@@ -946,18 +945,16 @@ The following kernels are installed in your system:
    * linux61
 ```
 
+Install modules for your current kernel:
+
 ```
-# Install modules for your current kernel
 sudo pacman -S virtualbox linux61-virtualbox-host-modules
 ```
 
-Add the `vbox` module to your kernel: just reboot OS.
+Adding the `vbox` module to your kernel: just reboot OS. To run VirtualBox immediately, type the following command:
 
 ``` 
-# To run VB immediately, type the following command:
-sudo vboxreload
-
-vboxmanage --version
+sudo vboxreload && vboxmanage --version
 ```
 
 ---
@@ -976,11 +973,15 @@ sudo pacman -S libreoffice-fresh
 
 The pre-installed in `xfce` PDF viewer is not bad (or the built-in features of the browser), but for one reason or another, the author prefers an otherwise package:
 
-```
-# Xreader, compact PDF viewer
-sudo pacman -S xreader
+- Xreader, compact viewer:
 
-# Optionally
+```
+sudo pacman -S xreader
+```
+
+- Optionally:
+
+```
 sudo pacman -S okular
 ```
 
@@ -1004,8 +1005,7 @@ sudo pacman -S sdcv
 Create catalogs for your vocabularies:
 
 ```
-sudo mkdir /usr/share/stardict
-sudo mkdir /usr/share/stardict/dic
+sudo mkdir /usr/share/stardict && sudo mkdir /usr/share/stardict/dic
 ```
 
 Copy/paste unpacked dicts:
@@ -1042,6 +1042,9 @@ Repeat the steps as above to unpack the voice-over dictionary, for example:
 
 ```
 sudo mkdir /usr/share/goldendict/dic
+```
+
+```
 sudo unzip WAV-dict.zip -d /usr/share/goldendict/dic
 ```
 
@@ -1101,8 +1104,9 @@ Tex symbols handbook based on AI tricks:
 pamac build tex-match
 ```
 
+Installing using snapd:
+
 ```
-# Installing using snapd
 sudo snap install tex-match
 ```
 
