@@ -140,11 +140,10 @@ sudo pacman -S chromium
 Add/remove software using `yay`, `snapd` and `pamac`:
 
 ```
-sudo pacman -S yay
+sudo pacman -S yay snapd
 ```
 
 ```
-sudo pacman -S snapd
 sudo ln -s /var/lib/snapd/snap /snap
 ```
 
@@ -260,7 +259,13 @@ Settings:
 
 ```
 mkdir ~/.config/nvim
+```
+
+```
 touch ~/.config/nvim/init.vim
+```
+
+```
 echo "set clipboard=unnamedplus" >> ~/.config/nvim/init.vim
 ```
 
@@ -276,8 +281,13 @@ Set up:
 
 ```
 mkdir ~/.config/tmux
-touch ~/.config/tmux/tmux.conf
+```
 
+```
+touch ~/.config/tmux/tmux.conf
+```
+
+```
 echo "
 set -g mouse on
 " >> ~/.config/tmux/tmux.conf
