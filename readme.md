@@ -387,11 +387,17 @@ Prepare `ssh` dir:
 
 ```
 mkdir ~/.ssh
+```
+
+```
 cd ~/.ssh
+```
+
+```
 touch config
 ```
 
-Example `config` with required configurations:
+Example `config` with required configuration:
 
 ![SSH config](/manjaro/ssh.png)
 
@@ -400,24 +406,36 @@ echo "Host github.com
 	IdentityFile ~/.ssh/github/id_ed25519" >> config
 ```
 
-Follow step by step:
+#### Follow step by step
 
+Verify SSH:
 ```
-# Verify SSH
 eval "$(ssh-agent -s)"
+```
 
-# Generate key
+Generate key:
+```
 ssh-keygen -t ed25519 -C "operator@unix.git"
+```
 
-# Copy to clipboard, paste on Github
+Copy to clipboard, paste on Github:
+```
 cat id_ed25519.pub | xclip -selection clipboard
+```
 
-# Move keys to directory
+Move keys to directory:
+```
 sudo mkdir github
+```
+```
 sudo mv id_ed25519 id_ed25519.pub github
+```
 
-# Check connection
+Check connection:
+```
 ssh-add ~/.ssh/github/id_ed25519
+```
+```
 ssh -T git@github.com
 ```
 
