@@ -576,15 +576,13 @@ sudo pacman -S clash-ghc
 ## Kotlin
 
 ```
-sudo pacman -S kotlin
-kotlin -version
+sudo pacman -S kotlin && kotlin -version
 ```
 
 ## Go
 
 ```
-sudo pacman -S go
-go version
+sudo pacman -S go && go version
 ```
 
 ## Docker
