@@ -386,15 +386,7 @@ git config --global init.defaultBranch main
 Prepare `ssh` dir:
 
 ```
-mkdir ~/.ssh
-```
-
-```
-cd ~/.ssh
-```
-
-```
-touch config
+mkdir ~/.ssh && cd ~/.ssh && touch config
 ```
 
 Example `config` with required configuration:
@@ -572,14 +564,18 @@ echo 'export PATH=/home/operator/.python3.11.2/bin:$PATH' >> ~/.bashrc
 
 ## Haskell
 
+Compiler
 ```
-# Compiler
 sudo pacman -S ghc stack
+```
 
-# Formatting tool
+Formatting tool
+```
 stack install hindent
+```
 
-# Clash
+Clash
+```
 sudo pacman -S clash-ghc
 ```
 
@@ -601,7 +597,9 @@ go version
 
 ```
 sudo pacman -S docker
+```
 
+```
 sudo systemctl start docker.service
 sudo systemctl enable docker.service
 
@@ -609,16 +607,19 @@ sudo docker version
 sudo docker info
 ```
 
+Run Docker without root (reboot required):
 ```
-# Run Docker without root (reboot required)
 sudo usermod -aG docker $USER
+```
 
+Hello world:
+```
 docker pull hello-world
 docker run hello-world
 ```
 
+Docker compose:
 ```
-# Docker compose
 sudo pacman -S docker-compose
 docker-compose -h
 ```
@@ -648,70 +649,79 @@ sudo pacman -S postgresql
 
 ## DB setup
 
+Run as postgres user:
 ```
-# Run as postgres user
 sudo su postgres -l
+```
+
+Init:
+```
 initdb --locale $LANG -E UTF8 -D '/var/lib/postgres/data/'
-
 exit
+```
 
+Configure Systemd:
+```
 sudo systemctl start postgresql.service
 sudo systemctl enable postgresql.service
 sudo systemctl status postgresql
+```
 
-# New password for postgres user
+New password for postgres user:
+```
 sudo passwd postgres 
+```
 
-# Run
+Run:
+```
 su - postgres
 psql
+```
 
-# Add a new db user (execute as postgres):
+Add a new db user (execute as postgres):
+```
 createuser --interactive -P
 ```
 
 ## Installation pgAdmin
 
-Step 1:
+Step 1: Make the essential catalogs
 
 ```
-# Make the essential catalogs
 sudo mkdir /var/lib/pgadmin
 sudo mkdir /var/log/pgadmin
 ```
 
-Step 2:
+Step 2: Change the owner
 
 ```
-# Change the owner
 sudo chown $USER /var/lib/pgadmin
 sudo chown $USER /var/log/pgadmin
 ```
 
-Step 3:
+Step 3: Create the Python-based virtual environment and activate the env
 
 ```
-# Create the Python-based virtual environment and activate the env:
 mkdir ~/.db
 cd .db
 python3 -m venv pgadmin4
 source pgadmin4/bin/activate
 ```
 
-Step 4:
+Step 4: Install pgAdmin4
 
 ```
-# Install pgAdmin4
 pip install pgadmin4
 ```
 
-Step 5:
+Step 5: Navigate to the pgAdmin4 and start the pgAdmin4 service
 
 ```
-# Navigate to the pgAdmin4 and start the pgAdmin4 service:
 cd pgadmin4
 pgadmin4
+```
 
+```
 # Open the browser and login:
 https://127.0.0.1:5050/
 
