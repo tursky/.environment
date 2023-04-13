@@ -686,24 +686,19 @@ createuser --interactive -P
 Step 1: Make the essential catalogs
 
 ```
-sudo mkdir /var/lib/pgadmin
-sudo mkdir /var/log/pgadmin
+sudo mkdir /var/lib/pgadmin && sudo mkdir /var/log/pgadmin
 ```
 
 Step 2: Change the owner
 
 ```
-sudo chown $USER /var/lib/pgadmin
-sudo chown $USER /var/log/pgadmin
+sudo chown $USER /var/lib/pgadmin && sudo chown $USER /var/log/pgadmin
 ```
 
 Step 3: Create the Python-based virtual environment and activate the env
 
 ```
-mkdir ~/.db
-cd .db
-python3 -m venv pgadmin4
-source pgadmin4/bin/activate
+mkdir ~/.db && cd .db && python3 -m venv pgadmin4 && source pgadmin4/bin/activate
 ```
 
 Step 4: Install pgAdmin4
@@ -715,8 +710,7 @@ pip install pgadmin4
 Step 5: Navigate to the pgAdmin4 and start the pgAdmin4 service
 
 ```
-cd pgadmin4
-pgadmin4
+cd pgadmin4 && pgadmin4
 ```
 
 ```
@@ -753,12 +747,14 @@ echo 'function pg() {
 
 ## VSCodium
 
+Enable AUR for VSCodium:
 ```
-# Enable AUR for VSCodium
 cat /etc/pamac.conf | grep EnableAUR
 sudo sed -Ei '/EnableAUR/s/^#//' /etc/pamac.conf
+```
 
-# Install
+Installing:
+```
 sudo pamac install vscodium-bin
 ```
 
