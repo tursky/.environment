@@ -426,16 +426,12 @@ cat id_ed25519.pub | xclip -selection clipboard
 Move keys to directory:
 ```
 sudo mkdir github
-```
-```
 sudo mv id_ed25519 id_ed25519.pub github
 ```
 
 Check connection:
 ```
 ssh-add ~/.ssh/github/id_ed25519
-```
-```
 ssh -T git@github.com
 ```
 
@@ -447,6 +443,8 @@ ssh -T git@github.com
 
 ```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+```
 source "$HOME/.cargo/env"
 rustc -V
 ```
@@ -471,8 +469,10 @@ curl -fsSL https://deno.land/x/install/install.sh | sh
 ```
 sudo pacman -S nodejs npm
 node -v
+```
 
-# npm update utility
+```
+# Package update utility
 sudo npm install -g npm-check-updates
 ```
 
@@ -491,18 +491,30 @@ php -v
 sudo pacman -S pyenv
 ```
 
+Add commands to ~/.bashrc by executing the following directives:
 ```
-# First, add the commands to ~/.bashrc by running the following in your terminal:
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
+```
+```
 echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
+```
+```
 echo 'eval "$(pyenv init -)"' >> ~/.bashrc
+```
 
-# Then, if you have ~/.profile, ~/.bash_profile or ~/.bash_login, add the commands there as well.
+If you have ~/.profile, ~/.bash_profile or ~/.bash_login, type this:
+```
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
+```
+```
 echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
+```
+```
 echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
+```
 
-# Restart your shell
+Restart your shell:
+```
 exec "$SHELL"
 ```
 
