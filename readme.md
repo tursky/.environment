@@ -417,14 +417,12 @@ cat id_ed25519.pub | xclip -selection clipboard
 
 Move keys to directory:
 ```
-sudo mkdir github
-sudo mv id_ed25519 id_ed25519.pub github
+sudo mkdir github && sudo mv id_ed25519 id_ed25519.pub github
 ```
 
 Check connection:
 ```
-ssh-add ~/.ssh/github/id_ed25519
-ssh -T git@github.com
+ssh-add ~/.ssh/github/id_ed25519 && ssh -T git@github.com
 ```
 
 ---
