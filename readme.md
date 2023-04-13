@@ -599,22 +599,26 @@ sudo systemctl start docker.service && sudo systemctl enable docker.service
 ```
 
 Check:
+
 ```
 sudo docker version
 sudo docker info
 ```
 
 Run Docker without root (reboot required):
+
 ```
 sudo usermod -aG docker $USER
 ```
 
 Hello world:
+
 ```
 docker run hello-world
 ```
 
 Docker compose:
+
 ```
 sudo pacman -S docker-compose
 # docker-compose -h
@@ -646,32 +650,38 @@ sudo pacman -S postgresql
 ## DB setup
 
 Run as postgres user:
+
 ```
 sudo su postgres -l
 ```
 
 Init:
+
 ```
 initdb --locale $LANG -E UTF8 -D '/var/lib/postgres/data/' && exit
 ```
 
 Configure Systemd:
+
 ```
 sudo systemctl start postgresql.service && sudo systemctl enable postgresql.service && sudo systemctl status postgresql
 ```
 
 New password for postgres user:
+
 ```
 sudo passwd postgres 
 ```
 
 Run:
+
 ```
 su - postgres
 psql
 ```
 
 Add a new db user (execute as postgres):
+
 ```
 createuser --interactive -P
 ```
@@ -743,12 +753,13 @@ echo 'function pg() {
 ## VSCodium
 
 Enable AUR for VSCodium:
+
 ```
-cat /etc/pamac.conf | grep EnableAUR
-sudo sed -Ei '/EnableAUR/s/^#//' /etc/pamac.conf
+cat /etc/pamac.conf | grep EnableAUR && sudo sed -Ei '/EnableAUR/s/^#//' /etc/pamac.conf
 ```
 
 Installing:
+
 ```
 sudo pamac install vscodium-bin
 ```
@@ -806,7 +817,6 @@ Usage:
 ```
 java --version
 archlinux-java status
-
 sudo archlinux-java set <target java package name>
 sudo archlinux-java set java-19-jdk
 ```
@@ -837,7 +847,9 @@ Formatting with `latexindent` requires some Perl libraries:
 
 ```
 sudo pacman -S perl-yaml-tiny perl-file-homedir perl-unicode-linebreak
+```
 
+```
 latexindent --vversion
 ```
 
@@ -883,8 +895,7 @@ sudo pacman -S freecad
 ## KiCAD
 
 ```
-sudo pacman -S kicad
-sudo pacman -S --asdeps kicad-library kicad-library-3d
+sudo pacman -S kicad && sudo pacman -S --asdeps kicad-library kicad-library-3d
 ```
 
 ## Scilab
@@ -896,9 +907,7 @@ pamac build scilab-bin
 It can also be built from source:
 
 ```
-git clone https://aur.archlinux.org/scilab-bin.git
-cd scilab-bin
-makepkg -si
+git clone https://aur.archlinux.org/scilab-bin.git && cd scilab-bin && makepkg -si
 ```
 
 ## Octave
