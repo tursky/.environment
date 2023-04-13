@@ -598,9 +598,11 @@ sudo pacman -S docker
 ```
 
 ```
-sudo systemctl start docker.service
-sudo systemctl enable docker.service
+sudo systemctl start docker.service && sudo systemctl enable docker.service
+```
 
+Check:
+```
 sudo docker version
 sudo docker info
 ```
@@ -612,14 +614,13 @@ sudo usermod -aG docker $USER
 
 Hello world:
 ```
-docker pull hello-world
 docker run hello-world
 ```
 
 Docker compose:
 ```
 sudo pacman -S docker-compose
-docker-compose -h
+# docker-compose -h
 ```
 
 Usage:
@@ -654,15 +655,12 @@ sudo su postgres -l
 
 Init:
 ```
-initdb --locale $LANG -E UTF8 -D '/var/lib/postgres/data/'
-exit
+initdb --locale $LANG -E UTF8 -D '/var/lib/postgres/data/' && exit
 ```
 
 Configure Systemd:
 ```
-sudo systemctl start postgresql.service
-sudo systemctl enable postgresql.service
-sudo systemctl status postgresql
+sudo systemctl start postgresql.service && sudo systemctl enable postgresql.service && sudo systemctl status postgresql
 ```
 
 New password for postgres user:
