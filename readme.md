@@ -873,7 +873,7 @@ sudo pacman -S octave
 ## Drawio
 
 ```
-sudo snap install drawio
+pamac build drawio-desktop
 ```
 
 ## Inkscape
