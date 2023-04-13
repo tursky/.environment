@@ -442,12 +442,11 @@ rustc -V
 ## Deno
 
 ```
-cargo install deno --locked
+sudo pacman -S deno && deno upgrade
 ```
 
 ```
-sudo pacman -S deno
-deno upgrade
+cargo install deno --locked
 ```
 
 ```
@@ -457,8 +456,7 @@ curl -fsSL https://deno.land/x/install/install.sh | sh
 ## Node.js
 
 ```
-sudo pacman -S nodejs npm
-node -v
+sudo pacman -S nodejs npm && node -v
 ```
 
 ```
@@ -469,8 +467,7 @@ sudo npm install -g npm-check-updates
 ## PHP
 
 ```
-sudo pacman -S php
-php -v
+sudo pacman -S php && php -v
 ```
 
 ## Python
