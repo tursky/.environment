@@ -435,8 +435,7 @@ ssh-add ~/.ssh/github/id_ed25519 && ssh -T git@github.com
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 ```
-source "$HOME/.cargo/env"
-rustc -V
+source "$HOME/.cargo/env" && rustc -V
 ```
 
 ## Deno
