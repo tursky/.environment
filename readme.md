@@ -40,8 +40,8 @@
 	- [PHP](#php)
 	- [Python](#python)
 		- [Install using pyenv](#install-using-pyenv)
-		- [Calculus libs etc](#calculus-libs-etc)
 		- [Compiling from binaries](#compiling-from-binaries)
+		- [Calculus libs etc](#calculus-libs-etc)
 	- [Haskell](#haskell)
 	- [Kotlin](#kotlin)
 	- [Go](#go)
@@ -544,26 +544,20 @@ Upgrade pip:
 pip install --upgrade pip
 ```
 
-### Calculus libs etc
-
-```
-pip install numpy sympy pandas scipy matplotlib tensorflow jupyterlab qiskit handcalcs pylint black black[jupyter] flask psycopg[binary] psycopg[pool] pyqt5 clang-format
-```
-
 ### Compiling from binaries
 
 ```
 # Download
-sudo wget https://www.python.org/ftp/python/3.11.2/Python-3.11.2.tgz
+sudo wget https://www.python.org/ftp/python/3.11.3/Python-3.11.3.tgz
 ```
 
 ```
 cd ~/Downloads
-tar -xvf python3.11.2.tgz
-cd python3.11.2
+tar -xvf Python-3.11.3.tgz && mv Python-3.11.3 3.11.3
+cd 3.11.3
 
 # Run configurations
-./configure --prefix=/home/operator/.python3.11.2 --enable-optimizations
+./configure --prefix=/home/operator/.python/3.11.3 --enable-optimizations
 
 # Make (numbers of cores)
 make -j8
@@ -572,7 +566,16 @@ make -j8
 sudo make altinstall
 
 # Add PATH
-echo 'export PATH=/home/operator/.python3.11.2/bin:$PATH' >> ~/.bashrc
+echo 'export PATH=/home/operator/.python/3.11.3/bin:$PATH' >> ~/.bashrc
+
+# Update pip
+pip3.11 install --upgrade pip
+```
+
+### Calculus libs etc
+
+```
+python3.11 -m pip install virtualenv numpy sympy pandas scipy matplotlib tensorflow jupyterlab vpython qiskit handcalcs pylint black black[jupyter] clang-format flask psycopg[binary] psycopg[pool] PyQt6
 ```
 
 ## Haskell
