@@ -21,6 +21,10 @@
 	- [Chromium browser](#chromium-browser)
 3. [Vendor package managers](#vendor-package-managers)
 4. [Fonts](#fonts)
+	- [IBM Plex Fonts](#ibm-plex-fonts)
+	- [Microsoft Windows Fonts](#microsoft-windows-fonts)
+	- [Mono Fonts by JetBrains](#mono-fonts-by-jetbrains)
+	- [Fonts used with LaTeX](#fonts-used-with-latex)
 5. [System processing, cleaning](#system-processing-cleaning)
 6. [Console environment](#console-environment)
 	- [Neovim](#neovim)
@@ -180,25 +184,26 @@ sudo snap refresh <application>
 
 # Fonts
 
-IBM Plex Fonts
+## IBM Plex Fonts
 
 ```
 pamac install otf-ibm-plex
 ```
 
-Microsoft Windows Fonts (Times New Roman etc):
+## Microsoft Windows Fonts
 
+Times New Roman etc:
 ```
 pamac install ttf-ms-fonts
 ```
 
-Mono Fonts by JetBrains (IDEA):
+## Mono Fonts by JetBrains:
 
 ```
 sudo pacman -S ttf-jetbrains-mono
 ```
 
-Can be used in LaTeX:
+## Fonts used with LaTeX:
 
 ```
 sudo pacman -S gnu-free-fonts
