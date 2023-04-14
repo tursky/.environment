@@ -25,7 +25,7 @@
 	- [Microsoft Windows Fonts](#microsoft-windows-fonts)
 	- [Mono Fonts by JetBrains](#mono-fonts-by-jetbrains)
 	- [Fonts used with LaTeX](#fonts-used-with-latex)
-5. [System processing, cleaning](#system-processing-cleaning)
+5. [System processing, cleaning, updating](#system-processing-cleaning)
 6. [Console environment](#console-environment)
 	- [Neovim](#neovim)
 	- [Tmux](#tmux)
@@ -215,7 +215,7 @@ pamac install otf-xits
 
 ---
 
-# System processing, cleaning
+# System processing, cleaning, updating
 Use `htop` in terminal or `kill PID` to manage running processes:
 
 ![Console administration](/manjaro/htop.png)
@@ -239,6 +239,14 @@ Remove all files from pkg cache:
 ```
 sudo pacman -Scc
 ```
+
+## System update
+
+```
+sudo pacman -Syu
+```
+
+To disable system updates, go to `Add/Remove Software` >> `Preferences` and toggle off the `Check for updates`.
 
 ---
 
