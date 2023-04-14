@@ -180,10 +180,16 @@ sudo snap refresh <application>
 
 # Fonts
 
-Microsoft Windows fonts (Times New Roman etc.):
+IBM Plex Fonts
 
 ```
-sudo pamac build ttf-ms-fonts
+pamac install otf-ibm-plex
+```
+
+Microsoft Windows Fonts (Times New Roman etc):
+
+```
+pamac install ttf-ms-fonts
 ```
 
 Mono Fonts by JetBrains (IDEA):
@@ -199,7 +205,7 @@ sudo pacman -S gnu-free-fonts
 ```
 
 ```
-sudo pamac build otf-xits
+pamac install otf-xits
 ```
 
 ---
