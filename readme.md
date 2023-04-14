@@ -57,7 +57,7 @@
 		- [TexStudio](#texstudio)
 		- [VSCode as Tex-editor](#vscode-as-tex-editor)
 	- [FreeCAD](#freecad)
-	- [KiCAD](#kicad)
+	- [KiCad](#kicad)
 	- [Scilab](#scilab)
 	- [Octave](#octave)
 	- [Drawio](#drawio)
@@ -889,7 +889,7 @@ sudo pacman -S texstudio
 sudo pacman -S freecad
 ```
 
-## KiCAD
+## KiCad
 
 ```
 sudo pacman -S kicad && sudo pacman -S --asdeps kicad-library kicad-library-3d
