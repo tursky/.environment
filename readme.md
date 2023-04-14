@@ -553,8 +553,7 @@ sudo wget https://www.python.org/ftp/python/3.11.3/Python-3.11.3.tgz
 
 ```
 cd ~/Downloads
-tar -xvf Python-3.11.3.tgz && mv Python-3.11.3 3.11.3
-cd 3.11.3
+tar -xvf Python-3.11.3.tgz && mv Python-3.11.3 3.11.3 && cd 3.11.3
 
 # Run configurations
 ./configure --prefix=/home/operator/.python/3.11.3 --enable-optimizations
