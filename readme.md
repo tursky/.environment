@@ -535,7 +535,7 @@ pip install --upgrade pip
 Install vendor libs:
 
 ```
-pip install numpy sympy pandas scipy matplotlib tensorflow jupyterlab vpython qiskit handcalcs pylint black black[jupyter] clang-format flask psycopg[binary] psycopg[pool] PyQt6
+pip install numpy sympy scipy pandas matplotlib tensorflow jupyterlab vpython qiskit handcalcs pylint black black[jupyter] clang-format flask psycopg[binary] psycopg[pool] PyQt6
 ```
 
 Usage:
@@ -552,7 +552,7 @@ function py() {
 
 ```
 echo '
-function pyenv() {
+function env() {
     python3 -m venv env && . ./env/bin/activate
 }' >> ~/.bashrc
 ```
@@ -827,7 +827,7 @@ sudo pamac install vscodium-bin
 - Markdown Preview Enhanced
 - Live Server
 - LaTeX Workshop
-- Jupyter
+- Python
 
 ### User settings
 
