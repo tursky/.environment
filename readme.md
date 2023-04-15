@@ -52,7 +52,7 @@
 9. [Code editors](#code-editors)
 	- [VSCodium](#vscodium)
 		- [Extensions set](#extensions-set)
-		- [User settings](#settings)
+		- [User settings](#user-settings)
 	- [IntelliJ IDEA](#intellij-idea)
 	- [PyCharm](#pycharm)
 	- [Code::Blocks](#codeblocks)
@@ -577,6 +577,10 @@ pip3.11 install --upgrade pip
 python3.11 -m pip install numpy sympy pandas scipy matplotlib tensorflow jupyterlab vpython qiskit handcalcs pylint black black[jupyter] clang-format flask psycopg[binary] psycopg[pool] PyQt6
 ```
 
+```
+echo 'export PATH=/home/operator/.local/bin/' >> ~/.bashrc
+```
+
 ## Haskell
 
 Compiler
@@ -789,8 +793,11 @@ sudo pamac install vscodium-bin
 - Markdown Preview Enhanced
 - Live Server
 - LaTeX Workshop
+- Jupyter
 
 ### User settings
+
+Used Full HD:
 
 ```json
 {
@@ -819,8 +826,9 @@ sudo pamac install vscodium-bin
 	"explorer.decorations.colors": false,
 	"workbench.editor.decorations.colors": false,
 	"workbench.editor.decorations.badges": false,
-	"window.zoomLevel": 2,
-	"window.menuBarVisibility": "toggle"
+	"window.zoomLevel": 3,
+	"window.menuBarVisibility": "toggle",
+	"workbench.colorTheme": "GitHub Dark Colorblind (Beta)"
 }
 ```
 
