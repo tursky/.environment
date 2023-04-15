@@ -549,7 +549,7 @@ pip install --upgrade pip
 Install vendor libs:
 
 ```
-pip install flask numpy sympy scipy pandas matplotlib tensorflow jupyterlab handcalcs vpython cython qiskit qutip pymedphys pydicom pylint black black[jupyter] clang-format psycopg[binary] psycopg[pool] PyQt6
+pip install flask numpy sympy scipy pandas matplotlib tensorflow jupyterlab handcalcs vpython cython qiskit qutip pymedphys[user] pydicom pylint black black[jupyter] clang-format psycopg[binary] psycopg[pool] PyQt6
 ```
 
 Reinstall:
