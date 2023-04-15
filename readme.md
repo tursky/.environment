@@ -535,14 +535,14 @@ pip install --upgrade pip
 Install vendor libs:
 
 ```
-pip install flask numpy sympy scipy pandas matplotlib tensorflow jupyterlab handcalcs vpython cython qiskit qutip pymedphys pydicom pylint black black[jupyter] clang-format psycopg[binary] psycopg[pool] PyQt6
+pip install flask numpy sympy scipy pandas matplotlib tensorflow jupyterlab handcalcs vpython cython qiskit qutip pylint black black[jupyter] clang-format psycopg[binary] psycopg[pool] PyQt6 pymedphys pydicom
 ```
 
 Usage:
 
 ```
 echo '
-function py() {
+function env() {
     home=$( pwd )
     cd ~/.py
     python3 -m venv env && . ./env/bin/activate
@@ -552,7 +552,7 @@ function py() {
 
 ```
 echo '
-function env() {
+function activate() {
     python3 -m venv env && . ./env/bin/activate
 }' >> ~/.bashrc
 ```
