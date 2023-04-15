@@ -577,6 +577,16 @@ pip3.11 install --upgrade pip
 python3.11 -m pip install numpy sympy pandas scipy matplotlib tensorflow jupyterlab vpython qiskit handcalcs pylint black black[jupyter] clang-format flask psycopg[binary] psycopg[pool] PyQt6
 ```
 
+```
+mkdir code && cd code && python3.11 -m venv env && . ./env/bin/activate && pip install django
+```
+
+Deactivate virtual env:
+
+```
+deactivate
+```
+
 ## Haskell
 
 Compiler
@@ -801,7 +811,7 @@ Used Full HD:
 	"files.eol": "\n",
 	"editor.smoothScrolling": true,
 	"workbench.startupEditor": "newUntitledFile",
-	"files.defaultLanguage": "md",
+	"files.defaultLanguage": "markdown",
 	"editor.fontSize": 14,
 	"terminal.integrated.fontSize": 14,
 	"editor.lineHeight": 20,
