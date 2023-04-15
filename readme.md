@@ -574,7 +574,7 @@ pip3.11 install --upgrade pip
 ### Calculus libs etc
 
 ```
-python3.11 -m pip install virtualenv numpy sympy pandas scipy matplotlib tensorflow jupyterlab vpython qiskit handcalcs pylint black black[jupyter] clang-format flask psycopg[binary] psycopg[pool] PyQt6
+python3.11 -m pip install numpy sympy pandas scipy matplotlib tensorflow jupyterlab vpython qiskit handcalcs pylint black black[jupyter] clang-format flask psycopg[binary] psycopg[pool] PyQt6
 ```
 
 ## Haskell
