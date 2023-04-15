@@ -535,7 +535,7 @@ pip install --upgrade pip
 Install vendor libs:
 
 ```
-pip install numpy sympy scipy pandas matplotlib tensorflow jupyterlab vpython qiskit handcalcs pylint black black[jupyter] clang-format flask psycopg[binary] psycopg[pool] PyQt6
+pip install flask numpy sympy scipy pandas matplotlib tensorflow jupyterlab handcalcs vpython cython qiskit qutip pymedphys pydicom pylint black black[jupyter] clang-format psycopg[binary] psycopg[pool] PyQt6
 ```
 
 Usage:
