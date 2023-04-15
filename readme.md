@@ -39,9 +39,9 @@
 	- [Node.js](#node.js)
 	- [PHP](#php)
 	- [Python](#python)
-		- [Install using pyenv](#install-using-pyenv)
 		- [Compiling from binaries](#compiling-from-binaries)
-		- [Calculus libs etc](#calculus-libs-etc)
+		- [Setup env](#setup-env)
+		- [Install using pyenv](#install-using-pyenv)
 	- [Haskell](#haskell)
 	- [Kotlin](#kotlin)
 	- [Go](#go)
@@ -98,9 +98,10 @@ Install, remove, find package:
 
 ```
 sudo pacman -S package
-sudo pacman -Ss package
 sudo pacman -R package
+sudo pacman -Ss package
 sudo pacman -Rs package
+sudo pacman -Ss nodejs | less
 ```
 
 Install package to build from source, AUR etc.:
@@ -490,6 +491,78 @@ sudo pacman -S php && php -v
 
 ## Python
 
+### Compiling from binaries
+
+```
+# Download
+sudo wget https://www.python.org/ftp/python/3.11.3/Python-3.11.3.tgz
+```
+
+```
+cd ~/Downloads
+tar -xvf Python-3.11.3.tgz && mv Python-3.11.3 3.11.3 && cd 3.11.3
+
+# Run configurations
+./configure --prefix=/home/operator/.python/3.11.3 --enable-optimizations
+
+# Make (numbers of cores)
+make -j8
+
+# Install
+sudo make altinstall
+
+# Add PATH
+echo 'export PATH=/home/operator/.python/3.11.3/bin:$PATH' >> ~/.bashrc
+
+# Update pip
+pip3.11 install --upgrade pip
+```
+
+### Setup env
+
+Init Python environment:
+
+```
+mkdir .py && cd .py && python3.11 -m venv env && . ./env/bin/activate
+```
+
+Upgrade `pip` if it needs:
+
+```
+pip install --upgrade pip
+```
+
+Install vendor libs:
+
+```
+pip install numpy sympy pandas scipy matplotlib tensorflow jupyterlab vpython qiskit handcalcs pylint black black[jupyter] clang-format flask psycopg[binary] psycopg[pool] PyQt6
+```
+
+Usage:
+
+```
+echo '
+function py() {
+    home=$( pwd )
+    cd ~/.py
+    python3 -m venv env && . ./env/bin/activate
+    cd $home
+}' >> ~/.bashrc
+```
+
+```
+echo '
+function pyenv() {
+    python3 -m venv env && . ./env/bin/activate
+}' >> ~/.bashrc
+```
+
+Deactivate virtual env:
+
+```
+deactivate
+```
+
 ### Install using pyenv
 
 ```
@@ -542,49 +615,6 @@ Upgrade pip:
 
 ```
 pip install --upgrade pip
-```
-
-### Compiling from binaries
-
-```
-# Download
-sudo wget https://www.python.org/ftp/python/3.11.3/Python-3.11.3.tgz
-```
-
-```
-cd ~/Downloads
-tar -xvf Python-3.11.3.tgz && mv Python-3.11.3 3.11.3 && cd 3.11.3
-
-# Run configurations
-./configure --prefix=/home/operator/.python/3.11.3 --enable-optimizations
-
-# Make (numbers of cores)
-make -j8
-
-# Install
-sudo make altinstall
-
-# Add PATH
-echo 'export PATH=/home/operator/.python/3.11.3/bin:$PATH' >> ~/.bashrc
-
-# Update pip
-pip3.11 install --upgrade pip
-```
-
-### Calculus libs etc
-
-```
-python3.11 -m pip install numpy sympy pandas scipy matplotlib tensorflow jupyterlab vpython qiskit handcalcs pylint black black[jupyter] clang-format flask psycopg[binary] psycopg[pool] PyQt6
-```
-
-```
-mkdir code && cd code && python3.11 -m venv env && . ./env/bin/activate && pip install django
-```
-
-Deactivate virtual env:
-
-```
-deactivate
 ```
 
 ## Haskell
