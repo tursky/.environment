@@ -577,10 +577,6 @@ pip3.11 install --upgrade pip
 python3.11 -m pip install numpy sympy pandas scipy matplotlib tensorflow jupyterlab vpython qiskit handcalcs pylint black black[jupyter] clang-format flask psycopg[binary] psycopg[pool] PyQt6
 ```
 
-```
-echo 'export PATH=/home/operator/.local/bin/' >> ~/.bashrc
-```
-
 ## Haskell
 
 Compiler
