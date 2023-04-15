@@ -493,6 +493,10 @@ sudo pacman -S php && php -v
 
 ### Compiling from binaries
 
+```
+cd ~ && mkdir .python && cd .python
+```
+
 Download packet:
 
 ```
@@ -533,7 +537,7 @@ echo 'export PATH=/home/operator/.python/3.11.3/bin:$PATH' >> ~/.bashrc
 Init Python environment:
 
 ```
-mkdir .env && cd .env && python3.11 -m venv env && . ./env/bin/activate
+cd ~/.python && mkdir env && cd env && python3.11 -m venv env && . ./env/bin/activate
 ```
 
 Upgrade `pip` if it needs:
@@ -560,7 +564,7 @@ Usage:
 echo '
 function env() {
     home=$( pwd )
-    cd ~/.env
+    cd ~/.python/env
     python3 -m venv env && . ./env/bin/activate
     cd $home
 }' >> ~/.bashrc
