@@ -570,25 +570,23 @@ sudo pacman -S pyenv
 ```
 
 Add commands to ~/.bashrc by executing the following directives:
+
 ```
-echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
-```
-```
-echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
-```
-```
-echo 'eval "$(pyenv init -)"' >> ~/.bashrc
+echo '
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+' >> ~/.bashrc
 ```
 
 If you have ~/.profile, ~/.bash_profile or ~/.bash_login, type this:
+
 ```
-echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
-```
-```
-echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
-```
-```
-echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
+echo '
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+' >> ~/.bashrc
 ```
 
 Restart your shell:
