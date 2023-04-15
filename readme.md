@@ -497,25 +497,34 @@ sudo pacman -S php && php -v
 # Download
 sudo wget https://www.python.org/ftp/python/3.11.3/Python-3.11.3.tgz
 ```
+Unzip:
 
 ```
-cd ~/Downloads
 tar -xvf Python-3.11.3.tgz && mv Python-3.11.3 3.11.3 && cd 3.11.3
+```
 
-# Run configurations
+Run configurations:
+
+```
 ./configure --prefix=/home/operator/.python/3.11.3 --enable-optimizations
+```
 
-# Make (numbers of cores)
+Make optimization (by the number of cores):
+
+```
 make -j8
+```
 
-# Install
+Install:
+
+```
 sudo make altinstall
+```
 
-# Add PATH
+Add to PATH:
+
+```
 echo 'export PATH=/home/operator/.python/3.11.3/bin:$PATH' >> ~/.bashrc
-
-# Update pip
-pip3.11 install --upgrade pip
 ```
 
 ### Setup env
