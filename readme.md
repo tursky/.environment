@@ -833,7 +833,6 @@ sudo pamac install vscodium-bin
 - Markdown Preview Enhanced
 - Live Server
 - LaTeX Workshop
-- Python
 
 ### User settings
 
