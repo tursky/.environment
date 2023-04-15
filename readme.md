@@ -493,8 +493,9 @@ sudo pacman -S php && php -v
 
 ### Compiling from binaries
 
+Download packet:
+
 ```
-# Download
 sudo wget https://www.python.org/ftp/python/3.11.3/Python-3.11.3.tgz
 ```
 Unzip:
