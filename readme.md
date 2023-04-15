@@ -575,7 +575,7 @@ deactivate
 sudo pacman -S pyenv
 ```
 
-Add commands to ~/.bashrc by executing the following directives:
+Add commands to `~/.bashrc` by executing the following directives:
 
 ```
 echo '
@@ -585,7 +585,7 @@ eval "$(pyenv init -)"
 ' >> ~/.bashrc
 ```
 
-If you have ~/.profile, ~/.bash_profile or ~/.bash_login, type this:
+If you have `~/.profile`, `~/.bash_profile` or `~/.bash_login`, enter this:
 
 ```
 echo '
@@ -606,12 +606,10 @@ Usage:
 pyenv install --list
 pyenv install 3.11.2
 
-pyenv global system
 pyenv global 3.11.2
+pyenv global system
 
-pyenv version
 pyenv versions
-
 pyenv exec python -m venv .venv
 ```
 
