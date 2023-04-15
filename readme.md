@@ -523,7 +523,7 @@ pip3.11 install --upgrade pip
 Init Python environment:
 
 ```
-mkdir .py && cd .py && python3.11 -m venv env && . ./env/bin/activate
+mkdir .env && cd .env && python3.11 -m venv env && . ./env/bin/activate
 ```
 
 Upgrade `pip` if it needs:
@@ -550,7 +550,7 @@ Usage:
 echo '
 function env() {
     home=$( pwd )
-    cd ~/.py
+    cd ~/.env
     python3 -m venv env && . ./env/bin/activate
     cd $home
 }' >> ~/.bashrc
