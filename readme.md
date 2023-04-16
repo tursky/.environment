@@ -83,6 +83,11 @@
 	- [Guitar tuner](#guitar-tuner)
 	- [Screenshot utility](#screenshot-utility)
 	- [Tex Match](#tex-match)
+13. [Run OS in terminal mode](#run-os-in-terminal-mode)
+14. [Setup graphics](#setup-graphics)
+	- [Automated identification and installation](#automated-identification-and-installation)
+	- [Manual identification and installation](#manual-identification-and-installation)
+	- [Dual GPU](#dual-gpu)
 
 ---
 
@@ -1191,6 +1196,95 @@ sudo snap install tex-match
 ```
 
 ---
+
+# Run OS in terminal mode:
+
+Experiments can break something. Just boot into console mode to fix the issue:
+
+```
+Ctrl + Alt + F2
+```
+
+---
+
+# Setup graphics
+
+Link: [Configure Graphics Cards](https://wiki.manjaro.org/index.php/Configure_Graphics_Cards)
+
+## Automated identification and installation
+
+```
+sudo mhwd -a [pci or usb] [free or nonfree] 0300 
+```
+
+Detection and installation of the best available free driver for a pci-connected graphics card:
+
+```
+sudo mhwd -a pci free 0300 
+```
+
+## Manual identification and installation
+
+Identifying available drivers:
+
+```
+mhwd -l -d --pci
+```
+
+Identifying installed drivers:
+
+```
+mhwd -li -d --pci
+```
+
+```
+inxi -G
+```
+
+Removing installed drivers:
+
+```
+sudo mhwd -r [pci or usb] [name of driver]
+```
+
+Installing:
+
+```
+sudo mhwd -i pci [name of driver] 
+```
+
+To install the proprietary nvidia graphics card driver:
+
+```
+sudo mhwd -i pci video-nvidia 
+```
+
+To force the re-installation of an existing driver without removing it first:
+
+```
+sudo mhwd -f -i pci [name of driver] 
+```
+
+## Dual GPU
+
+If your hardware includes more than one GPU card, you can use PRIME technology to run applications on one or another video card.
+
+Launch app using a discrete card:
+
+```
+DRI_PRIME=1 freecad
+```
+Run the application using the video chip built into the processor:
+
+```
+DRI_PRIME=0 freecad
+```
+
+If you want to always run something with a discrete video chip, you can copy the configuration `.desktop` file to `~/.local/share/applications/` and edit the `"Exec"` property:
+
+```
+Exec=DRI_PRIME=1 freecad
+```
 
 # Testing machine: IBM T61p
 
