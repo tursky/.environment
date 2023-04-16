@@ -126,7 +126,7 @@ sudo fdisk -l
 Type the command to write the OS image, where `/sdc` is the target flash drive:
 
 ```
-sudo dd bs=4M if=/home/manjaro/Downloads/manjaro.iso of=/dev/sdc status=progress oflag=sync
+sudo dd bs=4M if=/home/operator/Downloads/manjaro.iso of=/dev/sdc status=progress oflag=sync
 ```
 
 ---
