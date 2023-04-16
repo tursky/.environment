@@ -25,7 +25,7 @@
 	- [Microsoft Windows Fonts](#microsoft-windows-fonts)
 	- [Mono Fonts by JetBrains](#mono-fonts-by-jetbrains)
 	- [Fonts used with LaTeX](#fonts-used-with-latex)
-5. [System processing, cleaning, updating](#system-processing-cleaning)
+5. [System processing, cleaning, updating](#system-processing-cleaning-updating)
 6. [Console environment](#console-environment)
 	- [Neovim](#neovim)
 	- [Tmux](#tmux)
