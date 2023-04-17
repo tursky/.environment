@@ -315,30 +315,32 @@ sudo ln -s /var/lib/snapd/snap /snap
 Usage `pamac`:
 
 ```
-pamac search
-pamac build
-pamac remove
+pamac [search, build, install, remove] <packet>
 pamac list
 ```
 
 Usage `yay`:
 
 ```
-yay -S package
-yay -Rns package
+# Install
+yay -S <packet>
+
+# Remove
+yay -Rns <packet>
+
+# Update
 yay -Syu
-yay package
+
+# Find
+yay <packet>
 ```
 
 Usage `snapd`:
 
 ```
-sudo snap install package
-sudo snap remove package
-snap find package
+sudo snap [install, remove, find, refresh] <packet>
 snap list
 sudo snap refresh
-sudo snap refresh <application>
 ```
 
 ---
