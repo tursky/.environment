@@ -215,7 +215,7 @@ Customize your desktop:
 
 ![Xfce Desktop](/manjaro/desktop.png)
 
-Remove some programs if they are not needed, included in the `minimal` iso-image:
+Remove some programs if they are not needed, included in the `minimal` build:
 - Color Picker (gcolor3)
 - Evince (evince)
 - Midori Web Browser (midori)
