@@ -657,24 +657,24 @@ Add to PATH:
 echo 'export PATH=/home/operator/.python/3.11.3/bin:$PATH' >> ~/.bashrc
 ```
 
-### Setup env
-
-Init Python environment:
-
-```
-cd ~/.python && mkdir env && cd env && python3.11 -m venv env && . ./env/bin/activate
-```
-
 Upgrade `pip` if it needs:
 
 ```
 pip install --upgrade pip
 ```
 
+### Setup env
+
+Init py-environment:
+
+```
+mkdir pytest && cd ~/pytest && mkdir env && cd env && pyenv global 3.11.3 && python -m venv env && . ./env/bin/activate && pip install django && deactivate && cd ~ && pyenv global system
+```
+
 Install vendor libs:
 
 ```
-pip install flask numpy sympy scipy pandas matplotlib tensorflow jupyterlab handcalcs qiskit qutip cython pymedphys[user] pylint black black[jupyter] clang-format psycopg[binary] psycopg[pool] pyqt6
+pip install numpy sympy scipy pandas matplotlib tensorflow jupyterlab handcalcs qiskit qutip cython pymedphys[user] pylint black black[jupyter] clang-format psycopg[binary] psycopg[pool] pyqt6 flask
 ```
 
 Reinstall:
