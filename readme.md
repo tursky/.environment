@@ -4,6 +4,9 @@
 
 - Download OS: https://manjaro.org/
 	- Manjaro XFCE
+	- iso: minimal
+	- kernel: 6.1
+	- image: `manjaro-xfce-22.0.5-minimal-230316-linux61.iso`
 - Create a bootable USB
 - Install:
 	- swap (memory: [Do I Need Swap](https://wiki.manjaro.org/index.php/Swap))
@@ -14,8 +17,13 @@
 ---
 
 ## Table of Contents
-1. [Installing programms](#installing-programms)
+5. [Updating, system processing, cleaning](#updating-system-processing-cleaning)
 	- [Burn an ISO image](#burn-an-iso-image)
+1. [Package management](#package-management)
+	- [Installation via GUI](#installation-via-gui)
+	- [Installation via console](#installation-via-console)
+	- [Build from source](#build-from-source)
+2. [Preliminary steps](#preliminary-steps)
 2. [Web surfing and chatting](#web-surfing-and-chatting)
 	- [Telegram](#telegran)
 	- [Chromium browser](#chromium-browser)
@@ -25,7 +33,6 @@
 	- [Microsoft Windows Fonts](#microsoft-windows-fonts)
 	- [Mono Fonts by JetBrains](#mono-fonts-by-jetbrains)
 	- [Fonts used with LaTeX](#fonts-used-with-latex)
-5. [System processing, cleaning, updating](#system-processing-cleaning-updating)
 6. [Console environment](#console-environment)
 	- [Neovim](#neovim)
 	- [Tmux](#tmux)
@@ -91,28 +98,38 @@
 
 ---
 
-# Installing programms
-
-Update environment:
+# Updating, system processing, cleaning
 
 ```
 sudo pacman -Syu
 ```
 
-Install, remove, find package:
+To disable system updates, go to `Add/Remove Software` >> `Preferences` and toggle off the `Check for updates`.
+
+## System processing
+
+Use `htop` in terminal or `kill PID` to manage running processes:
+
+![Console administration](/manjaro/htop.png)
+
+## Cleaning
+
+List packages:
 
 ```
-sudo pacman -S package
-sudo pacman -R package
-sudo pacman -Ss package
-sudo pacman -Rs package
-sudo pacman -Ss nodejs | less
+ls /var/cache/pacman/pkg/ | less
 ```
 
-Install package to build from source, AUR etc.:
+Remove all pkg except those installed:
 
 ```
-sudo pacman -S base-devel
+sudo pacman -Sc
+``` 
+
+Remove all files from pkg cache:
+
+```
+sudo pacman -Scc
 ```
 
 ## Burn an ISO image
@@ -130,6 +147,58 @@ sudo dd bs=4M if=/home/operator/Downloads/manjaro.iso of=/dev/sdc status=progres
 ```
 
 ---
+
+# Package management
+
+## Installation via GUI
+
+Use `Add/Remove Software` to install the package you are looking for.
+
+## Installation via console
+
+Installing packet:
+
+```
+sudo pacman -S <packet>
+```
+
+Removing:
+
+```
+sudo pacman -R <packet>
+```
+
+Find:
+
+```
+sudo pacman -Ss <packet>
+sudo pacman -Rs <packet>
+```
+
+## Build from source
+
+Set prerequisites:
+
+```
+sudo pacman -S base-devel
+```
+
+Algorithm:
+```
+git clone https://packet.git && cd <packet> && makepkg -si
+```
+
+---
+
+# Preliminary steps
+
+Customize your desktop:
+
+Remove some programs if they are not needed, included in the `minimal` iso-image:
+	- Color Picker (gcolor3)
+	- Evince (evince)
+	- Midori Web Browser (midori)
+	- Parole (parole)
 
 # Web surfing and chatting
 
@@ -218,41 +287,6 @@ sudo pacman -S gnu-free-fonts
 ```
 pamac install otf-xits
 ```
-
----
-
-# System processing, cleaning, updating
-Use `htop` in terminal or `kill PID` to manage running processes:
-
-![Console administration](/manjaro/htop.png)
-
-## Cleaning
-
-List packages:
-
-```
-ls /var/cache/pacman/pkg/ | less
-```
-
-Remove all pkg except those installed:
-
-```
-sudo pacman -Sc
-``` 
-
-Remove all files from pkg cache:
-
-```
-sudo pacman -Scc
-```
-
-## System update
-
-```
-sudo pacman -Syu
-```
-
-To disable system updates, go to `Add/Remove Software` >> `Preferences` and toggle off the `Check for updates`.
 
 ---
 
