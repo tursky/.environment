@@ -616,6 +616,29 @@ sudo pacman -S php && php -v
 
 ## Python
 
+Install `pip` into the system python:
+```
+sudo pacman -S python-pip
+```
+
+Upgrade `pip` if it needs:
+
+```
+pip install --upgrade pip
+```
+
+Download and install vendor libs:
+
+```
+pip install numpy sympy scipy pandas matplotlib tensorflow jupyterlab handcalcs qiskit qutip pymedphys[user] pylint black black[jupyter] clang-format psycopg[binary] psycopg[pool] pyqt6 flask
+```
+
+Reinstall:
+
+```
+pip install --upgrade --no-deps --force-reinstall <packet>
+```
+
 ### Compiling from binaries
 
 ```
@@ -657,35 +680,17 @@ Add to PATH:
 echo 'export PATH=/home/operator/.python/3.11.3/bin:$PATH' >> ~/.bashrc
 ```
 
-Upgrade `pip` if it needs:
-
-```
-pip install --upgrade pip
-```
-
 ### Setup env
 
-Init py-environment:
+Init glocal py-environment:
 
 ```
-mkdir .py &&
+mkdir ~/.py &&
 cd ~/.py &&
 python -m venv env &&
 . ./env/bin/activate &&
-pip install django &&
-deactivate && cd ~
-```
-
-Install vendor libs:
-
-```
-pip install numpy sympy scipy pandas matplotlib tensorflow jupyterlab handcalcs qiskit qutip pymedphys[user] pylint black black[jupyter] clang-format psycopg[binary] psycopg[pool] pyqt6 flask
-```
-
-Reinstall:
-
-```
-pip install --upgrade --no-deps --force-reinstall <packet>
+pip install <packets> &&
+deactivate && cd ..
 ```
 
 Usage:
@@ -748,19 +753,22 @@ Usage:
 
 ```
 pyenv install --list
-pyenv install 3.11.2
+```
 
-pyenv global 3.11.2
+```
+pyenv install 3.11.2 && pyenv global 3.11.2
+```
+
+```
 pyenv global system
+```
 
+```
 pyenv versions
+```
+
+```
 pyenv exec python -m venv .venv
-```
-
-Upgrade pip:
-
-```
-pip install --upgrade pip
 ```
 
 ## Haskell
