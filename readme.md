@@ -33,6 +33,11 @@
 		- [ONLYOFFICE](#onlyoffice)
 		- [Xreader](#xreader)
 		- [FBReader](#fbreader)
+		- [Calucalor](#calucalor)
+	- [Multimedia](#multimedia)
+		- [Audio player](#audio-player)
+		- [Illustration viewer](#image-viewer)
+		- [Movie player](#movie-player)
 3. [Vendor package managers](#vendor-package-managers)
 4. [Fonts](#fonts)
 	- [IBM Plex Fonts](#ibm-plex-fonts)
@@ -82,8 +87,6 @@
 	- [VirtualBox](#virtualbox)
 12. [Desktop applications](#desktop-applications)
 	- [Movie editor](#movie-editor)
-	- [Audio player](#audio-player)
-	- [Image viewer](#image-viewer)
 	- [Desktop streaming](#desktop-streaming)
 	- [Key streaming](#key-streaming)
 	- [Guitar tuner](#guitar-tuner)
@@ -228,6 +231,12 @@ sudo pacman -S telegram-desktop
 sudo pacman -S chromium
 ```
 
+### Mail client
+
+```
+sudo pacman -S thunderbird
+```
+
 ## Office environment
 
 ### ONLYOFFICE
@@ -254,6 +263,32 @@ To read docs in `.fb2` or `.epub` extenstions:
 
 ```
 sudo pacman -S fbreader
+```
+
+### Calucalor
+
+```
+sudo pacman -S qalculate-qt
+```
+
+# Multimedia
+
+### Audio player
+
+```
+pamac install audacious
+```
+
+### Illustration viewer
+
+```
+pamac install ristretto
+```
+
+### Movie player
+
+```
+sudo pacman -S vlc
 ```
 
 ---
@@ -1132,18 +1167,6 @@ In ordinary scenarios, there is no direct need for these applications, but still
 
 ```
 sudo pacman -S openshot
-```
-
-## Audio player
-
-```
-pamac install audacious
-```
-
-## Image viewer
-
-```
-pamac install ristretto
 ```
 
 ## Desktop streaming
