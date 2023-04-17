@@ -3,7 +3,7 @@
 ![Xfce console](/manjaro/xfce.png)
 
 - Download OS: https://manjaro.org/
-	- Manjaro XFCE
+	- linux: Manjaro XFCE
 	- kernel: 6.1
 	- iso: minimal
 	- image: `manjaro-xfce-22.0.5-minimal-230316-linux61.iso`
