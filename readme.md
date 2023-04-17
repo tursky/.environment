@@ -96,8 +96,9 @@
 	- [Offline dictionaries](#offline-dictionaries)
 		- [StarDict](#stardict)
 		- [GoldenDict](#goldendict)
-13. [Run OS in terminal mode](#run-os-in-terminal-mode)
-14. [Setup graphics](#setup-graphics)
+13. [Hardware](#hardware)
+14. [Run OS in terminal mode](#run-os-in-terminal-mode)
+15. [Setup graphics](#setup-graphics)
 	- [Automated identification and installation](#automated-identification-and-installation)
 	- [Manual identification and installation](#manual-identification-and-installation)
 	- [Dual GPU](#dual-gpu)
@@ -1286,6 +1287,14 @@ sudo unzip WAV-dict.zip -d /usr/share/goldendict/dic
 
 ---
 
+# Hardware
+
+Link: [Kernels](https://wiki.manjaro.org/index.php/Manjaro_Kernels)
+
+GUI tool for driver management: `Applications` >> `Settings` >> `Manjaro Settings Manager`
+
+---
+
 # Run OS in terminal mode:
 
 Experiments can break something. Just boot into console mode to fix the issue:
@@ -1374,6 +1383,8 @@ If you want to always run something with a discrete video chip, you can copy the
 ```
 Exec=DRI_PRIME=1 freecad
 ```
+
+Link: [[HowTo] get legacy 340xx NVIDIA drivers back](https://forum.manjaro.org/t/howto-get-legacy-340xx-nvidia-drivers-back/46969)
 
 # Testing machine: IBM T61p
 
