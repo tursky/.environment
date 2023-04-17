@@ -29,6 +29,10 @@
 		- [Firefox](#firefox)
 		- [Telegram](#telegran)
 		- [Chromium browser](#chromium-browser)
+	- [Office environment](#office-environment)
+		- [ONLYOFFICE](#onlyoffice)
+		- [Xreader](#xreader)
+		- [FBReader](#fbreader)
 3. [Vendor package managers](#vendor-package-managers)
 4. [Fonts](#fonts)
 	- [IBM Plex Fonts](#ibm-plex-fonts)
@@ -76,10 +80,6 @@
 	- [Drawio](#drawio)
 	- [Inkscape](#inkscape)
 	- [VirtualBox](#virtualbox)
-11. [Office environment](#office-environment)
-	- [LibreOffice](#libreoffice)
-	- [Xreader](#xreader)
-	- [FBReader](#fbreader)
 12. [Desktop applications](#desktop-applications)
 	- [Movie editor](#movie-editor)
 	- [Audio player](#audio-player)
@@ -226,6 +226,34 @@ sudo pacman -S telegram-desktop
 
 ```
 sudo pacman -S chromium
+```
+
+## Office environment
+
+### ONLYOFFICE
+
+```
+sudo pacman -S onlyoffice-desktopeditors
+```
+
+### Xreader
+
+```
+sudo pacman -S xreader
+```
+
+Optionally:
+
+```
+sudo pacman -S okular
+```
+
+### FBReader
+
+To read docs in `.fb2` or `.epub` extenstions:
+
+```
+sudo pacman -S fbreader
 ```
 
 ---
@@ -1093,40 +1121,6 @@ sudo vboxreload && vboxmanage --version
 ```
 
 ---
-
-# Office environment
-
-## LibreOffice
-
-The pre-installed `ONLYOFFICE` is more than enough, but for better compatibility with the outside world, it makes sense to install an alternative `office` just in case.
-
-```
-sudo pacman -S libreoffice-fresh
-```
-
-## Xreader
-
-The pre-installed in `xfce` PDF viewer is not bad (or the built-in features of the browser), but for one reason or another, the author prefers an otherwise package:
-
-- Xreader, compact viewer:
-
-```
-sudo pacman -S xreader
-```
-
-- Optionally:
-
-```
-sudo pacman -S okular
-```
-
-## FBReader
-
-To read books in `.fb2` or `.epub` extenstions:
-
-```
-sudo pacman -S fbreader
-```
 
 ---
 
