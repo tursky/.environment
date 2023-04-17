@@ -109,6 +109,12 @@ To disable system updates, go to `Add/Remove Software` >> `Preferences` and togg
 
 ## System processing
 
+To run something via console call it `Ctrl + Alt + T` and try to enter this:
+
+```
+xfce4-notes
+```
+
 Use `htop` in terminal or `kill PID` to manage running processes:
 
 ![Console administration](/manjaro/htop.png)
