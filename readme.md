@@ -668,22 +668,18 @@ pip install --upgrade pip
 Init py-environment:
 
 ```
-mkdir pytest &&
-cd ~/pytest &&
-mkdir env &&
-cd env &&
-pyenv global 3.11.3 &&
+mkdir .py &&
+cd ~/.py &&
 python -m venv env &&
 . ./env/bin/activate &&
 pip install django &&
-deactivate && cd ~ &&
-pyenv global system
+deactivate && cd ~
 ```
 
 Install vendor libs:
 
 ```
-pip install numpy sympy scipy pandas matplotlib tensorflow jupyterlab handcalcs qiskit qutip cython pymedphys[user] pylint black black[jupyter] clang-format psycopg[binary] psycopg[pool] pyqt6 flask
+pip install numpy sympy scipy pandas matplotlib tensorflow jupyterlab handcalcs qiskit qutip pymedphys[user] pylint black black[jupyter] clang-format psycopg[binary] psycopg[pool] pyqt6 flask
 ```
 
 Reinstall:
@@ -698,7 +694,7 @@ Usage:
 echo '
 function env() {
     home=$( pwd )
-    cd ~/pytest/env
+    cd ~/.py/env
     python3 -m venv env && . ./env/bin/activate
     cd $home
 }' >> ~/.bashrc
