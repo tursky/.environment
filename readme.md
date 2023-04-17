@@ -107,7 +107,9 @@
 
 # Updating, system processing, cleaning
 
-To disable system updates, go to `Add/Remove Software` >> `Preferences` and toggle off the `Check for updates`.
+To disable system updates: 
+- `Applications` >> `Settings` >> `Add/Remove Software` >> `Preferences` 
+- and toggle off the **Check for updates**
 
 ## System processing
 
