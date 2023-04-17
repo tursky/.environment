@@ -156,6 +156,7 @@ sudo dd bs=4M if=/home/operator/Downloads/manjaro.iso of=/dev/sdc status=progres
 ```
 
 ---
+---
 
 # Package management
 
@@ -197,6 +198,7 @@ Algorithm:
 git clone https://packet.git && cd <packet> && makepkg -si
 ```
 
+---
 ---
 
 # Preliminary steps
@@ -300,6 +302,7 @@ sudo pacman -S gimp
 ```
 
 ---
+---
 
 # Package managers tooling
 
@@ -345,6 +348,7 @@ sudo snap refresh
 ```
 
 ---
+---
 
 # Fonts
 
@@ -377,6 +381,7 @@ pamac install otf-xits
 sudo pacman -S gnu-free-fonts
 ```
 
+---
 ---
 
 # Console environment
@@ -518,6 +523,7 @@ echo "alias mcn='EDITOR=nvim mc'" >> ~/.bashrc
 ```
 
 ---
+---
 
 # SSH
 
@@ -573,6 +579,7 @@ Check connection:
 ssh-add ~/.ssh/github/id_ed25519 && ssh -T git@github.com
 ```
 
+---
 ---
 
 # Programming
@@ -962,6 +969,7 @@ echo 'function pg() {
 ```
 
 ---
+---
 
 # Code editors
 
@@ -1051,6 +1059,7 @@ sudo pacman -S pycharm-community-edition
 pamac build codeblocks
 ```
 
+---
 ---
 
 # Engineering
@@ -1286,6 +1295,7 @@ sudo unzip WAV-dict.zip -d /usr/share/goldendict/dic
 ```
 
 ---
+---
 
 # Hardware
 
@@ -1293,6 +1303,7 @@ Link: [Kernels](https://wiki.manjaro.org/index.php/Manjaro_Kernels)
 
 GUI tool for driver management: `Applications` >> `Settings` >> `Manjaro Settings Manager`
 
+---
 ---
 
 # Run OS in terminal mode:
@@ -1303,6 +1314,7 @@ Experiments can break something. Just boot into console mode to fix the issue:
 Ctrl + Alt + F2
 ```
 
+---
 ---
 
 # Setup graphics
