@@ -100,10 +100,6 @@
 
 # Updating, system processing, cleaning
 
-```
-sudo pacman -Syu
-```
-
 To disable system updates, go to `Add/Remove Software` >> `Preferences` and toggle off the `Check for updates`.
 
 ## System processing
@@ -192,7 +188,15 @@ git clone https://packet.git && cd <packet> && makepkg -si
 
 # Preliminary steps
 
+Update env:
+
+```
+sudo pacman -Syu
+```
+
 Customize your desktop:
+
+![Xfce Desktop](/manjaro/desktop.png)
 
 Remove some programs if they are not needed, included in the `minimal` iso-image:
 	- Color Picker (gcolor3)
