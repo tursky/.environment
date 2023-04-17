@@ -4,8 +4,8 @@
 
 - Download OS: https://manjaro.org/
 	- Manjaro XFCE
-	- iso: minimal
 	- kernel: 6.1
+	- iso: minimal
 	- image: `manjaro-xfce-22.0.5-minimal-230316-linux61.iso`
 - Create a bootable USB
 - Install:
