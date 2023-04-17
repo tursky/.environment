@@ -24,9 +24,11 @@
 	- [Installation via console](#installation-via-console)
 	- [Build from source](#build-from-source)
 2. [Preliminary steps](#preliminary-steps)
-2. [Web surfing and chatting](#web-surfing-and-chatting)
-	- [Telegram](#telegran)
-	- [Chromium browser](#chromium-browser)
+3. [Software installation](#software-installation)
+	- [Web surfing and chatting](#web-surfing-and-chatting)
+		- [Firefox](#firefox)
+		- [Telegram](#telegran)
+		- [Chromium browser](#chromium-browser)
 3. [Vendor package managers](#vendor-package-managers)
 4. [Fonts](#fonts)
 	- [IBM Plex Fonts](#ibm-plex-fonts)
@@ -78,9 +80,6 @@
 	- [LibreOffice](#libreoffice)
 	- [Xreader](#xreader)
 	- [FBReader](#fbreader)
-	- [Offline dictionaries](#offline-dictionaries)
-		- [StarDict](#stardict)
-		- [GoldenDict](#goldendict)
 12. [Desktop applications](#desktop-applications)
 	- [Movie editor](#movie-editor)
 	- [Audio player](#audio-player)
@@ -90,6 +89,9 @@
 	- [Guitar tuner](#guitar-tuner)
 	- [Screenshot utility](#screenshot-utility)
 	- [Tex Match](#tex-match)
+	- [Offline dictionaries](#offline-dictionaries)
+		- [StarDict](#stardict)
+		- [GoldenDict](#goldendict)
 13. [Run OS in terminal mode](#run-os-in-terminal-mode)
 14. [Setup graphics](#setup-graphics)
 	- [Automated identification and installation](#automated-identification-and-installation)
@@ -204,14 +206,24 @@ Remove some programs if they are not needed, included in the `minimal` iso-image
 	- Midori Web Browser (midori)
 	- Parole (parole)
 
-# Web surfing and chatting
+# Software installation
 
-## Telegram
+## Web surfing and chatting
+
+### Firefox
+
+```
+sudo pacman -S firefox
+```
+
+### Telegram
+
 ```
 sudo pacman -S telegram-desktop
 ```
 
-## Chromium browser
+### Chromium browser
+
 ```
 sudo pacman -S chromium
 ```
@@ -1116,61 +1128,6 @@ To read books in `.fb2` or `.epub` extenstions:
 sudo pacman -S fbreader
 ```
 
-## Offline dictionaries
-
-### StarDict
-`sdcv` as a console translator:
-
-```
-sudo pacman -S sdcv
-```
-
-Create catalogs for your vocabularies:
-
-```
-sudo mkdir /usr/share/stardict && sudo mkdir /usr/share/stardict/dic
-```
-
-Copy/paste unpacked dicts:
-
-```
-sudo tar -xvjf yourdict.tar.bz2 -C /usr/share/stardict/dic
-```
-
-Usage:
-
-```
-sdcv cybernetics
-```
-
-![Console translator](/manjaro/sdcv.png)
-
-```
-echo 'function slovo() {
-	clear & sdcv "$@" --color
-}' >> ~/.bashrc
-
-slovo sun
-```
-
-### GoldenDict
-
-GUI Dictionary
-
-```
-pamac build goldendict-git
-```
-
-Repeat the steps as above to unpack the voice-over dictionary, for example:
-
-```
-sudo mkdir /usr/share/goldendict/dic
-```
-
-```
-sudo unzip WAV-dict.zip -d /usr/share/goldendict/dic
-```
-
 ---
 
 # Desktop applications
@@ -1231,6 +1188,61 @@ Installing using snapd:
 
 ```
 sudo snap install tex-match
+```
+
+## Offline dictionaries
+
+### StarDict
+`sdcv` as a console translator:
+
+```
+sudo pacman -S sdcv
+```
+
+Create catalogs for your vocabularies:
+
+```
+sudo mkdir /usr/share/stardict && sudo mkdir /usr/share/stardict/dic
+```
+
+Copy/paste unpacked dicts:
+
+```
+sudo tar -xvjf yourdict.tar.bz2 -C /usr/share/stardict/dic
+```
+
+Usage:
+
+```
+sdcv cybernetics
+```
+
+![Console translator](/manjaro/sdcv.png)
+
+```
+echo 'function slovo() {
+	clear & sdcv "$@" --color
+}' >> ~/.bashrc
+
+slovo sun
+```
+
+### GoldenDict
+
+GUI Dictionary
+
+```
+pamac build goldendict-git
+```
+
+Repeat the steps as above to unpack the voice-over dictionary, for example:
+
+```
+sudo mkdir /usr/share/goldendict/dic
+```
+
+```
+sudo unzip WAV-dict.zip -d /usr/share/goldendict/dic
 ```
 
 ---
