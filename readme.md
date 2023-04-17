@@ -370,11 +370,11 @@ sudo pacman -S ttf-jetbrains-mono
 ## Fonts for LaTeX:
 
 ```
-sudo pacman -S gnu-free-fonts
+pamac install otf-xits
 ```
 
 ```
-pamac install otf-xits
+sudo pacman -S gnu-free-fonts
 ```
 
 ---
