@@ -26,14 +26,14 @@
 2. [Preliminary steps](#preliminary-steps)
 3. [Software installation](#software-installation)
 	- [Web surfing and chatting](#web-surfing-and-chatting)
-		- [Firefox](#firefox)
 		- [Telegram](#telegran)
+		- [Firefox](#firefox)
 		- [Chromium browser](#chromium-browser)
 	- [Office environment](#office-environment)
-		- [ONLYOFFICE](#onlyoffice)
-		- [Xreader](#xreader)
-		- [FBReader](#fbreader)
-		- [Calucalor](#calucalor)
+		- [Docs editor](#docs-editor)
+		- [PDF viewer](#pdf-viewer)
+		- [Book reader](#book-reader)
+		- [Calculator](#calculator)
 	- [Multimedia](#multimedia)
 		- [Audio player](#audio-player)
 		- [Illustration viewer](#image-viewer)
@@ -213,16 +213,16 @@ Remove some programs if they are not needed, included in the `minimal` iso-image
 
 ## Web surfing and chatting
 
-### Firefox
-
-```
-sudo pacman -S firefox
-```
-
 ### Telegram
 
 ```
 sudo pacman -S telegram-desktop
+```
+
+### Firefox
+
+```
+sudo pacman -S firefox
 ```
 
 ### Chromium browser
@@ -239,13 +239,13 @@ sudo pacman -S thunderbird
 
 ## Office environment
 
-### ONLYOFFICE
+### Docs editor
 
 ```
 sudo pacman -S onlyoffice-desktopeditors
 ```
 
-### Xreader
+### PDF viewer
 
 ```
 sudo pacman -S xreader
@@ -257,7 +257,7 @@ Optionally:
 sudo pacman -S okular
 ```
 
-### FBReader
+### Book reader
 
 To read docs in `.fb2` or `.epub` extenstions:
 
@@ -265,7 +265,7 @@ To read docs in `.fb2` or `.epub` extenstions:
 sudo pacman -S fbreader
 ```
 
-### Calucalor
+### Calculator
 
 ```
 sudo pacman -S qalculate-qt
