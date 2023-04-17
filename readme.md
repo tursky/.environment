@@ -38,12 +38,13 @@
 		- [Audio player](#audio-player)
 		- [Illustration viewer](#image-viewer)
 		- [Movie player](#movie-player)
-3. [Vendor package managers](#vendor-package-managers)
+		- [Graphics editor](#graphics-editor)
+3. [Package managers tooling](#package-managers-tooling)
 4. [Fonts](#fonts)
 	- [IBM Plex Fonts](#ibm-plex-fonts)
 	- [Microsoft Windows Fonts](#microsoft-windows-fonts)
 	- [Mono Fonts by JetBrains](#mono-fonts-by-jetbrains)
-	- [Fonts used with LaTeX](#fonts-used-with-latex)
+	- [Fonts for LaTeX](#fonts-for-latex)
 6. [Console environment](#console-environment)
 	- [Neovim](#neovim)
 	- [Tmux](#tmux)
@@ -85,7 +86,7 @@
 	- [Drawio](#drawio)
 	- [Inkscape](#inkscape)
 	- [VirtualBox](#virtualbox)
-12. [Desktop applications](#desktop-applications)
+12. [Desktoping](#desktoping)
 	- [Movie editor](#movie-editor)
 	- [Desktop streaming](#desktop-streaming)
 	- [Key streaming](#key-streaming)
@@ -257,12 +258,6 @@ sudo pacman -S onlyoffice-desktopeditors
 sudo pacman -S xreader
 ```
 
-Optionally:
-
-```
-sudo pacman -S okular
-```
-
 ### Book reader
 
 To read docs in `.fb2` or `.epub` extenstions:
@@ -282,13 +277,13 @@ sudo pacman -S qalculate-qt
 ### Audio player
 
 ```
-pamac install audacious
+sudo pacman -S audacious
 ```
 
 ### Illustration viewer
 
 ```
-pamac install ristretto
+sudo pacman -S ristretto
 ```
 
 ### Movie player
@@ -297,9 +292,15 @@ pamac install ristretto
 sudo pacman -S vlc
 ```
 
+### Graphics editor
+
+```
+sudo pacman -S gimp
+```
+
 ---
 
-# Vendor package managers
+# Package managers tooling
 
 Add/remove software using `yay`, `snapd` and `pamac`:
 
@@ -363,7 +364,7 @@ pamac install ttf-ms-fonts
 sudo pacman -S ttf-jetbrains-mono
 ```
 
-## Fonts used with LaTeX:
+## Fonts for LaTeX:
 
 ```
 sudo pacman -S gnu-free-fonts
@@ -673,7 +674,7 @@ pip install --upgrade pip
 Install vendor libs:
 
 ```
-pip install flask numpy sympy scipy pandas matplotlib tensorflow jupyterlab handcalcs vpython cython qiskit qutip pymedphys[user] pydicom pylint black black[jupyter] clang-format psycopg[binary] psycopg[pool] PyQt6
+pip install flask numpy sympy scipy pandas matplotlib tensorflow jupyterlab handcalcs qiskit qutip cython pymedphys[user] pylint black black[jupyter] clang-format psycopg[binary] psycopg[pool] pyqt6
 ```
 
 Reinstall:
@@ -1165,7 +1166,7 @@ sudo vboxreload && vboxmanage --version
 
 ---
 
-# Desktop applications
+# Desktoping
 
 In ordinary scenarios, there is no direct need for these applications, but still.
 
