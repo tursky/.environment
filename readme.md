@@ -698,7 +698,7 @@ Usage:
 echo '
 function env() {
     home=$( pwd )
-    cd ~/.python/env
+    cd ~/pytest/env
     python3 -m venv env && . ./env/bin/activate
     cd $home
 }' >> ~/.bashrc
