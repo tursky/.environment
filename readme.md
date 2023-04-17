@@ -219,6 +219,9 @@ Remove some programs if they are not needed, included in the `minimal` iso-image
 - Midori Web Browser (midori)
 - Parole (parole)
 
+---
+---
+
 # Software installation
 
 ## Web surfing and chatting
