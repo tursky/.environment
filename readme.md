@@ -109,7 +109,7 @@
 
 To disable system updates: 
 - `Applications` >> `Settings` >> `Add/Remove Software` >> `Preferences` 
-- turn off the **Check for updates**
+- turn off **Check for updates**
 
 ## System processing
 
