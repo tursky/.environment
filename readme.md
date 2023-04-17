@@ -4,6 +4,9 @@
 
 - Download OS: https://manjaro.org/
 	- Manjaro XFCE
+	- iso: minimal
+	- kernel: 6.1
+	- image: `manjaro-xfce-22.0.5-minimal-230316-linux61.iso`
 - Create a bootable USB
 - Install:
 	- swap (memory: [Do I Need Swap](https://wiki.manjaro.org/index.php/Swap))
@@ -14,26 +17,42 @@
 ---
 
 ## Table of Contents
-1. [Installing programms](#installing-programms)
+1. [Updating, system processing, cleaning](#updating-system-processing-cleaning)
 	- [Burn an ISO image](#burn-an-iso-image)
-2. [Web surfing and chatting](#web-surfing-and-chatting)
-	- [Telegram](#telegran)
-	- [Chromium browser](#chromium-browser)
-3. [Vendor package managers](#vendor-package-managers)
-4. [Fonts](#fonts)
+2. [Package management](#package-management)
+	- [Installation via GUI](#installation-via-gui)
+	- [Installation via console](#installation-via-console)
+	- [Build from source](#build-from-source)
+3. [Preliminary steps](#preliminary-steps)
+4. [Software installation](#software-installation)
+	- [Web surfing and chatting](#web-surfing-and-chatting)
+		- [Telegram](#telegran)
+		- [Firefox](#firefox)
+		- [Chromium browser](#chromium-browser)
+	- [Office environment](#office-environment)
+		- [Docs editor](#docs-editor)
+		- [PDF viewer](#pdf-viewer)
+		- [Book reader](#book-reader)
+		- [Calculator](#calculator)
+	- [Multimedia](#multimedia)
+		- [Audio player](#audio-player)
+		- [Illustration viewer](#image-viewer)
+		- [Movie player](#movie-player)
+		- [Graphics editor](#graphics-editor)
+5. [Package managers tooling](#package-managers-tooling)
+6. [Fonts](#fonts)
 	- [IBM Plex Fonts](#ibm-plex-fonts)
 	- [Microsoft Windows Fonts](#microsoft-windows-fonts)
 	- [Mono Fonts by JetBrains](#mono-fonts-by-jetbrains)
-	- [Fonts used with LaTeX](#fonts-used-with-latex)
-5. [System processing, cleaning, updating](#system-processing-cleaning-updating)
-6. [Console environment](#console-environment)
+	- [Fonts for LaTeX](#fonts-for-latex)
+7. [Console environment](#console-environment)
 	- [Neovim](#neovim)
 	- [Tmux](#tmux)
 	- [Bat](#bat)
 	- [Alacritty](#alacritty)
 	- [Midnight commander](#midnight-commander)
-7. [SSH](#ssh)
-8. [Programming](#programming)
+8. [SSH](#ssh)
+9. [Programming](#programming)
 	- [Rust](#rust)
 	- [Deno](#deno)
 	- [Node.js](#node.js)
@@ -49,14 +68,14 @@
 	- [PostgreSQL](#postgresql)
 		- [DB setup](#db-setup)
 		- [Installation pgAdmin](#installation-pgadmin)
-9. [Code editors](#code-editors)
+10. [Code editors](#code-editors)
 	- [VSCodium](#vscodium)
 		- [Extensions set](#extensions-set)
 		- [User settings](#user-settings)
 	- [IntelliJ IDEA](#intellij-idea)
 	- [PyCharm](#pycharm)
 	- [Code::Blocks](#codeblocks)
-10. [Engineering](#engineering)
+11. [Engineering](#engineering)
 	- [LaTeX](#latex)
 		- [TexStudio](#texstudio)
 		- [VSCode as Tex-editor](#vscode-as-tex-editor)
@@ -67,52 +86,59 @@
 	- [Drawio](#drawio)
 	- [Inkscape](#inkscape)
 	- [VirtualBox](#virtualbox)
-11. [Office environment](#office-environment)
-	- [LibreOffice](#libreoffice)
-	- [Xreader](#xreader)
-	- [FBReader](#fbreader)
-	- [Offline dictionaries](#offline-dictionaries)
-		- [StarDict](#stardict)
-		- [GoldenDict](#goldendict)
-12. [Desktop applications](#desktop-applications)
+12. [Desktoping](#desktoping)
 	- [Movie editor](#movie-editor)
-	- [Audio player](#audio-player)
-	- [Image viewer](#image-viewer)
 	- [Desktop streaming](#desktop-streaming)
 	- [Key streaming](#key-streaming)
 	- [Guitar tuner](#guitar-tuner)
 	- [Screenshot utility](#screenshot-utility)
 	- [Tex Match](#tex-match)
-13. [Run OS in terminal mode](#run-os-in-terminal-mode)
-14. [Setup graphics](#setup-graphics)
+	- [Offline dictionaries](#offline-dictionaries)
+		- [StarDict](#stardict)
+		- [GoldenDict](#goldendict)
+13. [Hardware](#hardware)
+14. [Run OS in terminal mode](#run-os-in-terminal-mode)
+15. [Setup graphics](#setup-graphics)
 	- [Automated identification and installation](#automated-identification-and-installation)
 	- [Manual identification and installation](#manual-identification-and-installation)
 	- [Dual GPU](#dual-gpu)
 
 ---
 
-# Installing programms
+# Updating, system processing, cleaning
 
-Update environment:
+To disable system updates, go to `Add/Remove Software` >> `Preferences` and toggle off the `Check for updates`.
 
-```
-sudo pacman -Syu
-```
+## System processing
 
-Install, remove, find package:
+To run something via console call it `Ctrl + Alt + T` and try to enter this:
 
 ```
-sudo pacman -S package
-sudo pacman -R package
-sudo pacman -Ss package
-sudo pacman -Rs package
-sudo pacman -Ss nodejs | less
+xfce4-notes
 ```
 
-Install package to build from source, AUR etc.:
+Use `htop` in terminal or `kill PID` to manage running processes:
+
+![Console administration](/manjaro/htop.png)
+
+## Cleaning
+
+List packages:
 
 ```
-sudo pacman -S base-devel
+ls /var/cache/pacman/pkg/ | less
+```
+
+Remove all pkg except those installed:
+
+```
+sudo pacman -Sc
+``` 
+
+Remove all files from pkg cache:
+
+```
+sudo pacman -Scc
 ```
 
 ## Burn an ISO image
@@ -131,21 +157,151 @@ sudo dd bs=4M if=/home/operator/Downloads/manjaro.iso of=/dev/sdc status=progres
 
 ---
 
-# Web surfing and chatting
+# Package management
 
-## Telegram
+## Installation via GUI
+
+Use `Add/Remove Software` to install the package you are looking for.
+
+## Installation via console
+
+Installing packet:
+
 ```
-sudo pacman -S telegram-desktop
+sudo pacman -S <packet>
 ```
 
-## Chromium browser
+Removing:
+
 ```
-sudo pacman -S chromium
+sudo pacman -R <packet>
+```
+
+Find:
+
+```
+sudo pacman -Ss <packet>
+sudo pacman -Rs <packet>
+```
+
+## Build from source
+
+Set prerequisites:
+
+```
+sudo pacman -S base-devel
+```
+
+Algorithm:
+```
+git clone https://packet.git && cd <packet> && makepkg -si
 ```
 
 ---
 
-# Vendor package managers
+# Preliminary steps
+
+Update env:
+
+```
+sudo pacman -Syu
+```
+
+Customize your desktop:
+
+![Xfce Desktop](/manjaro/desktop.png)
+
+Remove some programs if they are not needed, included in the `minimal` iso-image:
+	- Color Picker (gcolor3)
+	- Evince (evince)
+	- Midori Web Browser (midori)
+	- Parole (parole)
+
+# Software installation
+
+## Web surfing and chatting
+
+### Telegram
+
+```
+sudo pacman -S telegram-desktop
+```
+
+### Firefox
+
+```
+sudo pacman -S firefox
+```
+
+### Chromium browser
+
+```
+sudo pacman -S chromium
+```
+
+### Mail client
+
+```
+sudo pacman -S thunderbird
+```
+
+## Office environment
+
+### Docs editor
+
+```
+sudo pacman -S onlyoffice-desktopeditors
+```
+
+### PDF viewer
+
+```
+sudo pacman -S xreader
+```
+
+### Book reader
+
+To read docs in `.fb2` or `.epub` extenstions:
+
+```
+sudo pacman -S fbreader
+```
+
+### Calculator
+
+```
+sudo pacman -S qalculate-qt
+```
+
+# Multimedia
+
+### Audio player
+
+```
+sudo pacman -S audacious
+```
+
+### Illustration viewer
+
+```
+sudo pacman -S ristretto
+```
+
+### Movie player
+
+```
+sudo pacman -S vlc
+```
+
+### Graphics editor
+
+```
+sudo pacman -S gimp
+```
+
+---
+
+# Package managers tooling
 
 Add/remove software using `yay`, `snapd` and `pamac`:
 
@@ -160,30 +316,32 @@ sudo ln -s /var/lib/snapd/snap /snap
 Usage `pamac`:
 
 ```
-pamac search
-pamac build
-pamac remove
+pamac [search, build, install, remove] <packet>
 pamac list
 ```
 
 Usage `yay`:
 
 ```
-yay -S package
-yay -Rns package
+# Install
+yay -S <packet>
+
+# Remove
+yay -Rns <packet>
+
+# Update
 yay -Syu
-yay package
+
+# Find
+yay <packet>
 ```
 
 Usage `snapd`:
 
 ```
-sudo snap install package
-sudo snap remove package
-snap find package
+sudo snap [install, remove, find, refresh] <packet>
 snap list
 sudo snap refresh
-sudo snap refresh <application>
 ```
 
 ---
@@ -209,50 +367,15 @@ pamac install ttf-ms-fonts
 sudo pacman -S ttf-jetbrains-mono
 ```
 
-## Fonts used with LaTeX:
-
-```
-sudo pacman -S gnu-free-fonts
-```
+## Fonts for LaTeX:
 
 ```
 pamac install otf-xits
 ```
 
----
-
-# System processing, cleaning, updating
-Use `htop` in terminal or `kill PID` to manage running processes:
-
-![Console administration](/manjaro/htop.png)
-
-## Cleaning
-
-List packages:
-
 ```
-ls /var/cache/pacman/pkg/ | less
+sudo pacman -S gnu-free-fonts
 ```
-
-Remove all pkg except those installed:
-
-```
-sudo pacman -Sc
-``` 
-
-Remove all files from pkg cache:
-
-```
-sudo pacman -Scc
-```
-
-## System update
-
-```
-sudo pacman -Syu
-```
-
-To disable system updates, go to `Add/Remove Software` >> `Preferences` and toggle off the `Check for updates`.
 
 ---
 
@@ -496,6 +619,29 @@ sudo pacman -S php && php -v
 
 ## Python
 
+Install `pip` into the system python:
+```
+sudo pacman -S python-pip
+```
+
+Upgrade `pip` if it needs:
+
+```
+pip install --upgrade pip
+```
+
+Download and install vendor libs:
+
+```
+pip install numpy sympy scipy pandas matplotlib tensorflow jupyterlab handcalcs qiskit qutip pymedphys[user] pylint black black[jupyter] clang-format psycopg[binary] psycopg[pool] pyqt6 flask
+```
+
+Reinstall:
+
+```
+pip install --upgrade --no-deps --force-reinstall <packet>
+```
+
 ### Compiling from binaries
 
 ```
@@ -539,28 +685,15 @@ echo 'export PATH=/home/operator/.python/3.11.3/bin:$PATH' >> ~/.bashrc
 
 ### Setup env
 
-Init Python environment:
+Init glocal py-environment:
 
 ```
-cd ~/.python && mkdir env && cd env && python3.11 -m venv env && . ./env/bin/activate
-```
-
-Upgrade `pip` if it needs:
-
-```
-pip install --upgrade pip
-```
-
-Install vendor libs:
-
-```
-pip install flask numpy sympy scipy pandas matplotlib tensorflow jupyterlab handcalcs vpython cython qiskit qutip pymedphys[user] pydicom pylint black black[jupyter] clang-format psycopg[binary] psycopg[pool] PyQt6
-```
-
-Reinstall:
-
-```
-pip install --upgrade --no-deps --force-reinstall <packet>
+mkdir ~/.py &&
+cd ~/.py &&
+python -m venv env &&
+. ./env/bin/activate &&
+pip install <packets> &&
+deactivate && cd ..
 ```
 
 Usage:
@@ -569,7 +702,7 @@ Usage:
 echo '
 function env() {
     home=$( pwd )
-    cd ~/.python/env
+    cd ~/.py/env
     python3 -m venv env && . ./env/bin/activate
     cd $home
 }' >> ~/.bashrc
@@ -623,19 +756,22 @@ Usage:
 
 ```
 pyenv install --list
-pyenv install 3.11.2
+```
 
-pyenv global 3.11.2
+```
+pyenv install 3.11.2 && pyenv global 3.11.2
+```
+
+```
 pyenv global system
+```
 
+```
 pyenv versions
+```
+
+```
 pyenv exec python -m venv .venv
-```
-
-Upgrade pip:
-
-```
-pip install --upgrade pip
 ```
 
 ## Haskell
@@ -1044,38 +1180,54 @@ sudo vboxreload && vboxmanage --version
 
 ---
 
-# Office environment
+---
 
-## LibreOffice
+# Desktoping
 
-The pre-installed `ONLYOFFICE` is more than enough, but for better compatibility with the outside world, it makes sense to install an alternative `office` just in case.
+In ordinary scenarios, there is no direct need for these applications, but still.
 
-```
-sudo pacman -S libreoffice-fresh
-```
-
-## Xreader
-
-The pre-installed in `xfce` PDF viewer is not bad (or the built-in features of the browser), but for one reason or another, the author prefers an otherwise package:
-
-- Xreader, compact viewer:
+## Movie editor
 
 ```
-sudo pacman -S xreader
+sudo pacman -S openshot
 ```
 
-- Optionally:
+## Desktop streaming
 
 ```
-sudo pacman -S okular
+sudo pacman -S vokoscreen
 ```
 
-## FBReader
-
-To read books in `.fb2` or `.epub` extenstions:
+## Key streaming
 
 ```
-sudo pacman -S fbreader
+sudo pacman -S screenkey
+```
+
+## Guitar tuner
+
+```
+pamac build lingot
+```
+
+## Screenshot utility
+
+```
+sudo pacman -S flameshot
+```
+
+## Tex Match
+
+Tex symbols handbook based on AI tricks:
+
+```
+pamac build tex-match
+```
+
+Installing using snapd:
+
+```
+sudo snap install tex-match
 ```
 
 ## Offline dictionaries
@@ -1135,65 +1287,11 @@ sudo unzip WAV-dict.zip -d /usr/share/goldendict/dic
 
 ---
 
-# Desktop applications
+# Hardware
 
-In ordinary scenarios, there is no direct need for these applications, but still.
+Link: [Kernels](https://wiki.manjaro.org/index.php/Manjaro_Kernels)
 
-## Movie editor
-
-```
-sudo pacman -S openshot
-```
-
-## Audio player
-
-```
-pamac install audacious
-```
-
-## Image viewer
-
-```
-pamac install ristretto
-```
-
-## Desktop streaming
-
-```
-sudo pacman -S vokoscreen
-```
-
-## Key streaming
-
-```
-sudo pacman -S screenkey
-```
-
-## Guitar tuner
-
-```
-pamac build lingot
-```
-
-## Screenshot utility
-
-```
-sudo pacman -S flameshot
-```
-
-## Tex Match
-
-Tex symbols handbook based on AI tricks:
-
-```
-pamac build tex-match
-```
-
-Installing using snapd:
-
-```
-sudo snap install tex-match
-```
+GUI tool for driver management: `Applications` >> `Settings` >> `Manjaro Settings Manager`
 
 ---
 
@@ -1285,6 +1383,8 @@ If you want to always run something with a discrete video chip, you can copy the
 ```
 Exec=DRI_PRIME=1 freecad
 ```
+
+Link: [[HowTo] get legacy 340xx NVIDIA drivers back](https://forum.manjaro.org/t/howto-get-legacy-340xx-nvidia-drivers-back/46969)
 
 # Testing machine: IBM T61p
 
