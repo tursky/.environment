@@ -668,7 +668,16 @@ pip install --upgrade pip
 Init py-environment:
 
 ```
-mkdir pytest && cd ~/pytest && mkdir env && cd env && pyenv global 3.11.3 && python -m venv env && . ./env/bin/activate && pip install django && deactivate && cd ~ && pyenv global system
+mkdir pytest &&
+cd ~/pytest &&
+mkdir env &&
+cd env &&
+pyenv global 3.11.3 &&
+python -m venv env &&
+. ./env/bin/activate &&
+pip install django &&
+deactivate && cd ~ &&
+pyenv global system
 ```
 
 Install vendor libs:
