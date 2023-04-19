@@ -36,7 +36,7 @@
 		- [Calculator](#calculator)
 	- [Multimedia](#multimedia)
 		- [Audio player](#audio-player)
-		- [Illustration viewer](#image-viewer)
+		- [Illustration viewer](#illustration-viewer)
 		- [Movie player](#movie-player)
 		- [Graphics editor](#graphics-editor)
 5. [Package managers tooling](#package-managers-tooling)
@@ -291,7 +291,7 @@ sudo pacman -S audacious
 ### Illustration viewer
 
 ```
-sudo pacman -S ristretto
+sudo pacman -S gpicview
 ```
 
 ### Movie player
