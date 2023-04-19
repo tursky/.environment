@@ -32,7 +32,7 @@
       </property>
       <property name="enable-struts" type="bool" value="true"/>
     </property>
-    <property name="dark-mode" type="bool" value="false"/>
+    <property name="dark-mode" type="bool" value="true"/>
   </property>
   <property name="plugins" type="empty">
     <property name="plugin-6" type="string" value="systray">
@@ -62,6 +62,7 @@
       <property name="sort-order" type="uint" value="0"/>
       <property name="show-tooltips" type="bool" value="true"/>
       <property name="flat-buttons" type="bool" value="false"/>
+      <property name="show-wireframes" type="bool" value="false"/>
     </property>
     <property name="plugin-7" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
