@@ -297,7 +297,7 @@ sudo pacman -S gpicview
 ### Movie player
 
 ```
-sudo pacman -S vlc
+sudo pacman -S mpv
 ```
 
 ### Graphics editor
