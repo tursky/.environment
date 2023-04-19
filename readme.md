@@ -1,6 +1,6 @@
 # UNIX-like work environment
 
-![Xfce console](/manjaro/xfce.png)
+![Xfce console](/illustrations/xfce.png)
 
 - Download OS: https://manjaro.org/
 	- linux: Manjaro XFCE
@@ -121,7 +121,7 @@ xfce4-notes
 
 Use `htop` in terminal or `kill PID` to manage running processes:
 
-![Console administration](/manjaro/htop.png)
+![Console administration](/illustrations/htop.png)
 
 ## Cleaning
 
@@ -213,7 +213,7 @@ sudo pacman -Syu
 
 Customize your desktop:
 
-![Xfce Desktop](/manjaro/desktop.png)
+![Xfce Desktop](/illustrations/desktop.png)
 
 Remove some programs if they are not needed, included in the `minimal` build:
 - Color Picker (gcolor3)
@@ -397,7 +397,7 @@ Terminal command line setup:
 echo "export PS1='\[\033[01;32m\][\u\[\033[01;37m\] \W\[\033[01;32m\]]#\[\033[00m\] '" >> ~/.bashrc
 ```
 
-![Xfce console](/manjaro/terminal.png)
+![Xfce console](/illustrations/terminal.png)
 
 ### Neovim
 
@@ -475,7 +475,7 @@ tmux split-window -hf
 exit
 ```
 
-![Tmux windows](/manjaro/tmux.png)
+![Tmux windows](/illustrations/tmux.png)
 
 ### Bat
 
@@ -517,7 +517,7 @@ sudo pacman -S mc
 `mc >> F9 >> Option >> Apperance >>`
 	- [x] modarin256-defbg
 
-![Midnight commander](/manjaro/mc.png)
+![Midnight commander](/illustrations/mc.png)
 
 - To use **nvim** in **mc**:
 `mc >> F9 >> Option >> Configuration >>`
@@ -550,7 +550,7 @@ mkdir ~/.ssh && cd ~/.ssh && touch config
 
 Example `config` with required configuration:
 
-![SSH config](/manjaro/ssh.png)
+![SSH config](/illustrations/ssh.png)
 
 ```
 echo "Host github.com
@@ -1271,7 +1271,7 @@ Usage:
 sdcv cybernetics
 ```
 
-![Console translator](/manjaro/sdcv.png)
+![Console translator](/illustrations/sdcv.png)
 
 ```
 echo 'function slovo() {
@@ -1405,7 +1405,7 @@ Link: [[HowTo] get legacy 340xx NVIDIA drivers back](https://forum.manjaro.org/t
 
 # Testing machine: IBM T61p
 
-![Manjaro screenfetch](/manjaro/screenfetch.png)
+![Manjaro screenfetch](/illustrations/screenfetch.png)
 
 ---
 
