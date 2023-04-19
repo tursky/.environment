@@ -1,4 +1,4 @@
-favorites=org.manjaro.pamac.manager.desktop,xfce4-terminal.desktop,xfce-session-settings.desktop,xfce4-about.desktop,xfce-mouse-settings.desktop,xfce-keyboard-settings.desktop,xfce4-file-manager.desktop
+favorites=org.manjaro.pamac.manager.desktop,xfce4-terminal.desktop,xfce-session-settings.desktop,xfce4-about.desktop,xfce-keyboard-settings.desktop,xfce-mouse-settings.desktop,xfce4-file-manager.desktop
 recent=xfce4-file-manager.desktop,org.bluesabre.Mugshot.desktop,xfce4-terminal.desktop,org.manjaro.pamac.manager.desktop,xfce4-about.desktop,xfce-session-settings.desktop,xfce4-notifyd-config.desktop,xfce4-accessibility-settings.desktop,xfce4-mime-settings.desktop,xfce-settings-manager.desktop,xfce-keyboard-settings.desktop,xfce-mouse-settings.desktop,xfce-ui-settings.desktop,htop.desktop,xfce4-appfinder.desktop,xfce4-color-settings.desktop
 button-title=\ \ \ Applications\ \ \ 
 button-icon=/usr/share/icons/whiskermenu-manjaro.svg
@@ -25,7 +25,7 @@ stay-on-focus-out=false
 profile-shape=0
 confirm-session-command=true
 menu-width=411
-menu-height=579
+menu-height=599
 menu-opacity=100
 command-settings=xfce4-settings-manager
 show-command-settings=true

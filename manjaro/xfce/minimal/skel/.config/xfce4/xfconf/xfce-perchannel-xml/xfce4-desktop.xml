@@ -29,7 +29,7 @@
       <property name="show-removable" type="bool" value="false"/>
       <property name="show-filesystem" type="bool" value="false"/>
       <property name="show-trash" type="bool" value="false"/>
-      <property name="show-home" type="bool" value="false"/>
+      <property name="show-home" type="bool" value="true"/>
     </property>
     <property name="icon-size" type="uint" value="64"/>
     <property name="tooltip-size" type="double" value="96"/>
