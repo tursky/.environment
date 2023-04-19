@@ -303,7 +303,7 @@ sudo pacman -S mpv
 ### Graphics editor
 
 ```
-sudo pacman -S gimp
+sudo pacman -S pinta
 ```
 
 ---
