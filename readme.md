@@ -277,7 +277,7 @@ sudo pacman -S fbreader
 ### Calculator
 
 ```
-sudo pacman -S qalculate-qt
+sudo pacman -S galculator xcalc
 ```
 
 # Multimedia
