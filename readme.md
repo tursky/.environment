@@ -285,7 +285,7 @@ sudo pacman -S audacious
 ### Illustration viewer
 
 ```
-sudo pacman -S gpicview
+sudo pacman -S pix
 ```
 
 ### Movie player
