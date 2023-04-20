@@ -29,6 +29,7 @@
 		- [Telegram](#telegran)
 		- [Firefox](#firefox)
 		- [Chromium browser](#chromium-browser)
+        - [Mail client](#mail-client)
 	- [Office environment](#office-environment)
 		- [Docs editor](#docs-editor)
 		- [PDF viewer](#pdf-viewer)
@@ -244,6 +245,12 @@ sudo pacman -S firefox
 
 ```
 sudo pacman -S chromium
+```
+
+### Mail client
+
+```
+sudo pacman -S thunderbird
 ```
 
 ## Office environment
