@@ -400,6 +400,10 @@ echo "export PS1='\[\033[01;32m\][\u\[\033[01;37m\] \W\[\033[01;32m\]]#\[\033[00
 
 ![Xfce console](/illustrations/terminal.png)
 
+```
+echo "export PS1='\033[01;32m\] ➤ \[\033[00m\]'" >> ~/.bashrc
+```
+
 ### Neovim
 
 Vim-based text editor:
