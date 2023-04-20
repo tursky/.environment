@@ -2,6 +2,7 @@
 
 1. [Industrial XFCE](#industrial-xfce)
 2. [Dark XFCE](#dark-xfce)
+3. [Default XFCE](#default-xfce)
 
 ---
 
@@ -30,3 +31,10 @@
 ![](show/dark/program.png)
 ![](show/dark/screenfetch.png)
 ![](show/dark/xfce.png)
+
+---
+
+## Default XFCE
+
+![](show/default/desktop.png)
+![](show/default/workspace.png)
