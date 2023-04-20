@@ -19,8 +19,8 @@
       </property>
       <property name="role" type="string" value="xfce4-panel-12965750720"/>
       <property name="length-adjust" type="bool" value="true"/>
-      <property name="background-style" type="uint" value="1"/>
-      <property name="size" type="uint" value="46"/>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="size" type="uint" value="42"/>
       <property name="mode" type="uint" value="0"/>
       <property name="autohide-behavior" type="uint" value="0"/>
       <property name="icon-size" type="uint" value="26"/>
@@ -32,7 +32,7 @@
       </property>
       <property name="enable-struts" type="bool" value="true"/>
     </property>
-    <property name="dark-mode" type="bool" value="true"/>
+    <property name="dark-mode" type="bool" value="false"/>
   </property>
   <property name="plugins" type="empty">
     <property name="plugin-6" type="string" value="systray">
@@ -53,6 +53,9 @@
         <value type="string" value="blueman"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (75%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (73%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (72%)"/>
         <value type="string" value="networkmanager applet"/>
       </property>
     </property>
