@@ -246,12 +246,6 @@ sudo pacman -S firefox
 sudo pacman -S chromium
 ```
 
-### Mail client
-
-```
-sudo pacman -S thunderbird
-```
-
 ## Office environment
 
 ### Docs editor
@@ -277,7 +271,7 @@ sudo pacman -S fbreader
 ### Calculator
 
 ```
-sudo pacman -S galculator xcalc
+sudo pacman -S galculator xorg-xcalc
 ```
 
 # Multimedia
