@@ -32,7 +32,7 @@
       </property>
       <property name="enable-struts" type="bool" value="true"/>
     </property>
-    <property name="dark-mode" type="bool" value="false"/>
+    <property name="dark-mode" type="bool" value="true"/>
   </property>
   <property name="plugins" type="empty">
     <property name="plugin-6" type="string" value="systray">
@@ -86,6 +86,7 @@
     <property name="plugin-2" type="string" value="xkb">
       <property name="display-type" type="uint" value="2"/>
       <property name="display-name" type="uint" value="1"/>
+      <property name="display-tooltip-icon" type="bool" value="false"/>
     </property>
   </property>
   <property name="configver" type="int" value="2"/>
