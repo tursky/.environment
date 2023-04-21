@@ -44,3 +44,16 @@
 
 ![](show/default/desktop.png)
 ![](show/default/workspace.png)
+
+---
+
+> Remove XFCE specific dotted UI artifacts:
+
+```
+touch ~/.config/gtk-3.0/gtk.css
+```
+
+```
+echo "/* Remove dotted lines from GTK 3 applications */
+undershoot.top, undershoot.right, undershoot.bottom, undershoot.left { background-image: none; }" >> ~/.config/gtk-3.0/gtk.css
+```
