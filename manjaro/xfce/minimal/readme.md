@@ -6,6 +6,12 @@
 
 ---
 
+# Terminal view
+
+![](show/terminal.png)
+
+---
+
 ## Industrial XFCE
 
 ![](show/industrial/desktop.png)
