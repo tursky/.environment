@@ -1,7 +1,7 @@
 # XFCE desktop environment personal settings
 
 1. [Industrial XFCE](#industrial-xfce)
-2. [Dark XFCE](#dark-xfce)
+2. [Night XFCE](#night-xfce)
 3. [Default XFCE](#default-xfce)
 
 ---
@@ -20,17 +20,17 @@
 
 ---
 
-## Dark XFCE
+## Night XFCE
 
-![](show/dark/desktop.png)
-![](show/dark/explorer.png)
-![](show/dark/htop.png)
-![](show/dark/menu.png)
-![](show/dark/menu-apps.png)
-![](show/dark/notification.png)
-![](show/dark/program.png)
-![](show/dark/screenfetch.png)
-![](show/dark/xfce.png)
+![](show/night/desktop.png)
+![](show/night/explorer.png)
+![](show/night/htop.png)
+![](show/night/menu.png)
+![](show/night/menu-apps.png)
+![](show/night/notification.png)
+![](show/night/program.png)
+![](show/night/screenfetch.png)
+![](show/night/xfce.png)
 
 ---
 
