@@ -220,6 +220,23 @@ Remove some programs if they are not needed, included in the `minimal` build:
 - Midori Web Browser (midori)
 - Parole (parole)
 
+```
+sudo pacman -R gcolor3 evince midori parole
+```
+
+Remove XFCE specific dotted UI artifacts:
+
+```
+touch ~/.config/gtk-3.0/gtk.css
+```
+
+```
+echo "/* Remove dotted lines from GTK 3 applications */
+undershoot.top, undershoot.right, undershoot.bottom, undershoot.left { background-image: none; }" >> ~/.config/gtk-3.0/gtk.css
+```
+
+![](illustrations/gtk-artifact.png)
+
 ---
 
 # Software installation
