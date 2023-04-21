@@ -37,8 +37,8 @@
 		- [Calculator](#calculator)
 	- [Multimedia](#multimedia)
 		- [Audio player](#audio-player)
-		- [Illustration viewer](#illustration-viewer)
 		- [Movie player](#movie-player)
+		- [Illustration viewer](#illustration-viewer)
 		- [Graphics editor](#graphics-editor)
 5. [Package managers tooling](#package-managers-tooling)
 6. [Fonts](#fonts)
@@ -159,7 +159,6 @@ sudo dd bs=4M if=/home/operator/Downloads/manjaro.iso of=/dev/sdc status=progres
 ```
 
 ---
----
 
 # Package management
 
@@ -202,7 +201,6 @@ git clone https://packet.git && cd <packet> && makepkg -si
 ```
 
 ---
----
 
 # Preliminary steps
 
@@ -222,7 +220,6 @@ Remove some programs if they are not needed, included in the `minimal` build:
 - Midori Web Browser (midori)
 - Parole (parole)
 
----
 ---
 
 # Software installation
@@ -289,16 +286,16 @@ sudo pacman -S galculator xorg-xcalc
 sudo pacman -S audacious
 ```
 
+### Movie player
+
+```
+sudo pacman -S vlc
+```
+
 ### Illustration viewer
 
 ```
 sudo pacman -S pix
-```
-
-### Movie player
-
-```
-sudo pacman -S mpv
 ```
 
 ### Graphics editor
@@ -307,7 +304,6 @@ sudo pacman -S mpv
 sudo pacman -S pinta
 ```
 
----
 ---
 
 # Package managers tooling
@@ -354,7 +350,6 @@ sudo snap refresh
 ```
 
 ---
----
 
 # Fonts
 
@@ -387,7 +382,6 @@ pamac install otf-xits
 sudo pacman -S gnu-free-fonts
 ```
 
----
 ---
 
 # Console environment
@@ -533,7 +527,6 @@ echo "alias mcn='EDITOR=nvim mc'" >> ~/.bashrc
 ```
 
 ---
----
 
 # SSH
 
@@ -589,7 +582,6 @@ Check connection:
 ssh-add ~/.ssh/github/id_ed25519 && ssh -T git@github.com
 ```
 
----
 ---
 
 # Programming
@@ -979,7 +971,6 @@ echo 'function pg() {
 ```
 
 ---
----
 
 # Code editors
 
@@ -1069,7 +1060,6 @@ sudo pacman -S pycharm-community-edition
 pamac build codeblocks
 ```
 
----
 ---
 
 # Engineering
@@ -1305,7 +1295,6 @@ sudo unzip WAV-dict.zip -d /usr/share/goldendict/dic
 ```
 
 ---
----
 
 # Hardware
 
@@ -1313,7 +1302,6 @@ Link: [Kernels](https://wiki.manjaro.org/index.php/Manjaro_Kernels)
 
 GUI tool for driver management: `Applications` >> `Settings` >> `Manjaro Settings Manager`
 
----
 ---
 
 # Run OS in terminal mode:
@@ -1324,7 +1312,6 @@ Experiments can break something. Just boot into console mode to fix the issue:
 Ctrl + Alt + F2
 ```
 
----
 ---
 
 # Setup graphics
