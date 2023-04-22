@@ -219,13 +219,12 @@ Customize your desktop:
 ![Xfce Desktop](/illustrations/desktop.png)
 
 Remove some programs if they are not needed, included in the `minimal` build:
-- Color Picker (gcolor3)
 - Evince (evince)
 - Midori Web Browser (midori)
 - Parole (parole)
 
 ```
-sudo pacman -R gcolor3 evince midori parole
+sudo pacman -R evince midori parole
 ```
 
 Remove XFCE specific dotted UI artifacts:
