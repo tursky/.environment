@@ -117,6 +117,10 @@ To disable system updates:
 To run something via console call it `Ctrl + Alt + T` and try to enter this:
 
 ```
+sudo pacman -S xfce4-notes-plugin
+```
+
+```
 xfce4-notes
 ```
 
