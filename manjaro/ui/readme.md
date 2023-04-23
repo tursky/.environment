@@ -85,7 +85,8 @@ undershoot.top, undershoot.right, undershoot.bottom, undershoot.left {
 ```
 echo "/* Console stylesheets */
 VteTerminal, vte-terminal {
-	padding: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }" >> ~/.config/gtk-3.0/gtk.css
 ```
 
