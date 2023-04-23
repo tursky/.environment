@@ -91,6 +91,11 @@ VteTerminal, vte-terminal {
 
 ## Console color palette, geometry
 
+- [x] Source Code Pro Regular, 15px
+- [x] 1.05 line spacing
+- [x] 74 width
+- [x] 20 height
+
 ```
 - Body colors
 	background: "#141A1B"
@@ -116,8 +121,3 @@ VteTerminal, vte-terminal {
 	cyan: "#95E6CB"
 	white: "#FFFFFF"
 ```
-
-- [x] Source Code Pro Regular, 15px
-- [x] 1.05 line spacing
-- [x] 74 width
-- [x] 20 height
