@@ -85,12 +85,15 @@ undershoot.top, undershoot.right, undershoot.bottom, undershoot.left {
 ```
 echo "/* Console stylesheets */
 VteTerminal, vte-terminal {
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding: 7px;
 }" >> ~/.config/gtk-3.0/gtk.css
 ```
 
 ## Console color palette, geometry
+
+```
+echo "export PS1='\[\033[01;32m\]➞\[\033[00m\] '" >> ~/.bashrc
+```
 
 - [x] Source Code Pro Regular, 15px
 - [x] 1.05 line spacing

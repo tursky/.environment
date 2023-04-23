@@ -414,10 +414,6 @@ echo "export PS1='\[\033[01;32m\][\u\[\033[01;37m\] \W\[\033[01;32m\]]#\[\033[00
 
 ![Xfce console](/illustrations/terminal.png)
 
-```
-echo "export PS1='\[\033[01;32m\] ➤ \[\033[00m\]'" >> ~/.bashrc
-```
-
 ### Neovim
 
 Vim-based text editor:
@@ -1047,8 +1043,9 @@ Used Full HD:
 	"explorer.decorations.colors": false,
 	"workbench.editor.decorations.colors": false,
 	"workbench.editor.decorations.badges": false,
-	"window.zoomLevel": 3,
+	"window.zoomLevel": 2,
 	"window.menuBarVisibility": "toggle",
+	"terminal.integrated.shellIntegration.decorationsEnabled": "never",
 	"workbench.colorTheme": "GitHub Dark Colorblind (Beta)"
 }
 ```

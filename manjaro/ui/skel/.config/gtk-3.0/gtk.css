@@ -5,6 +5,5 @@ undershoot.top, undershoot.right, undershoot.bottom, undershoot.left {
 
 /* Console stylesheets */
 VteTerminal, vte-terminal {
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding: 7px;
 }
