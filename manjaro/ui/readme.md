@@ -102,26 +102,26 @@ echo "export PS1='\[\033[01;32m\]➞\[\033[00m\] '" >> ~/.bashrc
 
 ```
 - Body colors
-	background: "#141A1B"
-	foreground: "#B3B1AD"
+  background: "#141A1B"
+  foreground: "#B3B1AD"
 
 - Normal colors
-	black: "#01060E"
-	red: "#EA6C73"
-	green: "#00AA00"
-	yellow: "#F9AF4F"
-	blue: "#53BDFA"
-	magenta: "#FF79C6"
-	cyan: "#90E1C6"
-	white: "#C7C7C7"
+  black: "#01060E"
+  red: "#EA6C73"
+  green: "#00AA00"
+  yellow: "#F9AF4F"
+  blue: "#53BDFA"
+  magenta: "#FF79C6"
+  cyan: "#90E1C6"
+  white: "#C7C7C7"
 
 - Bright colors
-	black: "#686868"
-	red: "#F07178"
-	green: "#C2D94C"
-	yellow: "#FFB454"
-	blue: "#59C2FF"
-	magenta: "#FF92DF"
-	cyan: "#95E6CB"
-	white: "#FFFFFF"
+  black: "#686868"
+  red: "#F07178"
+  green: "#C2D94C"
+  yellow: "#FFB454"
+  blue: "#59C2FF"
+  magenta: "#FF92DF"
+  cyan: "#95E6CB"
+  white: "#FFFFFF"
 ```
