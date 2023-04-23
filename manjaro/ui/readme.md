@@ -3,6 +3,7 @@
 1. [Industrial XFCE](#industrial-xfce)
 2. [Night XFCE](#night-xfce)
 3. [Default XFCE](#default-xfce)
+4. [Stylesheets presets](#stylesheets-presets)
 
 ---
 
@@ -63,6 +64,8 @@
 ![](show/default/workspace.png)
 
 ---
+
+## Stylesheets presets
 
 ```
 touch ~/.config/gtk-3.0/gtk.css
