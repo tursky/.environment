@@ -4,7 +4,9 @@
 2. [Night XFCE](#night-xfce)
 3. [Default XFCE](#default-xfce)
 4. [Stylesheets presets](#stylesheets-presets)
-5. [Console color palette, geometry](#console-color-palette-geometry)
+5. [Console color palette and geometry](#console-color-palette-and-geometry)
+6. [Keyboard shortcuts](#keyboard-shortcuts)
+7. [Patches](#patches)
 
 ---
 
@@ -89,7 +91,7 @@ VteTerminal, vte-terminal {
 }" >> ~/.config/gtk-3.0/gtk.css
 ```
 
-## Console color palette, geometry
+## Console color palette and geometry
 
 ```
 echo "export PS1='\[\033[01;32m\]➞\[\033[00m\] '" >> ~/.bashrc
@@ -97,8 +99,8 @@ echo "export PS1='\[\033[01;32m\]➞\[\033[00m\] '" >> ~/.bashrc
 
 - [x] Source Code Pro Regular, 15px
 - [x] 1.05 line spacing
-- [x] 74 width
-- [x] 20 height
+- [x] 64 width
+- [x] 18 height
 
 ```
 - Body colors
