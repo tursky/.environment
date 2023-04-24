@@ -125,3 +125,8 @@ echo "export PS1='\[\033[01;32m\]➞\[\033[00m\] '" >> ~/.bashrc
   cyan: "#95E6CB"
   white: "#FFFFFF"
 ```
+
+## Keyboard shortcuts
+
+Show desktop: `Ctrl` + `Alt` + `d`
+Resize window: `Alt` + `Right click` + `Move`
