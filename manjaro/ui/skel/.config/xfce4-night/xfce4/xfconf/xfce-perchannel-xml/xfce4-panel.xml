@@ -111,7 +111,7 @@
     </property>
     <property name="plugin-8" type="string" value="actions">
       <property name="button-title" type="uint" value="3"/>
-      <property name="custom-title" type="string" value="LINUX"/>
+      <property name="custom-title" type="string" value="linux"/>
       <property name="items" type="array">
         <value type="string" value="-lock-screen"/>
         <value type="string" value="-switch-user"/>

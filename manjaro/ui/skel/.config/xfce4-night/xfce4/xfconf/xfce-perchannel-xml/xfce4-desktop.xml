@@ -27,9 +27,9 @@
     <property name="style" type="int" value="2"/>
     <property name="file-icons" type="empty">
       <property name="show-removable" type="bool" value="false"/>
-      <property name="show-filesystem" type="bool" value="true"/>
-      <property name="show-trash" type="bool" value="true"/>
-      <property name="show-home" type="bool" value="true"/>
+      <property name="show-filesystem" type="bool" value="false"/>
+      <property name="show-trash" type="bool" value="false"/>
+      <property name="show-home" type="bool" value="false"/>
       <property name="show-unknown-removable" type="bool" value="true"/>
     </property>
     <property name="icon-size" type="uint" value="56"/>
