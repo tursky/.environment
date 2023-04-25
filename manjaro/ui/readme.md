@@ -7,6 +7,7 @@
 5. [Console color palette and geometry](#console-color-palette-and-geometry)
 6. [Keyboard shortcuts](#keyboard-shortcuts)
 7. [Patches](#patches)
+8. [Application menu](#application-menu)
 
 ---
 
@@ -146,4 +147,15 @@ rm left*
 rm right*
 rm bottom*
 rm top*
+```
+
+## Application menu
+
+To edit menu layout:
+
+```
+mkdir ~/.config/menus
+cd ~/.config/menus
+cp /etc/xdg/menus/xfce-applications.menu .
+ls -a
 ```
