@@ -45,17 +45,23 @@
 
 ![](show/night/explorer.png)
 
-![](show/night/htop.png)
-
 ![](show/night/menu.png)
 
-![](show/night/menu-apps.png)
+![](show/night/menu-find.png)
 
 ![](show/night/notification.png)
 
 ![](show/night/program.png)
 
-![](show/night/screenfetch.png)
+![](show/night/program-freecad.png)
+
+![](show/night/program-freecad-app.png)
+
+![](show/night/terminal.png)
+
+![](show/night/terminal-htop.png)
+
+![](show/night/terminal-screenfetch.png)
 
 ![](show/night/xfce.png)
 
