@@ -47,6 +47,10 @@
 
 ![](show/night/menu.png)
 
+![](show/night/menu-dirs.png)
+
+![](show/night/menu-exit.png)
+
 ![](show/night/menu-find.png)
 
 ![](show/night/notification.png)
