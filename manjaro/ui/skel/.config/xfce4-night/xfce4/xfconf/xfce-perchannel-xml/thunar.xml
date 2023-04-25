@@ -15,7 +15,7 @@
   <property name="last-side-pane" type="string" value="ThunarShortcutsPane"/>
   <property name="last-sort-column" type="string" value="THUNAR_COLUMN_NAME"/>
   <property name="last-sort-order" type="string" value="GTK_SORT_ASCENDING"/>
-  <property name="last-statusbar-visible" type="bool" value="true"/>
+  <property name="last-statusbar-visible" type="bool" value="false"/>
   <property name="last-view" type="string" value="ThunarIconView"/>
   <property name="last-window-height" type="int" value="468"/>
   <property name="last-window-width" type="int" value="673"/>
@@ -38,7 +38,7 @@
   <property name="misc-middle-click-in-tab" type="bool" value="true"/>
   <property name="misc-highlighting-enabled" type="bool" value="true"/>
   <property name="last-menubar-visible" type="bool" value="true"/>
-  <property name="last-toolbar-item-order" type="string" value="0,1,2,3,4,5,6,7,8,9,12,15,16,18,14,11,10,17,13,19"/>
-  <property name="last-toolbar-visible-buttons" type="string" value="0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0"/>
+  <property name="last-toolbar-item-order" type="string" value="0,1,2,3,4,5,6,7,8,9,12,15,18,16,14,17,11,10,13,19"/>
+  <property name="last-toolbar-visible-buttons" type="string" value="0,1,1,0,1,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0"/>
   <property name="last-splitview-separator-position" type="int" value="221"/>
 </channel>
