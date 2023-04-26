@@ -22,64 +22,64 @@
 
 ![](minimal/windows/desktop.png)
 
-Explorer
+**Explorer**
 ![](minimal/windows/explorer.png)
 
-Menu
+**Menu**
 ![](minimal/windows/menu.png)
 
-App finder
+**App finder**
 ![](minimal/windows/menu-find.png)
 
-Exit menu
+**Exit menu**
 ![](minimal/windows/menu-exit.png)
 
-Notifications
+**Notifications**
 ![](minimal/windows/notification.png)
 
-Programms
+**Programms**
 ![](minimal/windows/program.png)
 
-Window switcher
+**Window switcher**
 ![](minimal/windows/program-switcher.png)
 
-System settings
+**System settings**
 ![](minimal/windows/program-settings.png)
 
-Notes
+**Notes**
 ![](minimal/windows/program-office-mousepad.png)
 
-Start Office
+**Start Office**
 ![](minimal/windows/program-office-onlyoffice.png)
 
-Office document
+**Office document**
 ![](minimal/windows/program-office-onlyoffice-doc.png)
 
-Start FreeCAD (dark theme)
+**Start FreeCAD (dark theme)**
 ![](minimal/windows/program-freecad.png)
 
-FreeCAD project
+**FreeCAD project**
 ![](minimal/windows/program-freecad-app.png)
 
-KiCad - connector
+**KiCad - connector**
 ![](minimal/windows/program-kicad-connector.png)
 
-KiCad - oscillator
+**KiCad - oscillator**
 ![](minimal/windows/program-kicad-oscillator.png)
 
-Multimedia
+**Multimedia**
 ![](minimal/windows/program-vlc.png)
 
-Terminal
+**Terminal**
 ![](minimal/windows/terminal.png)
 
-Console task manager
+**Console task manager**
 ![](minimal/windows/terminal-htop.png)
 
-Console directive
+**Console directive**
 ![](minimal/windows/terminal-screenfetch.png) 
 
-XFCE Desktop
+**XFCE Desktop**
 ![](minimal/windows/xfce.png)
 
 ---
