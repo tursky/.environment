@@ -21,25 +21,65 @@
 > professional
 
 ![](minimal/windows/desktop.png)
+
+Explorer
 ![](minimal/windows/explorer.png)
+
+Menu
 ![](minimal/windows/menu.png)
+
+App finder
 ![](minimal/windows/menu-find.png)
+
+Exit menu
 ![](minimal/windows/menu-exit.png)
+
+Notifications
 ![](minimal/windows/notification.png)
+
+Programms
 ![](minimal/windows/program.png)
+
+Window switcher
 ![](minimal/windows/program-switcher.png)
+
+System settings
 ![](minimal/windows/program-settings.png)
+
+Notes
 ![](minimal/windows/program-office-mousepad.png)
+
+Start Office
 ![](minimal/windows/program-office-onlyoffice.png)
+
+Office document
 ![](minimal/windows/program-office-onlyoffice-doc.png)
+
+Start FreeCAD (dark theme)
 ![](minimal/windows/program-freecad.png)
+
+FreeCAD project
 ![](minimal/windows/program-freecad-app.png)
+
+KiCad - connector
 ![](minimal/windows/program-kicad-connector.png)
+
+KiCad - oscillator
 ![](minimal/windows/program-kicad-oscillator.png)
+
+Multimedia
 ![](minimal/windows/program-vlc.png)
+
+Terminal
 ![](minimal/windows/terminal.png)
+
+Console task manager
 ![](minimal/windows/terminal-htop.png)
-![](minimal/windows/terminal-screenfetch.png)
+
+Console directive
+![](minimal/windows/terminal-screenfetch.png) 
+
+XFCE Desktop
 ![](minimal/windows/xfce.png)
 
 ---
