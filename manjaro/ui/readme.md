@@ -1,6 +1,7 @@
 # XFCE desktop environment personal settings
 
 1. [Windows XFCE](#windows-xfce)
+2. [Mac XFCE](#mac-xfce)
 2. [Night XFCE](#night-xfce)
 3. [Default XFCE](#default-xfce)
 4. [Stylesheets presets](#stylesheets-presets)
@@ -81,6 +82,43 @@
 
 **XFCE Desktop**
 ![](minimal/windows/xfce.png)
+
+---
+
+## Mac XFCE
+> industrial
+
+![](minimal/mac/xfce.png)
+
+**Explorer**
+![](minimal/mac/explorer.png)
+
+**Menu**
+![](minimal/mac/menu.png)
+
+**Directory menu**
+![](minimal/mac/menu-dirs.png)
+
+**Exit menu**
+![](minimal/mac/menu-exit.png)
+
+**App finder**
+![](minimal/mac/menu-find.png)
+
+**Launch FreeCAD**
+![](minimal/mac/app-freecad-start.png)
+
+**FreeCAD with dark UI**
+![](minimal/mac/app-freecad-dark.png)
+
+**FreeCAD project**
+![](minimal/mac/app-freecad-project.png)
+
+**Office**
+![](minimal/mac/app-office.png)
+
+**Console**
+![](minimal/mac/terminal.png)
 
 ---
 
