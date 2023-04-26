@@ -1,6 +1,6 @@
 # XFCE desktop environment personal settings
 
-1. [Industrial XFCE](#industrial-xfce)
+1. [Windows XFCE](#windows-xfce)
 2. [Night XFCE](#night-xfce)
 3. [Default XFCE](#default-xfce)
 4. [Stylesheets presets](#stylesheets-presets)
@@ -17,25 +17,30 @@
 
 ---
 
-## Industrial XFCE
+## Windows XFCE
+> professoinal
 
-![](show/industrial/desktop.png)
-
-![](show/industrial/explorer.png)
-
-![](show/industrial/htop.png)
-
-![](show/industrial/menu.png)
-
-![](show/industrial/menu-apps.png)
-
-![](show/industrial/notification.png)
-
-![](show/industrial/program.png)
-
-![](show/industrial/screenfetch.png)
-
-![](show/industrial/xfce.png)
+![](minimal/windows/desktop.png)
+![](minimal/windows/explorer.png)
+![](minimal/windows/menu.png)
+![](minimal/windows/menu-find.png)
+![](minimal/windows/menu-exit.png)
+![](minimal/windows/notification.png)
+![](minimal/windows/program.png)
+![](minimal/windows/program-switcher.png)
+![](minimal/windows/program-settings.png)
+![](minimal/windows/office-mousepad.png)
+![](minimal/windows/office-onlyoffice.png)
+![](minimal/windows/office-onlyoffice-doc.png)
+![](minimal/windows/program-freecad.png)
+![](minimal/windows/program-freecad-app.png)
+![](minimal/windows/program-kicad-connector.png)
+![](minimal/windows/program-kicad-oscillator.png)
+![](minimal/windows/program-vlc.png)
+![](minimal/windows/terminal.png)
+![](minimal/windows/terminal-htop.png)
+![](minimal/windows/terminal-screenfetch.png)
+![](minimal/windows/xfce.png)
 
 ---
 
