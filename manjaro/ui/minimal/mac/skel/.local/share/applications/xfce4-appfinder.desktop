@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=App Finder
+Comment=XFCE app finder
+Icon=org.xfce.appfinder
+OnlyShowIn=XFCE;
+Exec=xfce4-appfinder
+Actions=
+Categories=Utility;X-XFCE;X-Xfce-Toplevel;

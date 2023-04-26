@@ -1,0 +1,9 @@
+app=/usr/bin/chromium
+custom_action_command=none
+last_user=
+last_extension=png
+screenshot_dir=file:/home/operator/Pictures
+enable_imgur_upload=true
+show_in_folder=false
+action=1
+
