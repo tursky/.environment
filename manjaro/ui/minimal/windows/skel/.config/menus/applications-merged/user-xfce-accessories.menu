@@ -1,0 +1,23 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+    "http://www.freedesktop.org/standards/menu-spec/menu-1.0.dtd">
+<!-- Do not edit manually - generated and managed by xdg-desktop-menu -->
+<Menu>
+    <Name>Applications</Name>
+<Menu>
+    <Name>xfce-accessories</Name>
+    <Directory>xfce-accessories.directory</Directory>
+    <Include>
+        <Filename>thunar.desktop</Filename>
+        <Filename>stoken-gui-small.desktop</Filename>
+        <Filename>stoken-gui.desktop</Filename>
+        <Filename>lightdm-gtk-greeter-settings.desktop</Filename>
+        <Filename>org.gtkhash.gtkhash.desktop</Filename>
+        <Filename>xfce4-file-manager.desktop</Filename>
+        <Filename>engrampa.desktop</Filename>
+        <Filename>thunar-bulk-rename.desktop</Filename>
+        <Filename>kvantummanager.desktop</Filename>
+        <Filename>xfce4-appfinder.desktop</Filename>
+        <Filename>xfce4-clipman.desktop</Filename>
+    </Include>
+</Menu>
+</Menu>
