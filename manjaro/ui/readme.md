@@ -2,7 +2,6 @@
 
 1. [Windows XFCE](#windows-xfce)
 2. [Mac XFCE](#mac-xfce)
-2. [Night XFCE](#night-xfce)
 3. [Default XFCE](#default-xfce)
 4. [Stylesheets presets](#stylesheets-presets)
 5. [Console color palette and geometry](#console-color-palette-and-geometry)
@@ -122,38 +121,6 @@
 
 **Notifications**
 ![](minimal/mac/notifications.png)
-
----
-
-## Night XFCE
-
-![](show/night/desktop.png)
-
-![](show/night/explorer.png)
-
-![](show/night/menu.png)
-
-![](show/night/menu-dirs.png)
-
-![](show/night/menu-exit.png)
-
-![](show/night/menu-find.png)
-
-![](show/night/notification.png)
-
-![](show/night/program.png)
-
-![](show/night/program-freecad.png)
-
-![](show/night/program-freecad-app.png)
-
-![](show/night/terminal.png)
-
-![](show/night/terminal-htop.png)
-
-![](show/night/terminal-screenfetch.png)
-
-![](show/night/xfce.png)
 
 ---
 
