@@ -18,7 +18,7 @@
 ---
 
 ## Windows XFCE
-> professoinal
+> professional
 
 ![](minimal/windows/desktop.png)
 ![](minimal/windows/explorer.png)
