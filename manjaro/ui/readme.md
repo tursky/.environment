@@ -120,6 +120,9 @@
 **Console**
 ![](minimal/mac/terminal.png)
 
+**Notifications**
+![](minimal/mac/notifications.png)
+
 ---
 
 ## Night XFCE
