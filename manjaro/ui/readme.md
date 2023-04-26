@@ -76,7 +76,7 @@
 **Console task manager**
 ![](minimal/windows/terminal-htop.png)
 
-**Console directive**
+**About**
 ![](minimal/windows/terminal-screenfetch.png) 
 
 **XFCE Desktop**
