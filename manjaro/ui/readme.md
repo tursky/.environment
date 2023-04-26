@@ -13,7 +13,7 @@
 
 # Terminal view
 
-![](show/console.png)
+![](minimal/console.png)
 
 ---
 
@@ -126,9 +126,9 @@
 
 ## Default XFCE
 
-![](show/default/desktop.png)
+![](minimal/default/desktop.png)
 
-![](show/default/workspace.png)
+![](minimal/default/workspace.png)
 
 ---
 
@@ -138,7 +138,7 @@
 touch ~/.config/gtk-3.0/gtk.css
 ```
 
-> Remove XFCE specific dotted UI artifacts:
+Remove XFCE specific dotted UI artifacts:
 
 ```
 echo "/* Remove dotted lines from GTK 3 applications */
@@ -147,7 +147,8 @@ undershoot.top, undershoot.right, undershoot.bottom, undershoot.left {
 }" >> ~/.config/gtk-3.0/gtk.css
 ```
 
-> Add indentations to console:
+Add indentations to console:
+
 ```
 echo "/* Console stylesheets */
 VteTerminal, vte-terminal {
