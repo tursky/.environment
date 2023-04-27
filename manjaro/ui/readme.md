@@ -20,67 +20,67 @@
 ## Windows XFCE
 > professional
 
-![](minimal/windows/desktop.png)
+![](minimal/win/desktop.png)
 
 **Explorer**
-![](minimal/windows/explorer.png)
+![](minimal/win/explorer.png)
 
 **Menu**
-![](minimal/windows/menu.png)
+![](minimal/win/menu.png)
 
 **App finder**
-![](minimal/windows/menu-find.png)
+![](minimal/win/menu-find.png)
 
 **Exit menu**
-![](minimal/windows/menu-exit.png)
+![](minimal/win/menu-exit.png)
 
 **Notifications**
-![](minimal/windows/notification.png)
+![](minimal/win/notification.png)
 
 **Programms**
-![](minimal/windows/program.png)
+![](minimal/win/program.png)
 
 **Window switcher**
-![](minimal/windows/program-switcher.png)
+![](minimal/win/program-switcher.png)
 
 **System settings**
-![](minimal/windows/program-settings.png)
+![](minimal/win/program-settings.png)
 
 **Notes**
-![](minimal/windows/program-office-mousepad.png)
+![](minimal/win/program-office-mousepad.png)
 
 **Start Office**
-![](minimal/windows/program-office-onlyoffice.png)
+![](minimal/win/program-office-onlyoffice.png)
 
 **Office document**
-![](minimal/windows/program-office-onlyoffice-doc.png)
+![](minimal/win/program-office-onlyoffice-doc.png)
 
 **Start FreeCAD (dark theme)**
-![](minimal/windows/program-freecad.png)
+![](minimal/win/program-freecad.png)
 
 **FreeCAD project**
-![](minimal/windows/program-freecad-app.png)
+![](minimal/win/program-freecad-app.png)
 
 **KiCad - connector**
-![](minimal/windows/program-kicad-connector.png)
+![](minimal/win/program-kicad-connector.png)
 
 **KiCad - oscillator**
-![](minimal/windows/program-kicad-oscillator.png)
+![](minimal/win/program-kicad-oscillator.png)
 
 **Multimedia**
-![](minimal/windows/program-vlc.png)
+![](minimal/win/program-vlc.png)
 
 **Terminal**
-![](minimal/windows/terminal.png)
+![](minimal/win/terminal.png)
 
 **Console task manager**
-![](minimal/windows/terminal-htop.png)
+![](minimal/win/terminal-htop.png)
 
 **About**
-![](minimal/windows/terminal-screenfetch.png) 
+![](minimal/win/terminal-screenfetch.png) 
 
 **XFCE Desktop**
-![](minimal/windows/xfce.png)
+![](minimal/win/xfce.png)
 
 ---
 
