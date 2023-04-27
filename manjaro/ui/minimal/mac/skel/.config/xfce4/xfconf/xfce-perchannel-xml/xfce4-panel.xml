@@ -27,7 +27,7 @@
         <value type="int" value="42"/>
         <value type="int" value="25"/>
         <value type="int" value="2"/>
-        <value type="int" value="10"/>
+        <value type="int" value="12"/>
         <value type="int" value="41"/>
         <value type="int" value="3"/>
         <value type="int" value="27"/>
@@ -47,7 +47,7 @@
       </property>
       <property name="role" type="string" value="xfce4-panel-12965750720"/>
       <property name="length-adjust" type="bool" value="true"/>
-      <property name="background-style" type="uint" value="1"/>
+      <property name="background-style" type="uint" value="0"/>
       <property name="size" type="uint" value="40"/>
       <property name="mode" type="uint" value="0"/>
       <property name="autohide-behavior" type="uint" value="0"/>
@@ -67,14 +67,29 @@
       <property name="length" type="double" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="plugin-ids" type="array">
-        <value type="int" value="26"/>
         <value type="int" value="50"/>
+        <value type="int" value="26"/>
         <value type="int" value="7"/>
         <value type="int" value="22"/>
+        <value type="int" value="11"/>
+        <value type="int" value="13"/>
+        <value type="int" value="32"/>
+        <value type="int" value="38"/>
+        <value type="int" value="43"/>
+        <value type="int" value="44"/>
       </property>
-      <property name="background-style" type="uint" value="1"/>
+      <property name="background-style" type="uint" value="0"/>
       <property name="leave-opacity" type="uint" value="0"/>
       <property name="autohide-behavior" type="uint" value="2"/>
+      <property name="enable-struts" type="bool" value="false"/>
+      <property name="mode" type="uint" value="0"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.078431372549019607"/>
+        <value type="double" value="0.10196078431372549"/>
+        <value type="double" value="0.10588235294117647"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="enter-opacity" type="uint" value="100"/>
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -97,6 +112,14 @@
         <value type="string" value="blueman"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (80%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (84%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (77%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (85%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (71%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (65%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (66%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (68%)"/>
         <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (74%)"/>
         <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (76%)"/>
@@ -122,7 +145,6 @@
       <property name="tooltip-format" type="string" value="%A %d %B %Y"/>
       <property name="digital-date-font" type="string" value="Sans 10"/>
     </property>
-    <property name="plugin-10" type="string" value="battery"/>
     <property name="plugin-2" type="string" value="xkb">
       <property name="display-type" type="uint" value="2"/>
       <property name="display-name" type="uint" value="1"/>
@@ -134,7 +156,7 @@
     </property>
     <property name="plugin-8" type="string" value="actions">
       <property name="button-title" type="uint" value="3"/>
-      <property name="custom-title" type="string" value="UNIX"/>
+      <property name="custom-title" type="string" value="uηiχ"/>
       <property name="items" type="array">
         <value type="string" value="-lock-screen"/>
         <value type="string" value="-switch-user"/>
@@ -180,6 +202,8 @@
       <property name="show-labels" type="bool" value="false"/>
       <property name="show-handle" type="bool" value="false"/>
       <property name="show-tooltips" type="bool" value="false"/>
+      <property name="grouping" type="bool" value="true"/>
+      <property name="sort-order" type="uint" value="4"/>
     </property>
     <property name="plugin-22" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
@@ -256,6 +280,25 @@
     <property name="plugin-51" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
+    <property name="plugin-11" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-13" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-32" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-38" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-43" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-44" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-12" type="string" value="power-manager-plugin"/>
   </property>
   <property name="configver" type="int" value="2"/>
 </channel>
