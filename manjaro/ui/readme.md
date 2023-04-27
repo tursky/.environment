@@ -162,9 +162,9 @@ VteTerminal, vte-terminal {
 echo "export PS1='\[\033[01;32m\]➞\[\033[00m\] '" >> ~/.bashrc
 ```
 
-- [x] Source Code Pro Regular, 15px
+- [x] Source Code Pro Regular, 14px
 - [x] 1.05 line spacing
-- [x] 65 width
+- [x] 66 width
 - [x] 20 height
 
 ```
