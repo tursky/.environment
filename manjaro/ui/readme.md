@@ -165,7 +165,7 @@ echo "export PS1='\[\033[01;32m\]➞\[\033[00m\] '" >> ~/.bashrc
 - [x] Source Code Pro Regular, 15px
 - [x] 1.05 line spacing
 - [x] 65 width
-- [x] 17 height
+- [x] 20 height
 
 ```
 - Body colors
