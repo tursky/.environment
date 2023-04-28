@@ -25,11 +25,14 @@
 **Explorer**
 ![](minimal/win/explorer.png)
 
-**Menu**
+**Start menu**
 ![](minimal/win/menu.png)
 
 **Application Finder**
 ![](minimal/win/menu-find.png)
+
+**Programs**
+![](minimal/win/programms.png)
 
 **Exit menu**
 ![](minimal/win/menu-exit.png)
