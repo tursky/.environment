@@ -28,47 +28,11 @@
 **Menu**
 ![](minimal/win/menu.png)
 
-**App finder**
+**Application Finder**
 ![](minimal/win/menu-find.png)
 
 **Exit menu**
 ![](minimal/win/menu-exit.png)
-
-**Notifications**
-![](minimal/win/notification.png)
-
-**Programms**
-![](minimal/win/program.png)
-
-**Window switcher**
-![](minimal/win/program-switcher.png)
-
-**System settings**
-![](minimal/win/program-settings.png)
-
-**Notes**
-![](minimal/win/program-office-mousepad.png)
-
-**Start Office**
-![](minimal/win/program-office-onlyoffice.png)
-
-**Office document**
-![](minimal/win/program-office-onlyoffice-doc.png)
-
-**Start FreeCAD (dark theme)**
-![](minimal/win/program-freecad.png)
-
-**FreeCAD project**
-![](minimal/win/program-freecad-app.png)
-
-**KiCad - connector**
-![](minimal/win/program-kicad-connector.png)
-
-**KiCad - oscillator**
-![](minimal/win/program-kicad-oscillator.png)
-
-**Multimedia**
-![](minimal/win/program-vlc.png)
 
 **Terminal**
 ![](minimal/win/terminal.png)
@@ -76,8 +40,26 @@
 **Console task manager**
 ![](minimal/win/terminal-htop.png)
 
+**Start Office**
+![](minimal/win/office-start.png)
+
+**Office document**
+![](minimal/win/office-document.png)
+
+**FreeCAD (dark theme)**
+![](minimal/win/freecad-start.png)
+
+**FreeCAD project**
+![](minimal/win/freecad-project.png)
+
+**Multimedia**
+![](minimal/win/multimedia.png)
+
+**Charging**
+![](minimal/win/charging.png)
+
 **About**
-![](minimal/win/terminal-screenfetch.png) 
+![](minimal/win/terminal-screenfetch.png)
 
 **XFCE Desktop**
 ![](minimal/win/xfce.png)
@@ -87,7 +69,10 @@
 ## Mac XFCE
 > industrial
 
-![](minimal/mac/xfce.png)
+![](minimal/mac/desktop.png)
+
+**Console**
+![](minimal/mac/console-ls.png)
 
 **Explorer**
 ![](minimal/mac/explorer.png)
@@ -101,26 +86,38 @@
 **Exit menu**
 ![](minimal/mac/menu-exit.png)
 
-**App finder**
+**Application Finder**
 ![](minimal/mac/menu-find.png)
 
 **Launch FreeCAD**
-![](minimal/mac/app-freecad-start.png)
+![](minimal/mac/freecad-start.png)
 
-**FreeCAD with dark UI**
-![](minimal/mac/app-freecad-dark.png)
+**FreeCAD dark UI**
+![](minimal/mac/freecad-documents.png)
 
 **FreeCAD project**
-![](minimal/mac/app-freecad-project.png)
+![](minimal/mac/freecad-pro.png)
+
+**KiCad**
+![](minimal/mac/kicad.png)
+
+**KiCad Design**
+![](minimal/mac/kicad2.png)
 
 **Office**
-![](minimal/mac/app-office.png)
+![](minimal/mac/office-1.png)
 
-**Console**
-![](minimal/mac/terminal.png)
+**Office fullscreenf**
+![](minimal/mac/office-2.png)
 
-**Notifications**
-![](minimal/mac/notifications.png)
+**Application switcher**
+![](minimal/mac/alt-tab-switcher.png)
+
+**About**
+![](minimal/mac/console.png)
+
+**Multimedia**
+![](minimal/mac/multimedia.png)
 
 ---
 
