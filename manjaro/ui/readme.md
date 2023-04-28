@@ -49,7 +49,7 @@
 **Office document**
 ![](minimal/win/office-document.png)
 
-**FreeCAD (dark theme)**
+**FreeCAD**
 ![](minimal/win/freecad-start.png)
 
 **FreeCAD project**
