@@ -32,7 +32,7 @@
 ![](minimal/win/menu-find.png)
 
 **Programs**
-![](minimal/win/programms.png)
+![](minimal/win/programs.png)
 
 **Exit menu**
 ![](minimal/win/menu-exit.png)
