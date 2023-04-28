@@ -110,7 +110,7 @@
 **Office**
 ![](minimal/mac/office-1.png)
 
-**Office fullscreenf**
+**Office fullscreen**
 ![](minimal/mac/office-2.png)
 
 **Application switcher**
