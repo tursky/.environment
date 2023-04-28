@@ -1,6 +1,5 @@
 /* 
- * Set custom stylesheets for Mac XFCE
- * Matcha Azul
+ * Set custom stylesheets
  */
  
 @import url("./mac-panel.css");
@@ -13,4 +12,9 @@ undershoot.top, undershoot.right, undershoot.bottom, undershoot.left {
 /* Console stylesheets */
 VteTerminal, vte-terminal {
 	padding: 7px;
+}
+
+/* Resize power indicator */
+#xfce4-power-manager-plugin image {
+	-gtk-icon-transform: scale(0.7) translateY(-1px);
 }

@@ -28,4 +28,5 @@
   <property name="initial-opacity" type="double" value="1"/>
   <property name="notification-display-fields" type="string" value="icon-summary-body"/>
   <property name="show-text-with-gauge" type="bool" value="false"/>
+  <property name="do-slideout" type="bool" value="false"/>
 </channel>

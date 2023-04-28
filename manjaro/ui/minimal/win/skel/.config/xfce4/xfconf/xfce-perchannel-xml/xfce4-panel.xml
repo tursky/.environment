@@ -12,6 +12,9 @@
         <value type="int" value="11"/>
         <value type="int" value="3"/>
         <value type="int" value="7"/>
+        <value type="int" value="14"/>
+        <value type="int" value="16"/>
+        <value type="int" value="18"/>
         <value type="int" value="6"/>
         <value type="int" value="9"/>
         <value type="int" value="2"/>
@@ -59,6 +62,7 @@
         <value type="string" value="blueman"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (67%)"/>
         <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (77%)"/>
         <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (74%)"/>
@@ -74,7 +78,7 @@
     <property name="plugin-3" type="string" value="tasklist">
       <property name="grouping" type="bool" value="false"/>
       <property name="show-labels" type="bool" value="true"/>
-      <property name="sort-order" type="uint" value="0"/>
+      <property name="sort-order" type="uint" value="4"/>
       <property name="show-tooltips" type="bool" value="true"/>
       <property name="flat-buttons" type="bool" value="false"/>
       <property name="show-wireframes" type="bool" value="false"/>
@@ -121,6 +125,13 @@
     </property>
     <property name="plugin-17" type="string" value="separator">
       <property name="style" type="uint" value="2"/>
+    </property>
+    <property name="plugin-14" type="string" value="power-manager-plugin"/>
+    <property name="plugin-16" type="string" value="separator">
+      <property name="style" type="uint" value="2"/>
+    </property>
+    <property name="plugin-18" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
     </property>
   </property>
   <property name="configver" type="int" value="2"/>
