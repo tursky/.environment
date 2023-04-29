@@ -65,7 +65,7 @@ if [[ $directive == 'save' ]]; then
 	cd .. && mkdir -p .local/share/ && cd .local/share/
 	cp -r ~/.local/share/{applications,desktop-directories} .
 	
-	echo '- done'
+	echo '- successfully'
 
 	cd $home
 fi

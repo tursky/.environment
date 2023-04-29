@@ -10,7 +10,7 @@
 
 ```
 echo "
-# Environment presets for XFCE UI
+# Environment presets
 alias envi='~/.workspace/make.sh'" >> ~/.bashrc
 ```
 

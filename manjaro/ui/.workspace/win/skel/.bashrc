@@ -139,6 +139,6 @@ ex ()
 # Console patch
 export PS1='\[\033[01;32m\]➞\[\033[00m\] ' # ➣
 
-# Environment presets for XFCE UI
+# Environment presets
 export ui=win
 alias envi='~/.workspace/make.sh'
