@@ -30,6 +30,7 @@ if [[ $directive == 'set' ]]; then
 	echo '- mac or win?' # working environment
 	read -p '- ' USER_INPUT
 	env=$USER_INPUT
+	
 	address=~/$workspace/$env/$src
 
 	destination=/home/$USER/
@@ -48,7 +49,7 @@ if [[ $directive == 'set' ]]; then
 fi
 
 if [[ $directive == 'save' ]]; then
-	destination=$workspace/$envi/$src
+	destination=$workspace/$ui/$src
 	prepare $destination
 
 	home=$( pwd )
