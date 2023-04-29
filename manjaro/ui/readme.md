@@ -95,10 +95,10 @@
 **Launch FreeCAD**
 ![](minimal/mac/freecad-start.png)
 
-**FreeCAD dark UI**
+**FreeCAD night UI**
 ![](minimal/mac/freecad-documents.png)
 
-**FreeCAD project**
+**FreeCAD Project**
 ![](minimal/mac/freecad-pro.png)
 
 **KiCad**
@@ -110,10 +110,10 @@
 **Office**
 ![](minimal/mac/office-1.png)
 
-**Office fullscreen**
+**Office full screen**
 ![](minimal/mac/office-2.png)
 
-**Application switcher**
+**Window switcher**
 ![](minimal/mac/alt-tab-switcher.png)
 
 **About**
