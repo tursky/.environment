@@ -16,6 +16,8 @@ alias envi='~/.workspace/make.sh'" >> ~/.bashrc
 
 3. Enter `envi` in the terminal to initiate a dialogue with the machine. Follow the instructions.
 
+![](usage.png)
+
 > Be careful because this directive will delete your current configuration files. Please see the contents of the executable file.
 
 4. The computer will restart. After that, call the console again and ask your computing machine for the name of the installed theme:
