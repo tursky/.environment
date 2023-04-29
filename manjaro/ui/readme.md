@@ -13,153 +13,153 @@
 
 # Terminal view
 
-![](minimal/console.png)
+![](show/console.png)
 
 ---
 
 ## Windows XFCE
 > professional
 
-![](minimal/win/desktop.png)
+![](show/win/desktop.png)
 
 **Explorer**
 
-![](minimal/win/explorer.png)
+![](show/win/explorer.png)
 
 **Start menu**
 
-![](minimal/win/menu.png)
+![](show/win/menu.png)
 
 **Search program**
 
-![](minimal/win/menu-find.png)
+![](show/win/menu-find.png)
 
 **Workspace**
 
-![](minimal/win/programs.png)
+![](show/win/programs.png)
 
 **Exit menu**
 
-![](minimal/win/menu-exit.png)
+![](show/win/menu-exit.png)
 
 **Terminal**
 
-![](minimal/win/terminal.png)
+![](show/win/terminal.png)
 
 **Console Task Manager**
 
-![](minimal/win/terminal-htop.png)
+![](show/win/terminal-htop.png)
 
 **Start Office**
 
-![](minimal/win/office-start.png)
+![](show/win/office-start.png)
 
 **Office Document**
 
-![](minimal/win/office-document.png)
+![](show/win/office-document.png)
 
 **FreeCAD**
 
-![](minimal/win/freecad-start.png)
+![](show/win/freecad-start.png)
 
 **FreeCAD Project**
 
-![](minimal/win/freecad-project.png)
+![](show/win/freecad-project.png)
 
 **Multimedia**
 
-![](minimal/win/multimedia.png)
+![](show/win/multimedia.png)
 
 **Charging**
 
-![](minimal/win/charging.png)
+![](show/win/charging.png)
 
 **About**
 
-![](minimal/win/terminal-screenfetch.png)
+![](show/win/terminal-screenfetch.png)
 
 **XFCE Desktop**
 
-![](minimal/win/xfce.png)
+![](show/win/xfce.png)
 
 ---
 
 ## Mac XFCE
 > industrial
 
-![](minimal/mac/desktop.png)
+![](show/mac/desktop.png)
 
 **Console**
 
-![](minimal/mac/console-ls.png)
+![](show/mac/console-ls.png)
 
 **Explorer**
 
-![](minimal/mac/explorer.png)
+![](show/mac/explorer.png)
 
 **Menu**
 
-![](minimal/mac/menu.png)
+![](show/mac/menu.png)
 
 **Directory menu**
 
-![](minimal/mac/menu-dirs.png)
+![](show/mac/menu-dirs.png)
 
 **Exit menu**
 
-![](minimal/mac/menu-exit.png)
+![](show/mac/menu-exit.png)
 
 **Application Finder**
 
-![](minimal/mac/menu-find.png)
+![](show/mac/menu-find.png)
 
 **Launch FreeCAD**
 
-![](minimal/mac/freecad-start.png)
+![](show/mac/freecad-start.png)
 
 **FreeCAD night UI**
 
-![](minimal/mac/freecad-documents.png)
+![](show/mac/freecad-documents.png)
 
 **FreeCAD Project**
 
-![](minimal/mac/freecad-pro.png)
+![](show/mac/freecad-pro.png)
 
 **KiCad**
 
-![](minimal/mac/kicad.png)
+![](show/mac/kicad.png)
 
 **KiCad Design**
 
-![](minimal/mac/kicad2.png)
+![](show/mac/kicad2.png)
 
 **Office**
 
-![](minimal/mac/office-1.png)
+![](show/mac/office-1.png)
 
 **Office full screen**
 
-![](minimal/mac/office-2.png)
+![](show/mac/office-2.png)
 
 **Window switcher**
 
-![](minimal/mac/alt-tab-switcher.png)
+![](show/mac/alt-tab-switcher.png)
 
 **About**
 
-![](minimal/mac/console.png)
+![](show/mac/console.png)
 
 **Multimedia**
 
-![](minimal/mac/multimedia.png)
+![](show/mac/multimedia.png)
 
 ---
 
 ## Default XFCE
 
-![](minimal/default/desktop.png)
+![](show/default/desktop.png)
 
-![](minimal/default/workspace.png)
+![](show/default/workspace.png)
 
 ---
 
