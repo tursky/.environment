@@ -20,7 +20,7 @@ alias envi='~/.workspace/make.sh'" >> ~/.bashrc
 
 > Be careful because this directive will delete your current configuration files. Please see the contents of the executable file.
 
-4. The computer will restart. After that, call the console again and ask your computing machine for the name of the installed theme:
+4. The computer will restart. After that, call the console again and ask your computing machine for the name of the installed env:
 
 ```
 echo $ui
