@@ -30,11 +30,11 @@
 
 ![](minimal/win/menu.png)
 
-**Application Finder**
+**Search program**
 
 ![](minimal/win/menu-find.png)
 
-**Programs**
+**Workspace**
 
 ![](minimal/win/programs.png)
 
@@ -46,7 +46,7 @@
 
 ![](minimal/win/terminal.png)
 
-**Console task manager**
+**Console Task Manager**
 
 ![](minimal/win/terminal-htop.png)
 
@@ -54,7 +54,7 @@
 
 ![](minimal/win/office-start.png)
 
-**Office document**
+**Office Document**
 
 ![](minimal/win/office-document.png)
 
@@ -62,7 +62,7 @@
 
 ![](minimal/win/freecad-start.png)
 
-**FreeCAD project**
+**FreeCAD Project**
 
 ![](minimal/win/freecad-project.png)
 
