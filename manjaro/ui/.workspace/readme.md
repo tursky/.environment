@@ -14,7 +14,7 @@ echo "
 alias envi='~/.workspace/make.sh'" >> ~/.bashrc
 ```
 
-3. Enter `envi` in the terminal to initiate a dialogue with the machine. Follow the instructions.
+3. Enter `envi` in the terminal to initiate a dialogue with the machine. Follow the instructions:
 
 ![](usage.png)
 
