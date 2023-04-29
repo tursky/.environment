@@ -136,8 +136,8 @@ ex ()
   fi
 }
 
-# ➣
-export PS1='\[\033[01;32m\]➞\[\033[00m\] '
+# Console patch
+export PS1='\[\033[01;32m\]➞\[\033[00m\] ' # ➣
 
 # Environment presets
 export envi=mac
