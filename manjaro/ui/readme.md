@@ -23,48 +23,63 @@
 ![](minimal/win/desktop.png)
 
 **Explorer**
+
 ![](minimal/win/explorer.png)
 
 **Start menu**
+
 ![](minimal/win/menu.png)
 
 **Application Finder**
+
 ![](minimal/win/menu-find.png)
 
 **Programs**
+
 ![](minimal/win/programs.png)
 
 **Exit menu**
+
 ![](minimal/win/menu-exit.png)
 
 **Terminal**
+
 ![](minimal/win/terminal.png)
 
 **Console task manager**
+
 ![](minimal/win/terminal-htop.png)
 
 **Start Office**
+
 ![](minimal/win/office-start.png)
 
 **Office document**
+
 ![](minimal/win/office-document.png)
 
 **FreeCAD**
+
 ![](minimal/win/freecad-start.png)
 
 **FreeCAD project**
+
 ![](minimal/win/freecad-project.png)
 
 **Multimedia**
+
 ![](minimal/win/multimedia.png)
 
 **Charging**
+
 ![](minimal/win/charging.png)
 
 **About**
+
 ![](minimal/win/terminal-screenfetch.png)
 
 **XFCE Desktop**
+
 ![](minimal/win/xfce.png)
 
 ---
@@ -75,51 +90,67 @@
 ![](minimal/mac/desktop.png)
 
 **Console**
+
 ![](minimal/mac/console-ls.png)
 
 **Explorer**
+
 ![](minimal/mac/explorer.png)
 
 **Menu**
+
 ![](minimal/mac/menu.png)
 
 **Directory menu**
+
 ![](minimal/mac/menu-dirs.png)
 
 **Exit menu**
+
 ![](minimal/mac/menu-exit.png)
 
 **Application Finder**
+
 ![](minimal/mac/menu-find.png)
 
 **Launch FreeCAD**
+
 ![](minimal/mac/freecad-start.png)
 
 **FreeCAD night UI**
+
 ![](minimal/mac/freecad-documents.png)
 
 **FreeCAD Project**
+
 ![](minimal/mac/freecad-pro.png)
 
 **KiCad**
+
 ![](minimal/mac/kicad.png)
 
 **KiCad Design**
+
 ![](minimal/mac/kicad2.png)
 
 **Office**
+
 ![](minimal/mac/office-1.png)
 
 **Office full screen**
+
 ![](minimal/mac/office-2.png)
 
 **Window switcher**
+
 ![](minimal/mac/alt-tab-switcher.png)
 
 **About**
+
 ![](minimal/mac/console.png)
 
 **Multimedia**
+
 ![](minimal/mac/multimedia.png)
 
 ---
