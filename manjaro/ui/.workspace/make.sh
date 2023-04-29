@@ -42,7 +42,7 @@ if [[ $directive == 'set' ]]; then
 	cp -r $address/.config/menus ~/.config
 	cp -r $address/.config/Kvantum ~/.config
 	cp -r $address/.local/share/applications ~/.local/share
-        cp -r $address/.local/share/desktop-directories ~/.local/share
+	cp -r $address/.local/share/desktop-directories ~/.local/share
 	cp -r $address/.themes ~/
 
 	reboot
