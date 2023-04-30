@@ -100,3 +100,36 @@ kernel="linux61"
 chroots_dir=/home/operator/Downloads/
 ' >> ~/.config/manjaro-tools/manjaro-tools.conf
 ```
+
+Define what software is needed and edit `Packages-Desktop`. Editing already present packages is risky:
+
+- `extra` packages will be installed in the `full` build, others in a `minimal` build
+- `-f` use if you want to compile `full` image
+- `-b` specify a branch, for example `stable`
+- `-k` specify the version of the Linux `kernel`
+- `-t` specify where to save `iso`
+
+Building the `Manjaro ISO` image can be run with the `buildiso -p` command, specifying the working environment, in our case `xfce`:
+
+Minimal build:
+
+```
+buildiso -p xfce -k linux61 -b stable
+```
+
+Full build:
+
+```
+buildiso -f -p xfce -k linux61 -b stable -t /home/operator/Downloads
+```
+
+The build process will take some time. It depends on the computer configuration and internet speed.
+
+When rebuilding, but with different parameters, it will be need to remove some files from the previous build:
+
+```
+sudo rm -r /var/lib/manjaro-tools/buildiso/
+pacache-ruk0
+sudo rm -r /var/cache/manjaro-tools/
+sudo rm -r ~/.config/manjaro-tools
+```
