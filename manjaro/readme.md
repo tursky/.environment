@@ -89,3 +89,23 @@ After creating the `skel` dir, copy all the necessary settings files into it:
 ```
 cp -r ../ui/.workspace/win/skel manjaro/xfce/desktop-overlay/etc/skel
 ```
+
+```
+echo '
+# User settings
+autologin="true"
+multilib="true"
+extra="true"
+hostname="unix"
+username="operator"
+' >> ~/.environment/manjaro/iso-profiles/manjaro/xfce/profile.conf
+```
+
+```
+echo '
+# User settings
+target_branch=stable
+kernel="linux61"
+chroots_dir=/home/operator/Downloads/
+' >> ~/.config/manjaro-tools/manjaro-tools.conf
+```
