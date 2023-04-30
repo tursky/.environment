@@ -2,7 +2,7 @@
 
 > The task is to build a prototype distr based on Manjaro Linux.
 
-1. Install Manjaro Tools
+Install Manjaro Tools
 
 ```
 pamac install manjaro-tools-iso
@@ -73,5 +73,5 @@ Let's continue. We will build with XFCE environment. This is a test project, let
 
 ```
 rm -rf .gitignore README.md oem community
-cd manjaro && rm -rf !(*xfce)
+cd manjaro && rm -rf !(*xfce) && cd ..
 ```
