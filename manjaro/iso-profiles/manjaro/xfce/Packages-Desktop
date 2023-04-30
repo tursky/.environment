@@ -177,15 +177,12 @@ manjaro-hello
 manjaro-application-utility
 manjaro-settings-manager
 manjaro-settings-manager-notifier
->basic midori
 >extra mlocate
 mousepad
 mugshot
->basic parole # media player
 >extra pidgin
 powertop
 screenfetch
-evince
 >extra poppler-data  # CKJ support for pdf
 #>basic sylpheed # mail client
 >extra thunderbird
