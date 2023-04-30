@@ -68,3 +68,10 @@ cd ~/.environment/manjaro/iso-profiles
 ```
 
 ---
+
+Let's continue. We will build with XFCE environment. This is a test project, let's remove the unnecessary from the catalog so as not to distract.
+
+```
+rm -rf .gitignore README.md oem community
+cd manjaro && rm -rf !(*xfce)
+```
