@@ -75,3 +75,9 @@ Let's continue. We will build with XFCE environment. This is a test project, let
 rm -rf .gitignore README.md oem community
 cd manjaro && rm -rf !(*xfce) && cd ..
 ```
+
+The next step is to create a `skel` directory with personal data and configuration files. All files and folders in the `skel` directory will be copied to the user's home catalog.
+
+```
+mkdir manjaro/xfce/desktop-overlay/etc/skel
+```
