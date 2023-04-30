@@ -29,3 +29,17 @@ touch ~/.config/manjaro-tools/iso-profiles.conf
 ```
 echo 'run_dir=/home/operator/.environment/manjaro/iso-profiles' >> ~/.config/manjaro-tools/iso-profiles.conf
 ```
+
+Check if everything is ok. Print some info about it:
+
+```
+buildiso -q
+```
+
+```
+buildiso -qv
+```
+
+```
+buildiso -qf
+```
