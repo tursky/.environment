@@ -44,15 +44,6 @@ buildiso -qv
 buildiso -qf
 ```
 
-To specify where to save the iso (if necessary), edit `manjaro-tools.conf`:
-
-```
-echo '
-chroots_dir=/home/operator/Downloads/' >> ~/.config/manjaro-tools/manjaro-tools.conf
-```
-
-> You can skip this step
-
 ---
 
 Build command:
@@ -71,7 +62,7 @@ cd ~/.environment/manjaro/iso-profiles
 
 ---
 
-Let's continue. We will build with XFCE environment. This is a test project, let's remove the unnecessary from the catalog so as not to distract.
+Let's continue building the environment with XFCE. This is a test project, let's remove the unnecessary from the catalog so as not to distract.
 
 ```
 rm -rf .gitignore README.md oem community
