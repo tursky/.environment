@@ -50,3 +50,21 @@ To specify where to save the iso (if necessary), edit `manjaro-tools.conf`:
 echo '
 cache_dir=/home/operator/Downloads/' >> ~/.config/manjaro-tools/manjaro-tools.conf
 ```
+
+---
+
+Build command:
+
+```
+buildiso -p xfce
+```
+
+If you did not change the paths in `manjaro-tools.conf` the resulting xfce ISO is stored at `/var/cache/manjaro-tools/iso/community/xfce`
+
+Preparations for creating an ISO image are now complete. Go to `iso-profile`:
+
+```
+cd ~/.environment/manjaro/iso-profiles
+```
+
+---
