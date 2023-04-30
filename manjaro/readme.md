@@ -19,3 +19,13 @@ Download the latest ISO profiles anywhere in your `home` catalog:
 ```
 git clone https://gitlab.manjaro.org/profiles-and-settings/iso-profiles.git ~/.environment/manjaro/iso-profiles
 ```
+
+Specify your path to the directory with Manjaro profiles:
+
+```
+touch ~/.config/manjaro-tools/iso-profiles.conf
+```
+
+```
+echo 'run_dir=/home/operator/.environment/manjaro/iso-profiles' >> ~/.config/manjaro-tools/iso-profiles.conf
+```
