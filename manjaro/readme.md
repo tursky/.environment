@@ -7,3 +7,9 @@
 ```
 pamac install manjaro-tools-iso
 ```
+
+Copy `manjaro-tools` settings to your home `.config`:
+
+```
+cp -R /etc/manjaro-tools  ~/.config
+```
