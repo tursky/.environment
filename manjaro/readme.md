@@ -48,8 +48,10 @@ To specify where to save the iso (if necessary), edit `manjaro-tools.conf`:
 
 ```
 echo '
-cache_dir=/home/operator/Downloads/' >> ~/.config/manjaro-tools/manjaro-tools.conf
+chroots_dir=/home/operator/Downloads/' >> ~/.config/manjaro-tools/manjaro-tools.conf
 ```
+
+> You can skip this step
 
 ---
 
