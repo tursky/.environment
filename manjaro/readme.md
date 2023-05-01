@@ -133,3 +133,60 @@ pacache-ruk0
 sudo rm -r /var/cache/manjaro-tools/
 sudo rm -r ~/.config/manjaro-tools
 ```
+
+## Inject AUR packages into build
+
+```
+# Create directory for online repo
+mkdir pkg && cd pkg && mkdir -p aur-repo/x86_64
+
+# Create a catalog to build the packets 
+mkdir pkgbuild && cd pkgbuild
+
+# Clone packet from AUR 
+git clone https://aur.archlinux.org/vscodium-bin.git
+
+# Set prerequisites
+sudo pacman -S manjaro-tools-pkg-git
+
+# Building with buildpkg
+buildpkg -p vscodium-bin
+
+# Copy packet to repo catalog
+cd .. && cd aur-repo
+sudo mv /var/cache/manjaro-tools/pkg/stable/x86_64 .
+
+# Generate package database
+cd x86_64
+repo-add aur-repo.db.tar.gz *.pkg.tar.* 
+```
+
+Upload the AUR repo to GitHub, for example:
+
+```
+https://tursky.github.io/aur-repo/x86_64/
+```
+
+Implement an online repository with recompiled packages:
+
+`user-repos.conf` at `iso-profiles/manjaro/xfce`:
+
+```
+[aur-repo]
+SigLevel = Never
+Server = https://tursky.github.io/$repo/$arch
+```
+
+Add packets to ISO `profile.conf`:
+
+```
+echo '
+## AUR packets
+vscodium-bin' >> ~/.environment/manjaro/iso-profiles/manjaro/xfce/profile.conf
+```
+
+Cleaning build environment:
+
+```
+ sudo rm -r /var/lib/manjaro-tools/buildpkg 
+```
