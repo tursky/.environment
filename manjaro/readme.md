@@ -1,6 +1,8 @@
 # Compile UNIX-like OS step by step
 
-> The task is to build a prototype distr based on Manjaro Linux.
+Link: [Build Manjaro ISOs with buildiso](https://wiki.manjaro.org/index.php/Build_Manjaro_ISOs_with_buildiso#Adding_AUR_packages)
+
+> The task is to build prototype distr based on Manjaro Linux.
 
 Install Manjaro Tools
 
@@ -134,7 +136,9 @@ sudo rm -r /var/cache/manjaro-tools/
 sudo rm -r ~/.config/manjaro-tools
 ```
 
-## Inject AUR packages into build
+## Inject AUR packets into build
+
+Link: [Buildiso with AUR packages](https://wiki.manjaro.org/index.php/Buildiso_with_AUR_packages:_Using_buildpkg)
 
 ```
 # Create directory for online repo
