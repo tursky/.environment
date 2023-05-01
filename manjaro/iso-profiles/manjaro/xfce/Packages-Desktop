@@ -49,14 +49,12 @@ udisks2
 
 ## Fonts
 ttf-dejavu
-# cantarell-fonts        # Installed as gnome-themes-standard dependency
 noto-fonts               # default font
-#noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 adobe-source-sans-pro-fonts
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
 adobe-source-han-sans-cn-fonts
-# >extra noto-fonts-emoji
+noto-fonts-emoji
 terminus-font
 
 ## Package management
@@ -100,7 +98,6 @@ menulibre
 poppler-glib       # tumbler - for PDF thumbnails
 thunar-archive-plugin
 thunar-media-tags-plugin
-# >extra xfce4-artwork
 xfce4-battery-plugin
 xfce4-clipman-plugin
 
@@ -148,7 +145,7 @@ unace  # ACE archive support
 unrar  # RAR archive support
 
 ## Documentation
-#manjaro-documentation-en
+manjaro-documentation-en
 
 ## Settings packages
 >basic manjaro-xfce-gtk3-minimal-settings
