@@ -181,12 +181,12 @@ SigLevel = Never
 Server = https://tursky.github.io/$repo/$arch
 ```
 
-Add packets to ISO `profile.conf`:
+Add packet to `Packages-Desktop`:
 
 ```
 echo '
 ## AUR packets
-vscodium-bin' >> ~/.environment/manjaro/iso-profiles/manjaro/xfce/profile.conf
+vscodium-bin' >> ~/.environment/manjaro/iso-profiles/manjaro/xfce/Packages-Desktop
 ```
 
 Cleaning build environment:
