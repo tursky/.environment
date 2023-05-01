@@ -184,3 +184,6 @@ manjaro-hotfixes
 >basic squashfs-tools
 xiccd # enable color profile settings
 tlp
+
+## User settings
+> extra firefox
