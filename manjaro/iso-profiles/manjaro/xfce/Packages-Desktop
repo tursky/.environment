@@ -58,19 +58,9 @@ adobe-source-han-sans-kr-fonts
 adobe-source-han-sans-cn-fonts
 # >extra noto-fonts-emoji
 terminus-font
->extra ttf-inconsolata
->extra ttf-indic-otf
->extra ttf-liberation
->extra ttf-droid
 
 ## Package management
->extra apparmor
-#>extra gnome-software-snap
 pamac-gtk
->extra snapd
->extra snapd-glib
->extra pamac-snap-plugin
->extra pamac-flatpak-plugin
 
 ## Printing
 >extra manjaro-printer
@@ -113,38 +103,18 @@ thunar-media-tags-plugin
 # >extra xfce4-artwork
 xfce4-battery-plugin
 xfce4-clipman-plugin
->extra xfce4-cpufreq-plugin
->extra xfce4-cpugraph-plugin
-# xfce4-datetime-plugin
->extra xfce4-dict
->extra xfce4-diskperf-plugin
->extra xfce4-fsguard-plugin
->extra xfce4-genmon-plugin
->extra xfce4-mailwatch-plugin
->extra xfce4-mount-plugin
->extra xfce4-mpc-plugin
->extra xfce4-netload-plugin
+
 >extra xfce4-notes-plugin
 xfce4-notifyd
 xfce4-screenshooter
 >extra xfce4-sensors-plugin
->extra xfce4-smartbookmark-plugin
->extra xfce4-systemload-plugin
 xfce4-taskmanager
->extra xfce4-time-out-plugin
->extra xfce4-timer-plugin
->extra xfce4-verve-plugin
->extra xfce4-wavelan-plugin
->extra xfce4-weather-plugin
 xfce4-whiskermenu-plugin
 xfce4-xkb-plugin
 xfce4-pulseaudio-plugin
 pavucontrol
 
 ## Themes
->extra manjaro-wallpapers-18.0
->extra wallpapers-2018
->extra wallpapers-juhraya
 gnome-themes-standard
 grub-theme-manjaro
 matcha-gtk-theme
@@ -155,41 +125,22 @@ plymouth-theme-manjaro
 
 ## Applications
 bash-completion
->extra catfish
 dmidecode # optional dependency inxi
 engrampa
->extra firefox
-# >extra flashplugin
->extra galculator
 gcolor3
->extra gimp
 gparted
 gufw
->extra audacious
->extra hexchat
 htop
 inxi
-#>extra libreoffice-still
-#>extra microsoft-office-online-jak
-#>extra freeoffice
-#>extra onlyoffice-desktopeditors
 manjaro-hello
 manjaro-application-utility
 manjaro-settings-manager
 manjaro-settings-manager-notifier
->extra mlocate
 mousepad
 mugshot
->extra pidgin
 powertop
 screenfetch
 >extra poppler-data  # CKJ support for pdf
-#>basic sylpheed # mail client
->extra thunderbird
->extra vlc
->extra viewnior
->extra xfburn
->extra yelp
 
 # Optional dependencies engrampa
 p7zip  # 7Z and ARJ archive support
@@ -200,7 +151,6 @@ unrar  # RAR archive support
 #manjaro-documentation-en
 
 ## Settings packages
->extra manjaro-xfce-gtk3-settings
 >basic manjaro-xfce-gtk3-minimal-settings
 manjaro-browser-settings
 
@@ -230,9 +180,6 @@ xorg-mkfontscale
 ## Desktop Utils
 perl-file-mimeinfo
 xdg-utils
-#xdg-su
->extra timeshift
-#>extra kernel-alive
 
 ## Misc
 gtkhash-thunar
