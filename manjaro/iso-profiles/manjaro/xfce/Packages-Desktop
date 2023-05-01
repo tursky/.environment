@@ -144,9 +144,6 @@ p7zip  # 7Z and ARJ archive support
 unace  # ACE archive support
 unrar  # RAR archive support
 
-## Documentation
-manjaro-documentation-en
-
 ## Settings packages
 >basic manjaro-xfce-gtk3-minimal-settings
 manjaro-browser-settings
@@ -186,4 +183,5 @@ xiccd # enable color profile settings
 tlp
 
 ## User settings
+papirus-icon-theme
 > extra firefox
