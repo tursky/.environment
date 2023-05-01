@@ -1,13 +1,11 @@
 [Desktop Entry]
 Version=1.1
 Type=Application
-Name=My Computer
+Name=File Manager
 Comment=Browse the file system
-Icon=computer
+Icon=org.xfce.filemanager
 OnlyShowIn=XFCE;
 Exec=exo-open --launch FileManager %u
 Actions=
 Categories=Utility;X-XFCE;X-Xfce-Toplevel;
 StartupNotify=true
-Path=
-Terminal=false

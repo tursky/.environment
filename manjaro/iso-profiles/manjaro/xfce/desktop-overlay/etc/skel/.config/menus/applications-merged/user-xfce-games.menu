@@ -11,6 +11,7 @@
         <Filename>xfce4-file-manager.desktop</Filename>
         <Filename>xfce4-terminal-emulator.desktop</Filename>
         <Filename>xfce4-about.desktop</Filename>
+        <Filename>xfce4-appfinder.desktop</Filename>
     </Include>
 </Menu>
 </Menu>

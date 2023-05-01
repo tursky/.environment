@@ -1,3 +1,15 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
+[08E2BF44E2BF34B2]
+row=2
+col=0
+
+[Wastebasket]
+row=1
+col=0
+
+[/home/operator]
+row=0
+col=0
+

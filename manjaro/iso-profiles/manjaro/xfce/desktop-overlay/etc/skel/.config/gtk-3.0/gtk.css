@@ -1,6 +1,8 @@
 /* 
  * Set custom stylesheets
  */
+ 
+@import url("./mac-panel.css");
 
 /* Remove dotted lines from GTK 3 applications */
 undershoot.top, undershoot.right, undershoot.bottom, undershoot.left { 

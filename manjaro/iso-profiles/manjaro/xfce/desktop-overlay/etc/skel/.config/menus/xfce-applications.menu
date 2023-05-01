@@ -133,6 +133,7 @@
 		<DirectoryDir>/home/operator/.local/share/desktop-directories</DirectoryDir>
 		<Layout>
 			<Merge type="menus" />
+			<Filename>org.freecadweb.FreeCAD.desktop</Filename>
 			<Merge type="files" />
 		</Layout>
 	</Menu>
@@ -151,6 +152,7 @@
 		<DirectoryDir>/home/operator/.local/share/desktop-directories</DirectoryDir>
 		<Layout>
 			<Merge type="menus" />
+			<Filename>org.freecadweb.FreeCAD.desktop</Filename>
 			<Merge type="files" />
 		</Layout>
 	</Menu>
@@ -177,14 +179,17 @@
 			<Filename>pavucontrol.desktop</Filename>
 			<Filename>qv4l2.desktop</Filename>
 			<Filename>qvidcap.desktop</Filename>
+			<Filename>vlc.desktop</Filename>
 			<Merge type="files" />
 		</Layout>
 	</Menu>
 	<Menu>
 		<Name>Office</Name>
 		<Directory>xfce-office.directory</Directory>
+		<DirectoryDir>/home/operator/.local/share/desktop-directories</DirectoryDir>
 		<Layout>
 			<Merge type="menus" />
+			<Filename>org.onlyoffice.desktopeditors.desktop</Filename>
 			<Merge type="files" />
 		</Layout>
 	</Menu>
@@ -216,13 +221,25 @@
 	<Menu>
 		<Name>Science</Name>
 		<Directory>xfce-science.directory</Directory>
+		<DirectoryDir>/home/operator/.local/share/desktop-directories</DirectoryDir>
 		<Layout>
 			<Merge type="menus" />
+			<Filename>org.freecadweb.FreeCAD.desktop</Filename>
+			<Filename>org.kicad.kicad.desktop</Filename>
+			<Filename>org.kicad.gerbview.desktop</Filename>
+			<Filename>org.kicad.bitmap2component.desktop</Filename>
+			<Filename>org.kicad.pcbcalculator.desktop</Filename>
+			<Filename>org.kicad.pcbnew.desktop</Filename>
+			<Filename>org.kicad.eeschema.desktop</Filename>
 			<Merge type="files" />
 		</Layout>
 	</Menu>
 	<Layout>
-		<Filename>xfce4-about.desktop</Filename>
+		<Filename>xfce4-appfinder.desktop</Filename>
+		<Filename>xfce4-run.desktop</Filename>
+		<Filename>xfce4-terminal-emulator.desktop</Filename>
+		<Filename>xfce4-file-manager.desktop</Filename>
+		<Separator />
 		<Menuname>Settings</Menuname>
 		<Menuname>System</Menuname>
 		<Separator />
@@ -236,14 +253,6 @@
 		<Menuname>Office</Menuname>
 		<Menuname>Other</Menuname>
 		<Menuname>Science</Menuname>
-		<Separator />
-		<Separator />
-		<Filename>xfce4-file-manager.desktop</Filename>
-		<Separator />
-		<Separator />
-		<Filename>xfce4-terminal-emulator.desktop</Filename>
-		<Filename>xfce4-run.desktop</Filename>
-		<Filename>xfce4-appfinder.desktop</Filename>
 		<Filename>xfce4-session-logout.desktop</Filename>
 		<Filename>xfce4-mail-reader1.desktop</Filename>
 		<Filename>xfce4-web-browser1.desktop</Filename>
