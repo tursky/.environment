@@ -63,7 +63,7 @@ terminus-font
 pamac-gtk
 
 ## Printing
->extra manjaro-printer
+manjaro-printer
 
 ## Display manager
 lightdm
@@ -104,10 +104,10 @@ thunar-media-tags-plugin
 xfce4-battery-plugin
 xfce4-clipman-plugin
 
->extra xfce4-notes-plugin
+xfce4-notes-plugin
 xfce4-notifyd
 xfce4-screenshooter
->extra xfce4-sensors-plugin
+xfce4-sensors-plugin
 xfce4-taskmanager
 xfce4-whiskermenu-plugin
 xfce4-xkb-plugin
@@ -140,7 +140,7 @@ mousepad
 mugshot
 powertop
 screenfetch
->extra poppler-data  # CKJ support for pdf
+poppler-data  # CKJ support for pdf
 
 # Optional dependencies engrampa
 p7zip  # 7Z and ARJ archive support
