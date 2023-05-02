@@ -17,6 +17,9 @@ function prepare() {
 	       $base/.config/gtk-3.0 \
 	       $base/.config/menus \
 	       $base/.config/Kvantum \
+	       $base/.config/Thunar \
+	       $base/.config/manjaro \
+	       $base/.config/autostart \
 	       $base/.local/share/applications \
 	       $base/.local/share/desktop-directories
 }
@@ -41,6 +44,9 @@ if [[ $directive == 'set' ]]; then
 	cp -r $address/.config/gtk-3.0 ~/.config
 	cp -r $address/.config/menus ~/.config
 	cp -r $address/.config/Kvantum ~/.config
+	cp -r $address/.config/Thunar ~/.config
+	cp -r $address/.config/manjaro ~/.config
+	cp -r $address/.config/autostart ~/.config
 	cp -r $address/.local/share/applications ~/.local/share
 	cp -r $address/.local/share/desktop-directories ~/.local/share
 	cp -r $address/.themes ~/
@@ -60,7 +66,7 @@ if [[ $directive == 'save' ]]; then
 	cp -r ~/.themes .
 
 	cd .config
-	cp -r ~/.config/{xfce4,gtk-3.0,menus,Kvantum} .
+	cp -r ~/.config/{xfce4,gtk-3.0,menus,Kvantum,Thunar,manjaro,autostart} .
 	
 	cd .. && mkdir -p .local/share/ && cd .local/share/
 	cp -r ~/.local/share/{applications,desktop-directories} .
