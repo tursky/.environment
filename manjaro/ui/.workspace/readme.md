@@ -27,5 +27,10 @@ echo $ui
 ```
 
 ---
+Prerequisites are `Matcha theme` & `Papirus icons`, but not required:
+
+```
+sudo pacman -S papirus-icon-theme
+```
 
 Tested on a machine with **Manjaro OS**. The entire responsibility lies with the **UNIX** operator.
