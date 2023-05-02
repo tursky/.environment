@@ -258,10 +258,10 @@ sudo pacman -S telegram-desktop
 sudo pacman -S firefox
 ```
 
-### Chromium browser
+### Brave browser
 
 ```
-sudo pacman -S chromium
+pamac install brave-bin
 ```
 
 ### Mail client
