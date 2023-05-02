@@ -142,3 +142,14 @@ export PS1='\[\033[01;32m\]➞\[\033[00m\] ' # ➣
 # Environment presets
 export ui=mac
 alias envi='~/.workspace/make.sh'
+function env() {
+    home=$( pwd )
+    cd ~/.py/env
+    python -m venv env && . ./env/bin/activate
+    cd $home
+}
+
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
