@@ -41,6 +41,9 @@
 		- [Illustration viewer](#illustration-viewer)
 		- [Graphics editor](#graphics-editor)
 5. [Package managers tooling](#package-managers-tooling)
+	- [pamac](#pamac)
+	- [yay](#yay)
+	- [snapd](#snapd)
 6. [Fonts](#fonts)
 	- [IBM Plex Fonts](#ibm-plex-fonts)
 	- [Microsoft Windows Fonts](#microsoft-windows-fonts)
@@ -329,24 +332,44 @@ sudo pacman -S pinta
 
 # Package managers tooling
 
-Add/remove software using `yay`, `snapd` or `pamac`:
+Add/remove software using `yay`, `snapd` or `pamac`.
+
+## Pamac
+
+Check:
 
 ```
-sudo pacman -S yay snapd
+cat /etc/pamac.conf | grep EnableAUR
 ```
 
-```
-sudo ln -s /var/lib/snapd/snap /snap
-```
-
-Usage `pamac`:
+Enable `AUR`:
 
 ```
-pamac [search, build, install, remove] <packet>
+sudo sed -Ei '/EnableAUR/s/^#//' /etc/pamac.conf
+```
+
+Usage:
+
+```
 pamac list
+pamac [search, build, install, remove] <packet>
 ```
 
-Usage `yay`:
+Updates:
+
+```
+pamac checkupdates -a
+```
+
+```
+pamac upgrade -a
+```
+
+## YAY
+
+```
+sudo pacman -S yay
+```
 
 ```
 # Install
@@ -362,7 +385,16 @@ yay -Syu
 yay <packet>
 ```
 
-Usage `snapd`:
+## SNAPD
+
+Installing:
+
+```
+sudo pacman -S snapd
+sudo ln -s /var/lib/snapd/snap /snap
+```
+
+Usage:
 
 ```
 sudo snap [install, remove, find, refresh] <packet>
@@ -995,16 +1027,8 @@ echo 'function pg() {
 
 ## VSCodium
 
-Enable AUR for VSCodium:
-
 ```
-cat /etc/pamac.conf | grep EnableAUR && sudo sed -Ei '/EnableAUR/s/^#//' /etc/pamac.conf
-```
-
-Installing:
-
-```
-sudo pamac install vscodium-bin
+pamac install vscodium-bin
 ```
 
 ### Extensions set
