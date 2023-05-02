@@ -28,7 +28,7 @@
 	- [Web surfing and chatting](#web-surfing-and-chatting)
 		- [Telegram](#telegran)
 		- [Firefox](#firefox)
-		- [Chromium browser](#chromium-browser)
+		- [Brave browser](#brave-browser)
         - [Mail client](#mail-client)
 	- [Office environment](#office-environment)
 		- [Document editor](#document-editor)
