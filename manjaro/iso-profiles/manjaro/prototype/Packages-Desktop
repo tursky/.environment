@@ -182,9 +182,11 @@ manjaro-hotfixes
 xiccd # enable color profile settings
 tlp
 
-## User settings
+#####################################
+
+## User set
 papirus-icon-theme
 firefox
 
-## AUR packets
+## Custom aur packets
 >extra vscodium-bin
