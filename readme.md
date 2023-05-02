@@ -313,7 +313,7 @@ sudo pacman -S audacious
 ### Movie player
 
 ```
-sudo pacman -S vlc
+sudo pacman -S mpv
 ```
 
 ### Illustration viewer
