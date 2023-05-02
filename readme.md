@@ -86,6 +86,9 @@
 	- [FreeCAD](#freecad)
 	- [KiCad](#kicad)
 	- [Scilab](#scilab)
+	- [CircuitJS](#circuitjs)
+	- [Xyce](#xyce)
+	- [Micropython](#micropython)
 	- [Octave](#octave)
 	- [Drawio](#drawio)
 	- [Inkscape](#inkscape)
@@ -1181,6 +1184,28 @@ It can also be built from source:
 git clone https://aur.archlinux.org/scilab-bin.git && cd scilab-bin && makepkg -si
 ```
 
+## CircuitJS
+
+Circuit simulator for Linux
+
+```
+pamac build circuitjs-bin
+```
+
+## Xyce
+Analog circuit simulator
+
+```
+pamac build xyce-serial
+```
+
+## Micropython
+For microcontrollers
+
+```
+pamac build micropython
+```
+
 ## Octave
 
 Similar to `Matlab` application:
@@ -1261,12 +1286,6 @@ sudo pacman -S screenkey
 
 ```
 pamac build lingot
-```
-
-## Screenshot utility
-
-```
-sudo pacman -S flameshot
 ```
 
 ## Tex Match
