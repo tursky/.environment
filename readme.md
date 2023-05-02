@@ -31,9 +31,9 @@
 		- [Chromium browser](#chromium-browser)
         - [Mail client](#mail-client)
 	- [Office environment](#office-environment)
-		- [Docs editor](#docs-editor)
+		- [Document editor](#document-editor)
 		- [PDF viewer](#pdf-viewer)
-		- [Book reader](#book-reader)
+		- [E-book reader](#e-book-reader)
 		- [Calculator](#calculator)
 	- [Multimedia](#multimedia)
 		- [Audio player](#audio-player)
@@ -272,7 +272,7 @@ sudo pacman -S thunderbird
 
 ## Office environment
 
-### Docs editor
+### Document editor
 
 ```
 sudo pacman -S onlyoffice-desktopeditors
@@ -284,7 +284,7 @@ sudo pacman -S onlyoffice-desktopeditors
 sudo pacman -S xreader
 ```
 
-### Book reader
+### E-book reader
 
 To read docs in `.fb2` or `.epub` extenstions:
 
@@ -315,7 +315,7 @@ sudo pacman -S vlc
 ### Illustration viewer
 
 ```
-sudo pacman -S pix
+sudo pacman -S ristretto
 ```
 
 ### Graphics editor
