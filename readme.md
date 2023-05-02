@@ -783,6 +783,8 @@ Usage:
 pyenv install --list
 ```
 
+Required `base-devel` packet:
+
 ```
 pyenv install 3.11.2 && pyenv global 3.11.2
 ```
