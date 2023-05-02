@@ -193,3 +193,33 @@ Cleaning build environment:
 ```
  sudo rm -r /var/lib/manjaro-tools/buildpkg 
 ```
+
+---
+
+If to rename the `xfce` directory to `prototype`, for example, then this must be specified during compilation:
+
+```
+buildiso -f -p prototype -k linux61 -b stable -t /home/operator/Downloads
+```
+
+Or change default settings in `manjaro-tools`:
+
+```
+cd ~/.config/manjaro-tools/iso.list.d && ls -a
+```
+
+---
+
+To create a bootable USB flash drive, there are built-in tools:
+
+
+Find where the flash driver is mounted:
+```
+sudo fdisk -l
+```
+
+`/sdc` or `/sdb` is the target flash drive:
+
+```
+sudo dd bs=4M if=/home/operator/Downloads/manjaro/xfce/22.1.0/manjaro-xfce-22.1.0-230501-linux61.iso of=/dev/sdb status=progress oflag=sync
+```
