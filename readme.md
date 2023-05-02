@@ -97,6 +97,7 @@
 	- [Offline dictionaries](#offline-dictionaries)
 		- [StarDict](#stardict)
 		- [GoldenDict](#goldendict)
+	- [FreeTube](#freetube)
 13. [Hardware](#hardware)
 14. [Run OS in terminal mode](#run-os-in-terminal-mode)
 15. [Setup graphics](#setup-graphics)
@@ -1311,6 +1312,12 @@ sudo mkdir /usr/share/goldendict/dic
 
 ```
 sudo unzip WAV-dict.zip -d /usr/share/goldendict/dic
+```
+
+## FreeTube
+
+```
+pamac build freetube
 ```
 
 ---
