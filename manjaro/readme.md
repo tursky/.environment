@@ -221,5 +221,5 @@ sudo fdisk -l
 `/sdc` or `/sdb` is the target flash drive:
 
 ```
-sudo dd bs=4M if=/home/operator/Downloads/manjaro/xfce/22.1.0/manjaro-xfce-22.1.0-230501-linux61.iso of=/dev/sdb status=progress oflag=sync
+sudo dd bs=4M if=/home/operator/Downloads/manjaro/xfce/22.1.0/manjaro-prototype-22.1.0-230501-linux61.iso of=/dev/sdb status=progress oflag=sync
 ```
