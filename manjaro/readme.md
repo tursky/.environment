@@ -193,3 +193,17 @@ Cleaning build environment:
 ```
  sudo rm -r /var/lib/manjaro-tools/buildpkg 
 ```
+
+---
+
+If to rename the `xfce` directory to `prototype`, for example, then this must be specified during compilation:
+
+```
+buildiso -f -p prototype -k linux61 -b stable -t /home/operator/Downloads
+```
+
+Or change default settings in `manjaro-tools`:
+
+```
+cd ~/.config/manjaro-tools/iso.list.d && ls -a
+```
