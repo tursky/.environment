@@ -265,7 +265,7 @@ sudo pacman -S firefox
 ### Brave browser
 
 ```
-pamac install brave-bin
+sudo pacman -S brave-browser
 ```
 
 ### Mail client
@@ -293,7 +293,7 @@ sudo pacman -S xreader
 To read docs in `.fb2` or `.epub` extenstions:
 
 ```
-sudo pacman -S fbreader
+sudo pacman -S foliate
 ```
 
 ### Calculator
