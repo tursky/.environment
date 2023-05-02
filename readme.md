@@ -87,7 +87,6 @@
 	- [KiCad](#kicad)
 	- [Scilab](#scilab)
 	- [CircuitJS](#circuitjs)
-	- [Xyce](#xyce)
 	- [Micropython](#micropython)
 	- [Octave](#octave)
 	- [Drawio](#drawio)
@@ -1190,13 +1189,6 @@ Circuit simulator for Linux
 
 ```
 pamac build circuitjs-bin
-```
-
-## Xyce
-Analog circuit simulator
-
-```
-pamac build xyce-serial
 ```
 
 ## Micropython
