@@ -128,8 +128,10 @@ When rebuilding, but with different parameters, it will be need to remove some f
 
 ```
 sudo rm -r /var/lib/manjaro-tools/buildiso/
-pacache-ruk0
 sudo rm -r /var/cache/manjaro-tools/
+```
+
+```
 sudo rm -r ~/.config/manjaro-tools
 ```
 
