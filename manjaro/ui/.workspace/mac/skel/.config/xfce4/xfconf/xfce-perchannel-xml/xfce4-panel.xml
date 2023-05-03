@@ -4,6 +4,7 @@
   <property name="panels" type="array">
     <value type="int" value="0"/>
     <value type="int" value="1"/>
+    <value type="int" value="2"/>
     <property name="panel-0" type="empty">
       <property name="position" type="string" value="p=6;x=960;y=20"/>
       <property name="length" type="uint" value="100"/>
@@ -54,7 +55,7 @@
       <property name="icon-size" type="uint" value="24"/>
       <property name="background-rgba" type="array">
         <value type="double" value="0.078431372549019607"/>
-        <value type="double" value="0.086274509803921567"/>
+        <value type="double" value="0.10196078431372549"/>
         <value type="double" value="0.10588235294117647"/>
         <value type="double" value="1"/>
       </property>
@@ -69,10 +70,9 @@
       <property name="plugin-ids" type="array">
         <value type="int" value="26"/>
         <value type="int" value="38"/>
-        <value type="int" value="10"/>
-        <value type="int" value="50"/>
         <value type="int" value="22"/>
         <value type="int" value="7"/>
+        <value type="int" value="10"/>
         <value type="int" value="11"/>
         <value type="int" value="13"/>
       </property>
@@ -89,6 +89,16 @@
       </property>
       <property name="enter-opacity" type="uint" value="100"/>
       <property name="icon-size" type="uint" value="0"/>
+    </property>
+    <property name="panel-2" type="empty">
+      <property name="position" type="string" value="p=8;x=96;y=1175"/>
+      <property name="size" type="uint" value="70"/>
+      <property name="length" type="double" value="1"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="50"/>
+      </property>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="leave-opacity" type="uint" value="0"/>
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -111,8 +121,7 @@
         <value type="string" value="blueman"/>
       </property>
       <property name="known-legacy-items" type="array">
-        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (63%)"/>
-        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (79%)"/>
+        <value type="string" value="blueman"/>
         <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (78%)"/>
         <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (80%)"/>
         <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (84%)"/>

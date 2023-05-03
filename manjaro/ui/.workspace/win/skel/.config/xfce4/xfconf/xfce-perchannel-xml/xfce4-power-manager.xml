@@ -11,13 +11,13 @@
     <property name="inactivity-on-battery" type="uint" value="15"/>
     <property name="lid-action-on-battery" type="uint" value="1"/>
     <property name="logind-handle-lid-switch" type="bool" value="true"/>
-    <property name="inactivity-on-ac" type="uint" value="15"/>
+    <property name="inactivity-on-ac" type="uint" value="30"/>
     <property name="lid-action-on-ac" type="uint" value="1"/>
     <property name="brightness-on-battery" type="uint" value="9"/>
     <property name="blank-on-battery" type="int" value="1"/>
-    <property name="dpms-on-ac-sleep" type="uint" value="15"/>
-    <property name="dpms-on-ac-off" type="uint" value="20"/>
-    <property name="blank-on-ac" type="int" value="10"/>
+    <property name="dpms-on-ac-sleep" type="uint" value="10"/>
+    <property name="dpms-on-ac-off" type="uint" value="30"/>
+    <property name="blank-on-ac" type="int" value="5"/>
     <property name="brightness-step-count" type="uint" value="25"/>
   </property>
 </channel>

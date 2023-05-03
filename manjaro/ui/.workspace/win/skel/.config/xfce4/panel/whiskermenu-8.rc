@@ -1,5 +1,5 @@
-favorites=org.manjaro.pamac.manager.desktop,xfce4-terminal.desktop,xfce-settings-manager.desktop,xfce4-about.desktop,xfce-session-settings.desktop,htop.desktop,xfce4-power-manager-settings.desktop,xfce-keyboard-settings.desktop,xfce-mouse-settings.desktop,org.xfce.mousepad.desktop,xfce4-file-manager.desktop,xfce4-run.desktop
-recent=org.bluesabre.Mugshot.desktop,xfce4-notifyd-config.desktop,xfce4-appfinder.desktop,xfce-wmtweaks-settings.desktop,org.xfce.mousepad-settings.desktop,htop.desktop,msm_notifier_settings.desktop,org.xfce.mousepad.desktop,xfce-wm-settings.desktop,gparted.desktop,xfce4-mime-settings.desktop
+favorites=org.manjaro.pamac.manager.desktop,xfce4-terminal.desktop,xfce-settings-manager.desktop,xfce4-about.desktop,xfce4-power-manager-settings.desktop,xfce-session-settings.desktop,htop.desktop,org.xfce.mousepad.desktop,xfce4-file-manager.desktop,xfce4-run.desktop
+recent=xfce4-taskmanager.desktop,nl.hjdskes.gcolor3.desktop,xfce-keyboard-settings.desktop,manjaro-hello.desktop,org.bluesabre.Mugshot.desktop,xfce4-notifyd-config.desktop,xfce4-appfinder.desktop,xfce-wmtweaks-settings.desktop,org.xfce.mousepad-settings.desktop,htop.desktop,msm_notifier_settings.desktop,org.xfce.mousepad.desktop
 button-title=\ \ \ Applications\ \ \ 
 button-icon=/usr/share/icons/Papirus/24x24/apps/distributor-logo-windows.svg
 button-single-row=false
@@ -25,7 +25,7 @@ stay-on-focus-out=false
 profile-shape=2
 confirm-session-command=true
 menu-width=428
-menu-height=691
+menu-height=578
 menu-opacity=100
 command-settings=xfce4-settings-manager
 show-command-settings=false

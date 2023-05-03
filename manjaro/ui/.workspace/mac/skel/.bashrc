@@ -141,5 +141,4 @@ export PS1='\[\033[01;32m\]➞\[\033[00m\] ' # ➣
 
 # Environment presets
 export ui=mac
-alias envi='~/.workspace/make.sh'
-
+alias workspace='~/.workspace/make.sh'

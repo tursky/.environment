@@ -62,6 +62,8 @@
         <value type="string" value="blueman"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (76%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (71%)"/>
         <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (63%)"/>
         <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (67%)"/>
         <value type="string" value="xfce4-power-manager"/>
