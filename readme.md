@@ -45,10 +45,11 @@
 	- [yay](#yay)
 	- [snapd](#snapd)
 6. [Fonts](#fonts)
+	- [Computer Modern Fonts](#computer-modern-fonts)
 	- [IBM Plex Fonts](#ibm-plex-fonts)
 	- [Microsoft Windows Fonts](#microsoft-windows-fonts)
 	- [Mono Fonts by JetBrains](#mono-fonts-by-jetbrains)
-	- [Fonts for LaTeX](#fonts-for-latex)
+	- [GNU Free Fonts](#gnu-free-fonts)
 7. [Console environment](#console-environment)
 	- [Neovim](#neovim)
 	- [Tmux](#tmux)
@@ -315,7 +316,7 @@ sudo pacman -S audacious
 ### Movie player
 
 ```
-sudo pacman -S mpv
+sudo pacman -S vlc
 ```
 
 ### Illustration viewer
@@ -408,6 +409,12 @@ sudo snap refresh
 
 # Fonts
 
+## Computer Modern Fonts
+
+```
+sudo pacman -S otf-latin-modern
+```
+
 ## IBM Plex Fonts
 
 ```
@@ -427,14 +434,15 @@ pamac install ttf-ms-fonts
 sudo pacman -S ttf-jetbrains-mono
 ```
 
-## Fonts for LaTeX:
-
-```
-pamac install otf-xits
-```
+## GNU Free Fonts
 
 ```
 sudo pacman -S gnu-free-fonts
+```
+
+Usin in `LaTeX` as math font with `Times New Roman`:
+```
+pamac install otf-xits
 ```
 
 ---
