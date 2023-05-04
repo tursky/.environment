@@ -50,6 +50,7 @@
 	- [Microsoft Windows Fonts](#microsoft-windows-fonts)
 	- [Mono Fonts by JetBrains](#mono-fonts-by-jetbrains)
 	- [GNU Free Fonts](#gnu-free-fonts)
+	- [Fonts for code from Font Bureau](#fonts-for-code-from-font-bureau)
 7. [Console environment](#console-environment)
 	- [Neovim](#neovim)
 	- [Tmux](#tmux)
@@ -443,6 +444,12 @@ sudo pacman -S gnu-free-fonts
 Using in `LaTeX` as math font with `Times New Roman`:
 ```
 pamac install otf-xits
+```
+
+## Fonts for code from Font Bureau
+
+```
+sudo pacman -S ttf-input
 ```
 
 ---
