@@ -440,7 +440,7 @@ sudo pacman -S ttf-jetbrains-mono
 sudo pacman -S gnu-free-fonts
 ```
 
-Usin in `LaTeX` as math font with `Times New Roman`:
+Using in `LaTeX` as math font with `Times New Roman`:
 ```
 pamac install otf-xits
 ```
