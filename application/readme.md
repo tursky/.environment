@@ -77,7 +77,8 @@ mkdir manjaro/xfce/desktop-overlay/etc/skel
 After creating the `skel` dir, copy all the necessary settings files into it:
 
 ```
-cp -r ../../workspace/win/skel manjaro/xfce/desktop-overlay/etc/skel
+cp -r ../../workspace/skel/global manjaro/xfce/desktop-overlay/etc/skel
+cp -r ../../workspace/skel/glocal/unix manjaro/xfce/desktop-overlay/etc/skel
 ```
 
 ```
