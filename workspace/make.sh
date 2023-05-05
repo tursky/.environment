@@ -66,7 +66,7 @@ if [[ $directive == 'set' ]]; then
 
 	echo $env > $__dir/config
 
-	# reboot
+	reboot
 fi
 
 if [[ $directive == 'save' ]]; then
