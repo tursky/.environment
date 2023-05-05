@@ -19,14 +19,14 @@ cp -R /etc/manjaro-tools  ~/.config
 Download the latest ISO profiles anywhere in your `home` catalog:
 
 ```
-git clone https://gitlab.manjaro.org/profiles-and-settings/iso-profiles.git ~/.environment/manjaro/iso-profiles
+git clone https://gitlab.manjaro.org/profiles-and-settings/iso-profiles.git ~/.environment/application/iso-profiles
 ```
 
 Specify your path to the directory with Manjaro profiles:
 
 ```
 touch ~/.config/manjaro-tools/iso-profiles.conf
-echo 'run_dir=/home/operator/.environment/manjaro/iso-profiles' >> ~/.config/manjaro-tools/iso-profiles.conf
+echo 'run_dir=/home/operator/.environment/application/iso-profiles' >> ~/.config/manjaro-tools/iso-profiles.conf
 ```
 
 Check if everything is ok. Print some info about it:
@@ -56,7 +56,7 @@ If you did not change the paths in `manjaro-tools.conf` the resulting xfce ISO i
 Preparations for creating an ISO image are now complete. Go to `iso-profile`:
 
 ```
-cd ~/.environment/manjaro/iso-profiles
+cd ~/.environment/application/iso-profiles
 ```
 
 ---
@@ -88,7 +88,7 @@ multilib="true"
 extra="true"
 hostname="unix"
 username="operator"
-' >> ~/.environment/manjaro/iso-profiles/manjaro/xfce/profile.conf
+' >> ~/.environment/application/iso-profiles/manjaro/xfce/profile.conf
 ```
 
 ```
@@ -185,7 +185,7 @@ Add packet to `Packages-Desktop`:
 ```
 echo '
 ## AUR packets
-vscodium-bin' >> ~/.environment/manjaro/iso-profiles/manjaro/xfce/Packages-Desktop
+vscodium-bin' >> ~/.environment/application/iso-profiles/manjaro/xfce/Packages-Desktop
 ```
 
 Cleaning build environment:
