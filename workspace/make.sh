@@ -11,22 +11,24 @@ directive=$USER_INPUT
 # Remove custom environment settings 
 function prepare() {
 	base=$@
-	rm -rf $base/.bashrc \
-	       $base/.themes \
-	       $base/.config/xfce4 \
-	       $base/.config/gtk-3.0 \
-	       $base/.config/menus \
-	       $base/.config/Kvantum \
-	       $base/.config/Thunar \
-	       $base/.config/manjaro \
-	       $base/.config/autostart \
-	       $base/.local/share/applications \
-	       $base/.local/share/desktop-directories
+	# rm -rf $base/.bashrc \
+	#        $base/.themes \
+	#        $base/.config/xfce4 \
+	#        $base/.config/gtk-3.0 \
+	#        $base/.config/menus \
+	#        $base/.config/Kvantum \
+	#        $base/.config/Thunar \
+	#        $base/.config/manjaro \
+	#        $base/.config/autostart \
+	#        $base/.local/share/applications \
+	#        $base/.local/share/desktop-directories
+
+	echo 'Preparing...'
 }
 
 # Init
-workspace='.workspace'
-src='skel'
+# workspace='.workspace'
+# src='skel'
 
 # Run
 if [[ $directive == 'set' ]]; then
@@ -34,44 +36,46 @@ if [[ $directive == 'set' ]]; then
 	read -p '- ' USER_INPUT
 	env=$USER_INPUT
 	
-	address=~/$workspace/$env/$src
+	# address=~/$workspace/$env/$src
 
-	destination=/home/$USER/
-	prepare $destination
+	# destination=/home/$USER/
+	# prepare $destination
     
-	cp -r $address/.bashrc ~/
-	cp -r $address/.config/xfce4 ~/.config
-	cp -r $address/.config/gtk-3.0 ~/.config
-	cp -r $address/.config/menus ~/.config
-	cp -r $address/.config/Kvantum ~/.config
-	cp -r $address/.config/Thunar ~/.config
-	cp -r $address/.config/manjaro ~/.config
-	cp -r $address/.config/autostart ~/.config
-	cp -r $address/.local/share/applications ~/.local/share
-	cp -r $address/.local/share/desktop-directories ~/.local/share
-	cp -r $address/.themes ~/
+	# cp -r $address/.bashrc ~/
+	# cp -r $address/.config/xfce4 ~/.config
+	# cp -r $address/.config/gtk-3.0 ~/.config
+	# cp -r $address/.config/menus ~/.config
+	# cp -r $address/.config/Kvantum ~/.config
+	# cp -r $address/.config/Thunar ~/.config
+	# cp -r $address/.config/manjaro ~/.config
+	# cp -r $address/.config/autostart ~/.config
+	# cp -r $address/.local/share/applications ~/.local/share
+	# cp -r $address/.local/share/desktop-directories ~/.local/share
+	# cp -r $address/.themes ~/
 
-	reboot
+	# reboot
+	echo 'Setting...'
 fi
 
 if [[ $directive == 'save' ]]; then
-	destination=$workspace/$ui/$src
-	prepare $destination
+	# destination=$workspace/$ui/$src
+	# prepare $destination
 
-	home=$( pwd )
+	# home=$( pwd )
 	
-	mkdir -p $destination/.config && cd $destination
+	# mkdir -p $destination/.config && cd $destination
 	
-	cp -r ~/.bashrc .
-	cp -r ~/.themes .
+	# cp -r ~/.bashrc .
+	# cp -r ~/.themes .
 
-	cd .config
-	cp -r ~/.config/{xfce4,gtk-3.0,menus,Kvantum,Thunar,manjaro,autostart} .
+	# cd .config
+	# cp -r ~/.config/{xfce4,gtk-3.0,menus,Kvantum,Thunar,manjaro,autostart} .
 	
-	cd .. && mkdir -p .local/share/ && cd .local/share/
-	cp -r ~/.local/share/{applications,desktop-directories} .
+	# cd .. && mkdir -p .local/share/ && cd .local/share/
+	# cp -r ~/.local/share/{applications,desktop-directories} .
 	
-	echo '- successfully'
+	# echo '- successfully'
 
-	cd $home
+	# cd $home
+	echo 'Saving...'
 fi
