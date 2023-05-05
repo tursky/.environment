@@ -14,11 +14,9 @@ directive=$USER_INPUT
 
 __dir=$(cd $(dirname ${BASH_SOURCE:-$0}) && pwd)
 system=`cat $__dir/config`
-
 root='skel-cp'
-
-global=$__dir/$root/global/
-glocal=$__dir/$root/glocal/$system
+global=$__dir/$root/global
+glocal=$__dir/$root/glocal
 
 
 # Remove custom environment settings 
@@ -78,21 +76,21 @@ if [[ $directive == 'save' ]]; then
 	echo $system
 	prepare 'workspace'
 
-	# home=$( pwd )
+	home=$( pwd )
 	
-	# mkdir -p $destination/.config && cd $destination
-	
-	# cp -r ~/.bashrc .
-	# cp -r ~/.themes .
+	cp -r ~/.bashrc $global
 
-	# cd .config
-	# cp -r ~/.config/{xfce4,gtk-3.0,menus,Kvantum,Thunar,manjaro,autostart} .
-	
-	# cd .. && mkdir -p .local/share/ && cd .local/share/
-	# cp -r ~/.local/share/{applications,desktop-directories} .
-	
-	# echo '- successfully'
+	destination=$glocal/$system
+	mkdir $destination && cd $destination
 
-	# cd $home
+	cp -r ~/.themes .
+	mkdir -p .config && cd .config
+	cp -r ~/.config/{xfce4,gtk-3.0,menus,Kvantum,Thunar,manjaro,autostart} .
+	cd .. && mkdir -p .local/share/ && cd .local/share/
+	cp -r ~/.local/share/{applications,desktop-directories} .
+	
+	echo '- successfully'
+
+	cd $home
 	echo 'Saving...'
 fi
