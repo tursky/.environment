@@ -27,17 +27,18 @@ function prepare() {
 	fi
 
 	if [[ $@ == 'home' ]]; then
-		rm -rf ~/.bashrc \
-			~/.themes \
-			~/.config/xfce4 \
-			~/.config/gtk-3.0 \
-			~/.config/menus \
-			~/.config/Kvantum \
-			~/.config/Thunar \
-			~/.config/manjaro \
-			~/.config/autostart \
-			~/.local/share/applications \
-			~/.local/share/desktop-directories
+		base=/home/$USER
+		rm -rf $base/.bashrc \
+			$base/.themes \
+			$base/.config/xfce4 \
+			$base/.config/gtk-3.0 \
+			$base/.config/menus \
+			$base/.config/Kvantum \
+			$base/.config/Thunar \
+			$base/.config/manjaro \
+			$base/.config/autostart \
+			$base/.local/share/applications \
+			$base/.local/share/desktop-directories
 	fi
 
 	echo 'Preparing...'
@@ -45,28 +46,25 @@ function prepare() {
 
 # Run
 if [[ $directive == 'set' ]]; then
-	echo '- mac or win?' # working environment
+	echo '- unix or windows?' # working environment
 	read -p '- ' USER_INPUT
 	env=$USER_INPUT
 
-	echo $env > $__dir/config
-	
-	# address=~/$workspace/$env/$src
-
-	# destination=/home/$USER/
-	# prepare $destination
+	prepare 'home'
     
-	# cp -r $address/.bashrc ~/
-	# cp -r $address/.config/xfce4 ~/.config
-	# cp -r $address/.config/gtk-3.0 ~/.config
-	# cp -r $address/.config/menus ~/.config
-	# cp -r $address/.config/Kvantum ~/.config
-	# cp -r $address/.config/Thunar ~/.config
-	# cp -r $address/.config/manjaro ~/.config
-	# cp -r $address/.config/autostart ~/.config
-	# cp -r $address/.local/share/applications ~/.local/share
-	# cp -r $address/.local/share/desktop-directories ~/.local/share
-	# cp -r $address/.themes ~/
+	cp -r $global/.bashrc ~/
+	cp -r $glocal/$env/.config/xfce4 ~/.config
+	cp -r $glocal/$env/.config/gtk-3.0 ~/.config
+	cp -r $glocal/$env/.config/menus ~/.config
+	cp -r $glocal/$env/.config/Kvantum ~/.config
+	cp -r $glocal/$env/.config/Thunar ~/.config
+	cp -r $glocal/$env/.config/manjaro ~/.config
+	cp -r $glocal/$env/.config/autostart ~/.config
+	cp -r $glocal/$env/.local/share/applications ~/.local/share
+	cp -r $glocal/$env/.local/share/desktop-directories ~/.local/share
+	cp -r $glocal/$env/.themes ~/
+
+	echo $env > $__dir/config
 
 	# reboot
 	echo 'Setting...'
