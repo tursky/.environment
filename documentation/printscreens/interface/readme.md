@@ -1,4 +1,4 @@
-# XFCE desktop environment personal settings
+# XFCE custom presets
 
 1. [Windows XFCE](#windows-xfce)
 2. [Mac XFCE](#mac-xfce)

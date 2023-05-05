@@ -1,4 +1,4 @@
-# UNIX-like work environment
+# UNIX-like computing terminal
 
 ![Xfce console](./printscreens/xfce.png)
 
