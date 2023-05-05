@@ -1,6 +1,6 @@
 # UNIX-like work environment
 
-![Xfce console](/illustrations/xfce.png)
+![Xfce console](./printscreens/xfce.png)
 
 - Download OS: https://manjaro.org/
 	- linux: Manjaro XFCE
@@ -134,7 +134,7 @@ xfce4-notes
 
 Use `htop` in terminal or `kill PID` to manage running processes:
 
-![Console administration](/illustrations/htop.png)
+![Console administration](./printscreens/htop.png)
 
 ## Cleaning
 
@@ -224,7 +224,7 @@ sudo pacman -Syu
 
 Customize your desktop:
 
-![Xfce Desktop](/illustrations/desktop.png)
+![Xfce Desktop](./printscreens/desktop.png)
 
 Remove some programs if they are not needed, included in the `minimal` build:
 - Evince (evince)
@@ -462,7 +462,7 @@ Terminal command line setup:
 echo "export PS1='\[\033[01;32m\][\u\[\033[01;37m\] \W\[\033[01;32m\]]#\[\033[00m\] '" >> ~/.bashrc
 ```
 
-![Xfce console](/illustrations/terminal.png)
+![Xfce console](./printscreens/terminal.png)
 
 ### Neovim
 
@@ -540,7 +540,7 @@ tmux split-window -hf
 exit
 ```
 
-![Tmux windows](/illustrations/tmux.png)
+![Tmux windows](./printscreens/tmux.png)
 
 ### Bat
 
@@ -582,7 +582,7 @@ sudo pacman -S mc
 `mc >> F9 >> Option >> Apperance >>`
 	- [x] modarin256-defbg
 
-![Midnight commander](/illustrations/mc.png)
+![Midnight commander](./printscreens/mc.png)
 
 - To use **nvim** in **mc**:
 `mc >> F9 >> Option >> Configuration >>`
@@ -614,7 +614,7 @@ mkdir ~/.ssh && cd ~/.ssh && touch config
 
 Example `config` with required configuration:
 
-![SSH config](/illustrations/ssh.png)
+![SSH config](./printscreens/ssh.png)
 
 ```
 echo "Host github.com
@@ -1336,7 +1336,7 @@ Usage:
 sdcv cybernetics
 ```
 
-![Console translator](/illustrations/sdcv.png)
+![Console translator](./printscreens/sdcv.png)
 
 ```
 echo 'function slovo() {
@@ -1473,7 +1473,7 @@ Link: [[HowTo] get legacy 340xx NVIDIA drivers back](https://forum.manjaro.org/t
 
 # Testing machine: IBM T61p
 
-![Manjaro screenfetch](/illustrations/screenfetch.png)
+![Manjaro screenfetch](./printscreens/screenfetch.png)
 
 ---
 
