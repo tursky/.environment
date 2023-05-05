@@ -64,7 +64,7 @@ if [[ $directive == 'set' ]]; then
 	cp -r $glocal/$env/.local/share/desktop-directories ~/.local/share
 	cp -r $glocal/$env/.themes ~/
 
-	echo $env > $__dir/config
+	echo -n $env > $__dir/config
 
 	reboot
 fi
