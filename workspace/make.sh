@@ -8,30 +8,42 @@ echo '- set or save?'
 read -p '- ' USER_INPUT
 directive=$USER_INPUT
 
-# Remove custom environment settings 
-function prepare() {
-	base=$@
-	# rm -rf $base/.bashrc \
-	#        $base/.themes \
-	#        $base/.config/xfce4 \
-	#        $base/.config/gtk-3.0 \
-	#        $base/.config/menus \
-	#        $base/.config/Kvantum \
-	#        $base/.config/Thunar \
-	#        $base/.config/manjaro \
-	#        $base/.config/autostart \
-	#        $base/.local/share/applications \
-	#        $base/.local/share/desktop-directories
-
-	echo 'Preparing...'
-}
-
 # Init
 # workspace='.workspace'
 # src='skel'
 
 __dir=$(cd $(dirname ${BASH_SOURCE:-$0}) && pwd)
 system=`cat $__dir/config`
+
+root='skel-cp'
+
+global=$__dir/$root/global/
+glocal=$__dir/$root/glocal/$system
+
+
+# Remove custom environment settings 
+function prepare() {
+	if [[ $@ == 'workspace' ]]; then
+		rm -rf $__dir/$root/global/.bashrc
+		rm -rf $__dir/$root/glocal/$system
+	fi
+
+	if [[ $@ == 'home' ]]; then
+		rm -rf ~/.bashrc \
+			~/.themes \
+			~/.config/xfce4 \
+			~/.config/gtk-3.0 \
+			~/.config/menus \
+			~/.config/Kvantum \
+			~/.config/Thunar \
+			~/.config/manjaro \
+			~/.config/autostart \
+			~/.local/share/applications \
+			~/.local/share/desktop-directories
+	fi
+
+	echo 'Preparing...'
+}
 
 # Run
 if [[ $directive == 'set' ]]; then
@@ -64,8 +76,7 @@ fi
 
 if [[ $directive == 'save' ]]; then
 	echo $system
-	# destination=$workspace/$ui/$src
-	# prepare $destination
+	prepare 'workspace'
 
 	# home=$( pwd )
 	
