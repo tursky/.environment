@@ -14,9 +14,7 @@ echo "
 alias workspace='~/.workspace/make.sh'" >> ~/.bashrc
 ```
 
-3. Enter `workspace` in the terminal to initiate a dialogue with the machine. Follow the instructions:
-
-![](usage.png)
+3. Enter `workspace` in the terminal to initiate a dialogue with the machine. Follow the instructions.
 
 > Be careful because this directive will delete your current configuration files. Please see the contents of the executable file.
 

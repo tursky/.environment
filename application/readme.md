@@ -1,4 +1,4 @@
-# Compile UNIX-like OS step by step
+# Compile OS ISO image step by step
 
 Link: [Build Manjaro ISOs with buildiso](https://wiki.manjaro.org/index.php/Build_Manjaro_ISOs_with_buildiso#Adding_AUR_packages)
 
@@ -19,14 +19,14 @@ cp -R /etc/manjaro-tools  ~/.config
 Download the latest ISO profiles anywhere in your `home` catalog:
 
 ```
-git clone https://gitlab.manjaro.org/profiles-and-settings/iso-profiles.git ~/.environment/manjaro/iso-profiles
+git clone https://gitlab.manjaro.org/profiles-and-settings/iso-profiles.git ~/.environment/application/iso-profiles
 ```
 
 Specify your path to the directory with Manjaro profiles:
 
 ```
 touch ~/.config/manjaro-tools/iso-profiles.conf
-echo 'run_dir=/home/operator/.environment/manjaro/iso-profiles' >> ~/.config/manjaro-tools/iso-profiles.conf
+echo 'run_dir=/home/operator/.environment/application/iso-profiles' >> ~/.config/manjaro-tools/iso-profiles.conf
 ```
 
 Check if everything is ok. Print some info about it:
@@ -56,7 +56,7 @@ If you did not change the paths in `manjaro-tools.conf` the resulting xfce ISO i
 Preparations for creating an ISO image are now complete. Go to `iso-profile`:
 
 ```
-cd ~/.environment/manjaro/iso-profiles
+cd ~/.environment/application/iso-profiles
 ```
 
 ---
@@ -77,7 +77,7 @@ mkdir manjaro/xfce/desktop-overlay/etc/skel
 After creating the `skel` dir, copy all the necessary settings files into it:
 
 ```
-cp -r ../ui/.workspace/win/skel manjaro/xfce/desktop-overlay/etc/skel
+cp -r ../../workspace/win/skel manjaro/xfce/desktop-overlay/etc/skel
 ```
 
 ```
@@ -88,7 +88,7 @@ multilib="true"
 extra="true"
 hostname="unix"
 username="operator"
-' >> ~/.environment/manjaro/iso-profiles/manjaro/xfce/profile.conf
+' >> ~/.environment/application/iso-profiles/manjaro/xfce/profile.conf
 ```
 
 ```
@@ -185,7 +185,7 @@ Add packet to `Packages-Desktop`:
 ```
 echo '
 ## AUR packets
-vscodium-bin' >> ~/.environment/manjaro/iso-profiles/manjaro/xfce/Packages-Desktop
+vscodium-bin' >> ~/.environment/application/iso-profiles/manjaro/xfce/Packages-Desktop
 ```
 
 Cleaning build environment:

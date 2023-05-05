@@ -1,4 +1,4 @@
-# XFCE desktop environment personal settings
+# XFCE custom presets
 
 1. [Windows XFCE](#windows-xfce)
 2. [Mac XFCE](#mac-xfce)
@@ -13,153 +13,153 @@
 
 # Terminal view
 
-![](show/console.png)
+![](./xfce/console.png)
 
 ---
 
 ## Windows XFCE
 > professional
 
-![](show/win/desktop.png)
+![](./xfce/win/desktop.png)
 
 **Explorer**
 
-![](show/win/explorer.png)
+![](./xfce/win/explorer.png)
 
 **Start menu**
 
-![](show/win/menu.png)
+![](./xfce/win/menu.png)
 
 **Search program**
 
-![](show/win/menu-find.png)
+![](./xfce/win/menu-find.png)
 
 **Workspace**
 
-![](show/win/programs.png)
+![](./xfce/win/programs.png)
 
 **Exit menu**
 
-![](show/win/menu-exit.png)
+![](./xfce/win/menu-exit.png)
 
 **Terminal**
 
-![](show/win/terminal.png)
+![](./xfce/win/terminal.png)
 
 **Console Task Manager**
 
-![](show/win/terminal-htop.png)
+![](./xfce/win/terminal-htop.png)
 
 **Start Office**
 
-![](show/win/office-start.png)
+![](./xfce/win/office-start.png)
 
 **Office Document**
 
-![](show/win/office-document.png)
+![](./xfce/win/office-document.png)
 
 **FreeCAD**
 
-![](show/win/freecad-start.png)
+![](./xfce/win/freecad-start.png)
 
 **FreeCAD Project**
 
-![](show/win/freecad-project.png)
+![](./xfce/win/freecad-project.png)
 
 **Multimedia**
 
-![](show/win/multimedia.png)
+![](./xfce/win/multimedia.png)
 
 **Charging**
 
-![](show/win/charging.png)
+![](./xfce/win/charging.png)
 
 **About**
 
-![](show/win/terminal-screenfetch.png)
+![](./xfce/win/terminal-screenfetch.png)
 
 **XFCE Desktop**
 
-![](show/win/xfce.png)
+![](./xfce/win/xfce.png)
 
 ---
 
 ## Mac XFCE
 > industrial
 
-![](show/mac/desktop.png)
+![](./xfce/mac/desktop.png)
 
 **Console**
 
-![](show/mac/console-ls.png)
+![](./xfce/mac/console-ls.png)
 
 **Explorer**
 
-![](show/mac/explorer.png)
+![](./xfce/mac/explorer.png)
 
 **Menu**
 
-![](show/mac/menu.png)
+![](./xfce/mac/menu.png)
 
 **Directory menu**
 
-![](show/mac/menu-dirs.png)
+![](./xfce/mac/menu-dirs.png)
 
 **Exit menu**
 
-![](show/mac/menu-exit.png)
+![](./xfce/mac/menu-exit.png)
 
 **Application Finder**
 
-![](show/mac/menu-find.png)
+![](./xfce/mac/menu-find.png)
 
 **Launch FreeCAD**
 
-![](show/mac/freecad-start.png)
+![](./xfce/mac/freecad-start.png)
 
 **FreeCAD night UI**
 
-![](show/mac/freecad-documents.png)
+![](./xfce/mac/freecad-documents.png)
 
 **FreeCAD Project**
 
-![](show/mac/freecad-pro.png)
+![](./xfce/mac/freecad-pro.png)
 
 **KiCad**
 
-![](show/mac/kicad.png)
+![](./xfce/mac/kicad.png)
 
 **KiCad Design**
 
-![](show/mac/kicad2.png)
+![](./xfce/mac/kicad2.png)
 
 **Office**
 
-![](show/mac/office-1.png)
+![](./xfce/mac/office-1.png)
 
 **Office full screen**
 
-![](show/mac/office-2.png)
+![](./xfce/mac/office-2.png)
 
 **Window switcher**
 
-![](show/mac/alt-tab-switcher.png)
+![](./xfce/mac/alt-tab-switcher.png)
 
 **About**
 
-![](show/mac/console.png)
+![](./xfce/mac/console.png)
 
 **Multimedia**
 
-![](show/mac/multimedia.png)
+![](./xfce/mac/multimedia.png)
 
 ---
 
 ## Default XFCE
 
-![](show/default/desktop.png)
+![](./xfce/default/desktop.png)
 
-![](show/default/workspace.png)
+![](./xfce/default/workspace.png)
 
 ---
 
