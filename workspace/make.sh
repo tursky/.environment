@@ -9,21 +9,19 @@ read -p '- ' USER_INPUT
 directive=$USER_INPUT
 
 # Init
-# workspace='.workspace'
-# src='skel'
-
 __dir=$(cd $(dirname ${BASH_SOURCE:-$0}) && pwd)
 system=`cat $__dir/config`
 root='skel-cp'
+
+# Help variables
 global=$__dir/$root/global
 glocal=$__dir/$root/glocal
 
-
-# Remove custom environment settings 
+# Remove target environment settings 
 function prepare() {
 	if [[ $@ == 'workspace' ]]; then
-		rm -rf $__dir/$root/global/.bashrc
-		rm -rf $__dir/$root/glocal/$system
+		rm -rf $global/.bashrc
+		rm -rf $glocal/$system
 	fi
 
 	if [[ $@ == 'home' ]]; then
@@ -40,8 +38,6 @@ function prepare() {
 			$base/.local/share/applications \
 			$base/.local/share/desktop-directories
 	fi
-
-	echo 'Preparing...'
 }
 
 # Run
@@ -51,7 +47,7 @@ if [[ $directive == 'set' ]]; then
 	env=$USER_INPUT
 
 	if [[ $env != 'unix' ]] && [[ $env != 'windows' ]]; then
-		echo '- Wrong data, please try again.' && exit 0
+		echo '- wrong data, try again.' && exit 0
 	fi
 
 	prepare 'home'
@@ -71,11 +67,9 @@ if [[ $directive == 'set' ]]; then
 	echo $env > $__dir/config
 
 	# reboot
-	echo 'Setting...'
 fi
 
 if [[ $directive == 'save' ]]; then
-	echo $system
 	prepare 'workspace'
 
 	home=$( pwd )
@@ -94,5 +88,4 @@ if [[ $directive == 'save' ]]; then
 	echo '- successfully'
 
 	cd $home
-	echo 'Saving...'
 fi
