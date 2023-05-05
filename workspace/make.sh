@@ -30,11 +30,16 @@ function prepare() {
 # workspace='.workspace'
 # src='skel'
 
+__dir=$(cd $(dirname ${BASH_SOURCE:-$0}) && pwd)
+system=`cat $__dir/config`
+
 # Run
 if [[ $directive == 'set' ]]; then
 	echo '- mac or win?' # working environment
 	read -p '- ' USER_INPUT
 	env=$USER_INPUT
+
+	echo $env > $__dir/config
 	
 	# address=~/$workspace/$env/$src
 
@@ -58,6 +63,7 @@ if [[ $directive == 'set' ]]; then
 fi
 
 if [[ $directive == 'save' ]]; then
+	echo $system
 	# destination=$workspace/$ui/$src
 	# prepare $destination
 
