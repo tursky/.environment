@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Timeshift
+GenericName=System Restore Utility
+NoDisplay=true
+Comment=System Restore Utility
+Icon=timeshift
+X-GNOME-UsesNotifications=true
+Exec=timeshift-launcher
+Actions=
+Categories=System;
