@@ -11,10 +11,9 @@ directive=$USER_INPUT
 # Init
 __dir=$(cd $(dirname ${BASH_SOURCE:-$0}) && pwd)
 system=`cat $__dir/config`
-root='skel-cp'
+root='skel'
 
-# Help variables
-global=$__dir/$root/global
+global=$__dir/$root/global # help variables
 glocal=$__dir/$root/glocal
 
 # Remove target environment settings 
