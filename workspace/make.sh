@@ -50,6 +50,10 @@ if [[ $directive == 'set' ]]; then
 	read -p '- ' USER_INPUT
 	env=$USER_INPUT
 
+	if [[ $env != 'unix' ]] && [[ $env != 'windows' ]]; then
+		echo '- Wrong data, please try again.' && exit 0
+	fi
+
 	prepare 'home'
     
 	cp -r $global/.bashrc ~/
