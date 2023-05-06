@@ -1,4 +1,4 @@
-# Compile OS ISO image step by step
+# Compile an ISO image of the operating system step by step
 
 Link: [Build Manjaro ISOs with buildiso](https://wiki.manjaro.org/index.php/Build_Manjaro_ISOs_with_buildiso#Adding_AUR_packages)
 
