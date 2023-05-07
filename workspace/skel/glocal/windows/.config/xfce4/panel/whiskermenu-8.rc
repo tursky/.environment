@@ -1,5 +1,5 @@
 favorites=org.manjaro.pamac.manager.desktop,xfce4-terminal.desktop,xfce-settings-manager.desktop,xfce4-about.desktop,xfce4-power-manager-settings.desktop,xfce-session-settings.desktop,htop.desktop,org.xfce.mousepad.desktop,xfce4-file-manager.desktop,xfce4-run.desktop
-recent=xfce4-taskmanager.desktop,nl.hjdskes.gcolor3.desktop,xfce-keyboard-settings.desktop,manjaro-hello.desktop,org.bluesabre.Mugshot.desktop,xfce4-notifyd-config.desktop,xfce4-appfinder.desktop,xfce-wmtweaks-settings.desktop,org.xfce.mousepad-settings.desktop,htop.desktop,msm_notifier_settings.desktop,org.xfce.mousepad.desktop
+recent=xfce-ui-settings.desktop,xfce-wm-settings.desktop,org.midori_browser.Midori.desktop,codium.desktop,xfce4-taskmanager.desktop,nl.hjdskes.gcolor3.desktop,xfce-keyboard-settings.desktop,manjaro-hello.desktop,org.bluesabre.Mugshot.desktop,xfce4-notifyd-config.desktop,xfce4-appfinder.desktop,xfce-wmtweaks-settings.desktop
 button-title=\ \ \ Applications\ \ \ 
 button-icon=/usr/share/icons/Papirus/24x24/apps/distributor-logo-windows.svg
 button-single-row=false

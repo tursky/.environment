@@ -99,6 +99,7 @@
       </property>
       <property name="position-locked" type="bool" value="true"/>
       <property name="leave-opacity" type="uint" value="0"/>
+      <property name="autohide-behavior" type="uint" value="0"/>
     </property>
   </property>
   <property name="plugins" type="empty">
