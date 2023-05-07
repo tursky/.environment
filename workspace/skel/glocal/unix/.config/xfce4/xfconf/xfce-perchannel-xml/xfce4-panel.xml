@@ -37,6 +37,7 @@
         <value type="int" value="5"/>
         <value type="int" value="33"/>
         <value type="int" value="28"/>
+        <value type="int" value="15"/>
         <value type="int" value="40"/>
         <value type="int" value="37"/>
         <value type="int" value="36"/>
@@ -64,14 +65,16 @@
     <property name="dark-mode" type="bool" value="true"/>
     <property name="panel-1" type="empty">
       <property name="position" type="string" value="p=10;x=968;y=1169"/>
-      <property name="size" type="uint" value="70"/>
+      <property name="size" type="uint" value="80"/>
       <property name="length" type="double" value="1"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="26"/>
         <value type="int" value="38"/>
+        <value type="int" value="32"/>
         <value type="int" value="22"/>
         <value type="int" value="7"/>
+        <value type="int" value="20"/>
         <value type="int" value="10"/>
         <value type="int" value="11"/>
         <value type="int" value="13"/>
@@ -92,14 +95,14 @@
     </property>
     <property name="panel-2" type="empty">
       <property name="position" type="string" value="p=8;x=96;y=1175"/>
-      <property name="size" type="uint" value="70"/>
+      <property name="size" type="uint" value="80"/>
       <property name="length" type="double" value="1"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="50"/>
       </property>
       <property name="position-locked" type="bool" value="true"/>
       <property name="leave-opacity" type="uint" value="0"/>
-      <property name="autohide-behavior" type="uint" value="0"/>
+      <property name="autohide-behavior" type="uint" value="2"/>
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -164,7 +167,7 @@
     </property>
     <property name="plugin-4" type="string" value="applicationsmenu">
       <property name="button-icon" type="string" value="indicator-lunar-satelite"/>
-      <property name="button-title" type="string" value="     Applications"/>
+      <property name="button-title" type="string" value="      Applications"/>
     </property>
     <property name="plugin-8" type="string" value="actions">
       <property name="button-title" type="uint" value="3"/>
@@ -219,7 +222,7 @@
     </property>
     <property name="plugin-22" type="string" value="separator">
       <property name="expand" type="bool" value="false"/>
-      <property name="style" type="uint" value="2"/>
+      <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-26" type="string" value="separator">
       <property name="expand" type="bool" value="false"/>
@@ -304,6 +307,15 @@
     </property>
     <property name="plugin-13" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-15" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-20" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-32" type="string" value="separator">
+      <property name="style" type="uint" value="2"/>
     </property>
   </property>
   <property name="configver" type="int" value="2"/>

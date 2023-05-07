@@ -1,5 +1,5 @@
 /* 
- * Set custom stylesheets
+ * User stylesheets
  */
 
 /* Remove dotted lines from GTK 3 applications */
@@ -7,7 +7,7 @@ undershoot.top, undershoot.right, undershoot.bottom, undershoot.left {
 	background-image: none;
 }
 
-/* Console stylesheets */
+/* Console */
 VteTerminal, vte-terminal {
 	padding: 7px;
 }
@@ -15,4 +15,9 @@ VteTerminal, vte-terminal {
 /* Resize power indicator */
 #xfce4-power-manager-plugin image {
 	-gtk-icon-transform: scale(0.7) translateY(-1px);
+}
+
+/* Panel styles */
+.xfce4-panel, .xfce4-panel button {
+	color: #fff;
 }
