@@ -31,12 +31,10 @@
         <value type="int" value="12"/>
         <value type="int" value="41"/>
         <value type="int" value="3"/>
-        <value type="int" value="27"/>
         <value type="int" value="39"/>
         <value type="int" value="35"/>
         <value type="int" value="5"/>
         <value type="int" value="33"/>
-        <value type="int" value="28"/>
         <value type="int" value="15"/>
         <value type="int" value="40"/>
         <value type="int" value="37"/>
@@ -60,7 +58,7 @@
         <value type="double" value="0.10588235294117647"/>
         <value type="double" value="1"/>
       </property>
-      <property name="enable-struts" type="bool" value="false"/>
+      <property name="enable-struts" type="bool" value="true"/>
     </property>
     <property name="dark-mode" type="bool" value="true"/>
     <property name="panel-1" type="empty">
@@ -156,7 +154,7 @@
       <property name="digital-layout" type="uint" value="3"/>
       <property name="digital-date-format" type="string" value=""/>
       <property name="digital-time-format" type="string" value="&lt;b&gt;%a  %I:%M  %p&lt;/b&gt;"/>
-      <property name="digital-time-font" type="string" value="Sans 10"/>
+      <property name="digital-time-font" type="string" value="IBM Plex Sans 11"/>
       <property name="tooltip-format" type="string" value="%A %d %B %Y"/>
       <property name="digital-date-font" type="string" value="Sans 10"/>
     </property>
@@ -235,12 +233,6 @@
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-18" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-27" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-28" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-29" type="string" value="separator">
