@@ -51,7 +51,7 @@
       <property name="size" type="uint" value="40"/>
       <property name="mode" type="uint" value="0"/>
       <property name="autohide-behavior" type="uint" value="0"/>
-      <property name="icon-size" type="uint" value="24"/>
+      <property name="icon-size" type="uint" value="22"/>
       <property name="background-rgba" type="array">
         <value type="double" value="0.078431372549019607"/>
         <value type="double" value="0.10196078431372549"/>
