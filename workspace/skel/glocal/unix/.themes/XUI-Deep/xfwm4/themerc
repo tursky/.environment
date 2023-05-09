@@ -1,8 +1,8 @@
-# Name: Windows X Light Sea
+# Name: XFCE User Interface - Deep
 
-active_text_color=#303d41
-active_text_shadow_color=#abb9b6
-inactive_text_color=#808791
+active_text_color=#deddda
+active_text_shadow_color=#2f343b
+inactive_text_color=#8c8c8c
 inactive_text_shadow_color=#2f343b
 
 show_app_icon=true

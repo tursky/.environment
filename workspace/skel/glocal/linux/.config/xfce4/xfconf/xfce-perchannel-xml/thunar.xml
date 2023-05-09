@@ -39,6 +39,6 @@
   <property name="misc-highlighting-enabled" type="bool" value="true"/>
   <property name="last-menubar-visible" type="bool" value="true"/>
   <property name="last-toolbar-item-order" type="string" value="0,1,2,3,4,5,6,7,8,9,12,15,18,16,14,17,11,10,13,19"/>
-  <property name="last-toolbar-visible-buttons" type="string" value="0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0"/>
+  <property name="last-toolbar-visible-buttons" type="string" value="0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0"/>
   <property name="last-splitview-separator-position" type="int" value="221"/>
 </channel>

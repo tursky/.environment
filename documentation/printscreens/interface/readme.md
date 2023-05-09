@@ -1,7 +1,7 @@
 # XFCE custom presets
 
 1. [Windows XFCE](#windows-xfce)
-2. [Mac XFCE](#mac-xfce)
+2. [Unix XFCE](#unix-xfce)
 3. [Default XFCE](#default-xfce)
 4. [Stylesheets presets](#stylesheets-presets)
 5. [Console color palette and geometry](#console-color-palette-and-geometry)
@@ -83,7 +83,7 @@
 
 ---
 
-## Mac XFCE
+## Unix XFCE
 > industrial
 
 ![](./xfce/mac/desktop.png)

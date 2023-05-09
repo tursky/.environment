@@ -27,5 +27,5 @@ VteTerminal, vte-terminal {
 }
 
 .tasklist button:checked {
-	box-shadow: inset 0 -4px #2eb398;
+	box-shadow: inset 0 -3px #2eb398;
 }
