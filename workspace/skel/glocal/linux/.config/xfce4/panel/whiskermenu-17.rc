@@ -1,5 +1,5 @@
 favorites=xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop
-recent=xfce4-file-manager.desktop,xfce-ui-settings.desktop,org.midori_browser.Midori.desktop,htop.desktop,codium.desktop,xfce-wmtweaks-settings.desktop,org.xfce.mousepad.desktop,xfce-wm-settings.desktop,nl.hjdskes.gcolor3.desktop,xfce4-about.desktop
+recent=xfce4-file-manager.desktop,nl.hjdskes.gcolor3.desktop,codium.desktop,xfce-wm-settings.desktop,xfce-ui-settings.desktop,org.midori_browser.Midori.desktop,htop.desktop,xfce-wmtweaks-settings.desktop,org.xfce.mousepad.desktop,xfce4-about.desktop
 button-title=Menu
 button-icon=distributor-logo-archlinux
 button-single-row=false
