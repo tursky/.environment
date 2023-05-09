@@ -12,6 +12,7 @@
         <value type="int" value="11"/>
         <value type="int" value="3"/>
         <value type="int" value="7"/>
+        <value type="int" value="15"/>
         <value type="int" value="14"/>
         <value type="int" value="16"/>
         <value type="int" value="18"/>
@@ -19,11 +20,11 @@
         <value type="int" value="9"/>
         <value type="int" value="2"/>
         <value type="int" value="10"/>
-        <value type="int" value="13"/>
-        <value type="int" value="15"/>
+        <value type="int" value="26"/>
+        <value type="int" value="25"/>
         <value type="int" value="5"/>
-        <value type="int" value="12"/>
-        <value type="int" value="4"/>
+        <value type="int" value="27"/>
+        <value type="int" value="24"/>
         <value type="int" value="1"/>
       </property>
       <property name="role" type="string" value="xfce4-panel-12965750720"/>
@@ -62,6 +63,7 @@
         <value type="string" value="blueman"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (81%)"/>
         <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (76%)"/>
         <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (71%)"/>
         <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (63%)"/>
@@ -100,9 +102,9 @@
       <property name="digital-layout" type="uint" value="1"/>
       <property name="digital-date-format" type="string" value="%m.%d.%Y"/>
       <property name="digital-time-format" type="string" value="%R"/>
-      <property name="digital-time-font" type="string" value="Sans 10"/>
+      <property name="digital-time-font" type="string" value="Latin Modern Mono Light, 11"/>
       <property name="tooltip-format" type="string" value="%A %d %B %Y"/>
-      <property name="digital-date-font" type="string" value="Sans 10"/>
+      <property name="digital-date-font" type="string" value="Latin Modern Mono Light, 11"/>
     </property>
     <property name="plugin-1" type="string" value="showdesktop"/>
     <property name="plugin-10" type="string" value="battery"/>
@@ -110,18 +112,6 @@
       <property name="display-type" type="uint" value="2"/>
       <property name="display-name" type="uint" value="1"/>
       <property name="display-tooltip-icon" type="bool" value="false"/>
-    </property>
-    <property name="plugin-4" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-12" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-13" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-15" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-11" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
@@ -134,6 +124,21 @@
       <property name="style" type="uint" value="2"/>
     </property>
     <property name="plugin-18" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-15" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-24" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-25" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-26" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-27" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
   </property>

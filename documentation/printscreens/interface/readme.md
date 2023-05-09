@@ -1,13 +1,12 @@
 # XFCE custom presets
 
 1. [Windows XFCE](#windows-xfce)
-2. [Mac XFCE](#mac-xfce)
+2. [Unix XFCE](#unix-xfce)
 3. [Default XFCE](#default-xfce)
 4. [Stylesheets presets](#stylesheets-presets)
 5. [Console color palette and geometry](#console-color-palette-and-geometry)
 6. [Keyboard shortcuts](#keyboard-shortcuts)
-7. [Patches](#patches)
-8. [Application menu](#application-menu)
+7. [Application menu](#application-menu)
 
 ---
 
@@ -84,7 +83,7 @@
 
 ---
 
-## Mac XFCE
+## Unix XFCE
 > industrial
 
 ![](./xfce/mac/desktop.png)
@@ -228,21 +227,6 @@ echo "export PS1='\[\033[01;32m\]➞\[\033[00m\] '" >> ~/.bashrc
 
 Show desktop: `Ctrl` + `Alt` + `d`
 Resize window: `Alt` + `Right click` + `Move`
-
-
-## Patches
-
-Add a patch that removes the borders and roundings that prevent the window from filling the workspace in full screen mode:
-
-```
-mkdir -p ~/.themes/Matcha-sea/xfwm4
-cd .themes/Matcha-sea/xfwm4
-cp /usr/share/themes/Matcha-sea/xfwm4/* .
-rm left*
-rm right*
-rm bottom*
-rm top*
-```
 
 ## Application menu
 

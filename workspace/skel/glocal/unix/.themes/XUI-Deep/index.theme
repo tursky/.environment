@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=XUI-Deep
+Comment=XFCE User Interface - Deep
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Matcha-dark-azul
+MetacityTheme=Matcha-dark-azul
+IconTheme=Qogir-manjaro
+CursorTheme=Qogir-manjaro
+ButtonLayout=menu:minimize,maximize,close

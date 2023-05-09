@@ -41,11 +41,11 @@ function prepare() {
 
 # Run
 if [[ $directive == 'set' ]]; then
-	echo '- unix or windows?' # working environment
+	echo '- unix, windows or linux?' # working environment
 	read -p '- ' USER_INPUT
 	env=$USER_INPUT
 
-	if [[ $env != 'unix' ]] && [[ $env != 'windows' ]]; then
+	if [[ $env != 'unix' ]] && [[ $env != 'windows' ]] && [[ $env != 'linux' ]]; then
 		echo '- wrong data, try again.' && exit 0
 	fi
 

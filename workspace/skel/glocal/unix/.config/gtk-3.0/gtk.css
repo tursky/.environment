@@ -1,15 +1,13 @@
 /* 
- * Set custom stylesheets
+ * User stylesheets
  */
- 
-@import url("./mac-panel.css");
 
 /* Remove dotted lines from GTK 3 applications */
 undershoot.top, undershoot.right, undershoot.bottom, undershoot.left { 
 	background-image: none;
 }
 
-/* Console stylesheets */
+/* Console */
 VteTerminal, vte-terminal {
 	padding: 7px;
 }
@@ -18,3 +16,24 @@ VteTerminal, vte-terminal {
 #xfce4-power-manager-plugin image {
 	-gtk-icon-transform: scale(0.7) translateY(-1px);
 }
+
+/* Panel styles */
+.xfce4-panel, .xfce4-panel button {
+	color: #fff;
+}
+
+.xfce4-panel button {
+	box-shadow: none;
+}
+
+.tasklist button:checked {
+	box-shadow: inset 0 -3px #3498db;
+}
+
+/*
+menu,
+.menu {
+  background-color: #141a1b;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+*/

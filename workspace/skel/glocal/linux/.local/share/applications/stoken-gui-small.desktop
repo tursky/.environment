@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Software Token (small)
+GenericName=Software Token
+NoDisplay=true
+Comment=RSA SecurID-compatible software token
+Icon=stoken-gui
+Exec=stoken-gui --small
+Actions=
+Categories=GTK;Security;Utility;
+Keywords=RSA;SecurID;Authenticator;

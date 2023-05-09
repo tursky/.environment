@@ -3,7 +3,7 @@
 <channel name="xfwm4" version="1.0">
   <property name="general" type="empty">
     <property name="activate_action" type="string" value="bring"/>
-    <property name="borderless_maximize" type="bool" value="false"/>
+    <property name="borderless_maximize" type="bool" value="true"/>
     <property name="box_move" type="bool" value="false"/>
     <property name="box_resize" type="bool" value="false"/>
     <property name="button_layout" type="string" value="O|SHMC"/>
@@ -53,9 +53,9 @@
     <property name="snap_to_border" type="bool" value="true"/>
     <property name="snap_to_windows" type="bool" value="true"/>
     <property name="snap_width" type="int" value="9"/>
-    <property name="theme" type="string" value="Matcha-dark-azul-hdpi"/>
+    <property name="theme" type="string" value="XUI-Deep"/>
     <property name="title_alignment" type="string" value="left"/>
-    <property name="title_font" type="string" value="Noto Sans 10"/>
+    <property name="title_font" type="string" value="IBM Plex Sans 11"/>
     <property name="title_horizontal_offset" type="int" value="0"/>
     <property name="title_shadow_active" type="string" value="false"/>
     <property name="title_shadow_inactive" type="string" value="false"/>
@@ -78,7 +78,7 @@
       <value type="string" value="Workspace 4"/>
     </property>
     <property name="tile_on_move" type="bool" value="true"/>
-    <property name="titleless_maximize" type="bool" value="false"/>
+    <property name="titleless_maximize" type="bool" value="true"/>
     <property name="cycle_preview" type="bool" value="true"/>
     <property name="cycle_tabwin_mode" type="int" value="1"/>
     <property name="sync_to_vblank" type="bool" value="true"/>
