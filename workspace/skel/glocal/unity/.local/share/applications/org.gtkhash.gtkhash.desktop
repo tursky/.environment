@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=GtkHash
+GenericName=Checksum Calculator
+NoDisplay=true
+Comment=Calculate message digests or checksums
+Icon=org.gtkhash.gtkhash
+TryExec=gtkhash
+Exec=gtkhash %U
+Actions=
+Categories=GTK;Security;Utility;
+Keywords=hash;checksum;digest;md5;sha1;sha256;crc32;
+StartupNotify=true
