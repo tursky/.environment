@@ -67,18 +67,12 @@
       <property name="position-locked" type="bool" value="true"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="53"/>
-        <value type="int" value="73"/>
-        <value type="int" value="81"/>
-        <value type="int" value="84"/>
-        <value type="int" value="76"/>
-        <value type="int" value="80"/>
         <value type="int" value="7"/>
-        <value type="int" value="71"/>
-        <value type="int" value="83"/>
-        <value type="int" value="77"/>
-        <value type="int" value="82"/>
+        <value type="int" value="27"/>
+        <value type="int" value="22"/>
+        <value type="int" value="73"/>
         <value type="int" value="56"/>
-        <value type="int" value="70"/>
+        <value type="int" value="66"/>
       </property>
       <property name="background-style" type="uint" value="0"/>
       <property name="leave-opacity" type="uint" value="100"/>
@@ -279,35 +273,13 @@
       </property>
     </property>
     <property name="plugin-56" type="string" value="showdesktop"/>
-    <property name="plugin-70" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="16842604384.desktop"/>
-      </property>
+    <property name="plugin-22" type="string" value="separator">
+      <property name="style" type="uint" value="3"/>
     </property>
-    <property name="plugin-71" type="string" value="separator">
+    <property name="plugin-27" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-76" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-77" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-80" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-81" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-82" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-83" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-84" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
+    <property name="plugin-66" type="string" value="thunar-tpa"/>
   </property>
   <property name="configver" type="int" value="2"/>
 </channel>
