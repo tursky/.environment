@@ -6,7 +6,7 @@
     <value type="int" value="1"/>
     <property name="panel-0" type="empty">
       <property name="position" type="string" value="p=2;x=997;y=16"/>
-      <property name="length" type="double" value="96.354166666666671"/>
+      <property name="length" type="double" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="37"/>
@@ -23,7 +23,6 @@
         <value type="int" value="25"/>
         <value type="int" value="15"/>
         <value type="int" value="5"/>
-        <value type="int" value="4"/>
         <value type="int" value="16"/>
         <value type="int" value="28"/>
         <value type="int" value="46"/>
@@ -44,7 +43,7 @@
       <property name="role" type="string" value="xfce4-panel-12965750720"/>
       <property name="length-adjust" type="bool" value="true"/>
       <property name="background-style" type="uint" value="0"/>
-      <property name="size" type="uint" value="30"/>
+      <property name="size" type="uint" value="32"/>
       <property name="mode" type="uint" value="0"/>
       <property name="autohide-behavior" type="uint" value="0"/>
       <property name="icon-size" type="uint" value="22"/>
@@ -58,15 +57,12 @@
     </property>
     <property name="dark-mode" type="bool" value="true"/>
     <property name="panel-1" type="empty">
-      <property name="position" type="string" value="p=6;x=37;y=587"/>
-      <property name="size" type="uint" value="70"/>
-      <property name="length" type="double" value="100"/>
+      <property name="position" type="string" value="p=8;x=36;y=638"/>
+      <property name="size" type="uint" value="64"/>
+      <property name="length" type="double" value="97.333333333333329"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="plugin-ids" type="array">
-        <value type="int" value="10"/>
-        <value type="int" value="26"/>
         <value type="int" value="17"/>
-        <value type="int" value="38"/>
         <value type="int" value="7"/>
         <value type="int" value="13"/>
         <value type="int" value="23"/>
@@ -77,13 +73,13 @@
       <property name="enable-struts" type="bool" value="true"/>
       <property name="mode" type="uint" value="1"/>
       <property name="background-rgba" type="array">
-        <value type="double" value="0.94901960784313721"/>
-        <value type="double" value="0.94901960784313721"/>
-        <value type="double" value="0.94901960784313721"/>
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
         <value type="double" value="1"/>
       </property>
       <property name="enter-opacity" type="uint" value="100"/>
-      <property name="icon-size" type="uint" value="56"/>
+      <property name="icon-size" type="uint" value="0"/>
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -106,6 +102,7 @@
         <value type="string" value="blueman"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (63%)"/>
         <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (81%)"/>
         <value type="string" value="blueman"/>
         <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (78%)"/>
@@ -134,7 +131,7 @@
       <property name="digital-layout" type="uint" value="3"/>
       <property name="digital-date-format" type="string" value="%Y-%m-%d"/>
       <property name="digital-time-format" type="string" value="%d %b %R"/>
-      <property name="digital-time-font" type="string" value="Ubuntu 11"/>
+      <property name="digital-time-font" type="string" value="IBM Plex Sans Semi-Bold 11"/>
       <property name="tooltip-format" type="string" value="Week %V"/>
       <property name="digital-date-font" type="string" value="Sans 10"/>
       <property name="mode" type="uint" value="2"/>
@@ -147,7 +144,7 @@
     </property>
     <property name="plugin-8" type="string" value="actions">
       <property name="button-title" type="uint" value="3"/>
-      <property name="custom-title" type="string" value="uηity "/>
+      <property name="custom-title" type="string" value="liηuχ "/>
       <property name="items" type="array">
         <value type="string" value="-lock-screen"/>
         <value type="string" value="-switch-user"/>
@@ -178,10 +175,6 @@
       <property name="grouping" type="bool" value="true"/>
       <property name="sort-order" type="uint" value="4"/>
     </property>
-    <property name="plugin-26" type="string" value="separator">
-      <property name="expand" type="bool" value="false"/>
-      <property name="style" type="uint" value="0"/>
-    </property>
     <property name="plugin-18" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
       <property name="expand" type="bool" value="true"/>
@@ -193,13 +186,7 @@
       <property name="style" type="uint" value="0"/>
       <property name="expand" type="bool" value="true"/>
     </property>
-    <property name="plugin-38" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
     <property name="plugin-12" type="string" value="power-manager-plugin"/>
-    <property name="plugin-10" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
     <property name="plugin-13" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
       <property name="expand" type="bool" value="true"/>
@@ -271,16 +258,13 @@
     </property>
     <property name="plugin-3" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="firefox.instance1713;firefox.instance2386"/>
     </property>
     <property name="plugin-15" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-1" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-4" type="string" value="separator">
-      <property name="expand" type="bool" value="true"/>
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-23" type="string" value="directorymenu">
