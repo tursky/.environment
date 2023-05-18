@@ -7,4 +7,4 @@ Icon=org.xfce.about
 OnlyShowIn=XFCE;
 Exec=xfce4-about
 Actions=
-Categories=Utility;X-XFCE;X-Xfce-Toplevel;
+Categories=Utility;X-XFCE;
