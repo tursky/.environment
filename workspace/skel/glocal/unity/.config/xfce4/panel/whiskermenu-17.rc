@@ -1,7 +1,7 @@
 favorites=xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop
-recent=firefox.desktop,xfce4-file-manager.desktop,xfce-wm-settings.desktop,xfce-ui-settings.desktop,org.kicad.kicad.desktop,codium.desktop,org.onlyoffice.desktopeditors.desktop,xfce4-terminal-emulator.desktop,htop.desktop,org.freecadweb.FreeCAD.desktop
+recent=xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop,firefox.desktop,xfce-ui-settings.desktop,codium.desktop,org.xfce.mousepad.desktop,thunar-settings.desktop,xfce-wm-settings.desktop,org.kicad.kicad.desktop,org.onlyoffice.desktopeditors.desktop
 button-title=\ Menu
-button-icon=kcmmemory
+button-icon=start-here
 button-single-row=false
 show-button-title=false
 show-button-icon=true

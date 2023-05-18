@@ -144,10 +144,10 @@
     </property>
     <property name="plugin-8" type="string" value="actions">
       <property name="button-title" type="uint" value="3"/>
-      <property name="custom-title" type="string" value="liηuχ "/>
+      <property name="custom-title" type="string" value="uηiτy"/>
       <property name="items" type="array">
         <value type="string" value="-lock-screen"/>
-        <value type="string" value="-switch-user"/>
+        <value type="string" value="+switch-user"/>
         <value type="string" value="-separator"/>
         <value type="string" value="+suspend"/>
         <value type="string" value="-hibernate"/>
