@@ -17,15 +17,30 @@ VteTerminal, vte-terminal {
 	-gtk-icon-transform: scale(0.7) translateY(-1px);
 }
 
-/* Panel styles */
-.xfce4-panel, .xfce4-panel button {
-	color: #000;
+#whiskermenu-button {
+	padding: 3px;
 }
 
+/* Panel */
 .xfce4-panel button {
-	box-shadow: none;
+	font-weight: 600;
 }
 
-.tasklist button:checked {
-	box-shadow: inset 0 -3px #2eb398;
+.xfce4-panel.background .tasklist button { 
+	border-radius: 0px;
+	padding: 3px;
+	margin: 0 0px;
+	background-image: none;
+	box-shadow: inset 0 -2px rgba(255, 255, 255, 0.08);
+}
+
+.xfce4-panel.background .tasklist button:active, .xfce4-panel.background .tasklist button:checked { 
+	box-shadow: inset 0 -2px #277cd5;
+	background-image: none; 
+	background-color: rgba(255, 255, 255, 0.08);
+}
+
+.xfce4-panel.background .tasklist button:hover, .xfce4-panel.background .tasklist button:active:hover, .xfce4-panel.background .tasklist button:checked:hover { 
+	box-shadow: inset 0 -2px #277cd5;
+	background-color: rgba(255, 255, 255, 0.08);
 }

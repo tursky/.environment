@@ -5,14 +5,13 @@
   <property name="notify-location" type="uint" value="3"/>
   <property name="log-level" type="uint" value="0"/>
   <property name="log-level-apps" type="uint" value="0"/>
-  <property name="theme" type="string" value="Smoke"/>
+  <property name="theme" type="string" value="Greybird"/>
   <property name="applications" type="empty">
     <property name="known_applications" type="array">
       <value type="string" value="MSM Notifier"/>
       <value type="string" value="nm-applet"/>
       <value type="string" value="org.freedesktop.network-manager-applet"/>
       <value type="string" value="org.manjaro.pamac.tray"/>
-      <value type="string" value="org.midori_browser.Midori"/>
       <value type="string" value="org.xfce.Thunar"/>
       <value type="string" value="org.xfce.xfdesktop"/>
       <value type="string" value="Package Manager"/>

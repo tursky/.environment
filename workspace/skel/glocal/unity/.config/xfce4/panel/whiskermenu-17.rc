@@ -1,5 +1,5 @@
 favorites=xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop
-recent=xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop,xfce-ui-settings.desktop,xfce-wm-settings.desktop,org.freecadweb.FreeCAD.desktop,org.xfce.mousepad.desktop,firefox.desktop,htop.desktop,org.onlyoffice.desktopeditors.desktop,org.kicad.kicad.desktop
+recent=xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop,firefox.desktop,xfce-ui-settings.desktop,codium.desktop,org.xfce.mousepad.desktop,thunar-settings.desktop,xfce-wm-settings.desktop,org.kicad.kicad.desktop,org.onlyoffice.desktopeditors.desktop
 button-title=\ Menu
 button-icon=start-here
 button-single-row=false
@@ -24,8 +24,8 @@ position-categories-horizontal=false
 stay-on-focus-out=false
 profile-shape=2
 confirm-session-command=true
-menu-width=1845
-menu-height=1169
+menu-width=1855
+menu-height=1167
 menu-opacity=100
 command-settings=xfce4-settings-manager
 show-command-settings=true

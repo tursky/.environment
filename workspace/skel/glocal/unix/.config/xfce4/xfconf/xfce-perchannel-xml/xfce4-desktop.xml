@@ -14,7 +14,7 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-flower.svg"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/manhattan-336708.jpg"/>
           <property name="backdrop-cycle-enable" type="bool" value="false"/>
         </property>
         <property name="workspace1" type="empty">
@@ -45,7 +45,7 @@
     <property name="font-size" type="double" value="10"/>
   </property>
   <property name="last" type="empty">
-    <property name="window-width" type="int" value="622"/>
-    <property name="window-height" type="int" value="524"/>
+    <property name="window-width" type="int" value="624"/>
+    <property name="window-height" type="int" value="556"/>
   </property>
 </channel>
