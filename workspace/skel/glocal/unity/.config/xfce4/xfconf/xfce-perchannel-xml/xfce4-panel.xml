@@ -59,7 +59,7 @@
     <property name="panel-1" type="empty">
       <property name="position" type="string" value="p=8;x=36;y=638"/>
       <property name="size" type="uint" value="64"/>
-      <property name="length" type="double" value="97.333333333333329"/>
+      <property name="length" type="double" value="96.952380952380949"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="17"/>

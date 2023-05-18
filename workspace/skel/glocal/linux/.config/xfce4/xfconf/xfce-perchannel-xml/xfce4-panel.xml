@@ -6,7 +6,7 @@
     <value type="int" value="1"/>
     <property name="panel-0" type="empty">
       <property name="position" type="string" value="p=2;x=992;y=17"/>
-      <property name="length" type="double" value="96.666666666666671"/>
+      <property name="length" type="double" value="96.19047619047619"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="7"/>
