@@ -51,7 +51,7 @@
         <value type="int" value="36"/>
         <value type="int" value="8"/>
         <value type="int" value="1"/>
-        <value type="int" value="57"/>
+        <value type="int" value="29"/>
         <value type="int" value="50"/>
         <value type="int" value="52"/>
       </property>
@@ -255,15 +255,12 @@
     </property>
     <property name="plugin-52" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="16843248581.desktop"/>
+        <value type="string" value="16845378391.desktop"/>
       </property>
     </property>
     <property name="plugin-53" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
       <property name="expand" type="bool" value="true"/>
-    </property>
-    <property name="plugin-57" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-59" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
@@ -318,6 +315,9 @@
       <property name="button-icon" type="string" value="homerun"/>
     </property>
     <property name="plugin-17" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-29" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
   </property>
