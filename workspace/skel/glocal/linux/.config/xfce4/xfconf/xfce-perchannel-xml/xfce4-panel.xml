@@ -6,15 +6,17 @@
     <value type="int" value="1"/>
     <property name="panel-0" type="empty">
       <property name="position" type="string" value="p=2;x=992;y=17"/>
-      <property name="length" type="double" value="96.19047619047619"/>
+      <property name="length" type="double" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="plugin-ids" type="array">
+        <value type="int" value="43"/>
+        <value type="int" value="17"/>
         <value type="int" value="7"/>
-        <value type="int" value="10"/>
+        <value type="int" value="32"/>
         <value type="int" value="34"/>
         <value type="int" value="38"/>
         <value type="int" value="16"/>
-        <value type="int" value="32"/>
+        <value type="int" value="10"/>
         <value type="int" value="20"/>
         <value type="int" value="28"/>
         <value type="int" value="14"/>
@@ -23,6 +25,9 @@
         <value type="int" value="59"/>
         <value type="int" value="13"/>
         <value type="int" value="61"/>
+        <value type="int" value="27"/>
+        <value type="int" value="26"/>
+        <value type="int" value="22"/>
         <value type="int" value="53"/>
         <value type="int" value="24"/>
         <value type="int" value="23"/>
@@ -67,13 +72,13 @@
     </property>
     <property name="dark-mode" type="bool" value="true"/>
     <property name="panel-1" type="empty">
-      <property name="position" type="string" value="p=8;x=24;y=616"/>
-      <property name="size" type="uint" value="64"/>
-      <property name="mode" type="uint" value="2"/>
+      <property name="position" type="string" value="p=8;x=840;y=1033"/>
+      <property name="size" type="uint" value="32"/>
+      <property name="mode" type="uint" value="0"/>
       <property name="length" type="double" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="plugin-ids" type="array">
-        <value type="int" value="43"/>
+        <value type="int" value="31"/>
         <value type="int" value="4"/>
         <value type="int" value="18"/>
         <value type="int" value="19"/>
@@ -129,7 +134,7 @@
     </property>
     <property name="plugin-9" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="firefox.instance1300;firefox.instance1743;vlc"/>
+      <property name="mpris-players" type="string" value="firefox.instance1300;firefox.instance1743;firefox.instance5445;vlc"/>
     </property>
     <property name="plugin-5" type="string" value="clock">
       <property name="digital-layout" type="uint" value="3"/>
@@ -275,9 +280,9 @@
     </property>
     <property name="plugin-43" type="string" value="whiskermenu"/>
     <property name="plugin-4" type="string" value="tasklist">
-      <property name="show-labels" type="bool" value="false"/>
+      <property name="show-labels" type="bool" value="true"/>
       <property name="show-handle" type="bool" value="false"/>
-      <property name="grouping" type="bool" value="true"/>
+      <property name="grouping" type="bool" value="false"/>
     </property>
     <property name="plugin-7" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
@@ -298,6 +303,22 @@
     <property name="plugin-19" type="string" value="clock">
       <property name="mode" type="uint" value="1"/>
       <property name="show-seconds" type="bool" value="true"/>
+    </property>
+    <property name="plugin-22" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-26" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-27" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-31" type="string" value="applicationsmenu">
+      <property name="button-title" type="string" value=""/>
+      <property name="button-icon" type="string" value="homerun"/>
+    </property>
+    <property name="plugin-17" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
     </property>
   </property>
   <property name="configver" type="int" value="2"/>

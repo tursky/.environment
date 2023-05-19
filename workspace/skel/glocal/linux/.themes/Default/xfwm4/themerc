@@ -18,15 +18,3 @@ title_shadow_active=false
 title_shadow_inactive=false
 title_vertical_offset_active=1
 title_vertical_offset_inactive=1
-
-# button_layout :
-  #    O = Option menu
-  #    T = Stick
-  #    H = hide
-  #    S = shade
-  #    M = maximize
-  #    C = close
-  #    | = title
-button_layout=STO|HMC
-
-show_app_icon=false
