@@ -7,7 +7,6 @@ button_spacing=2
 full_width_title=true
 frame_border_top=5
 maximized_offset=0
-show_app_icon=true
 shadow_delta_height=4
 shadow_delta_width=-6
 shadow_delta_x=-6
@@ -18,3 +17,15 @@ title_shadow_active=false
 title_shadow_inactive=false
 title_vertical_offset_active=1
 title_vertical_offset_inactive=1
+
+# button_layout :
+  #    O = Option menu
+  #    T = Stick
+  #    H = hide
+  #    S = shade
+  #    M = maximize
+  #    C = close
+  #    | = title
+button_layout=STO|HMC
+
+show_app_icon=false
