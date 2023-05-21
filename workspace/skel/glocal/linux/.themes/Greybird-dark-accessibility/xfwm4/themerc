@@ -25,3 +25,7 @@ shadow_opacity=50
 maximized_offset=3
 show_app_icon=false
 frame_border_top=1
+
+# User redefines
+title_horizontal_offset=2
+title_vertical_offset_active=2
