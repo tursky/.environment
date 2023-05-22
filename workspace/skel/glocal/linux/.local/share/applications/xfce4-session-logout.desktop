@@ -2,7 +2,6 @@
 Version=1.1
 Type=Application
 Name=Log Out
-NoDisplay=true
 Comment=Log out of the Xfce Desktop
 Icon=xfsm-logout
 OnlyShowIn=XFCE;

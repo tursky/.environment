@@ -2,7 +2,6 @@
 Version=1.1
 Type=Application
 Name=Run
-NoDisplay=true
 Comment=Enter a command you want to launch
 Icon=system-run
 OnlyShowIn=XFCE;

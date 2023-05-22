@@ -85,6 +85,8 @@
 			<Filename>thunar.desktop</Filename>
 			<Filename>timeshift-gtk.desktop</Filename>
 			<Filename>web-installer-url-handler.desktop</Filename>
+			<Filename>Alacritty.desktop</Filename>
+			<Filename>xfce4-sensors.desktop</Filename>
 			<Merge type="files" />
 		</Layout>
 	</Menu>
@@ -111,6 +113,14 @@
 			<Filename>xfce4-taskmanager.desktop</Filename>
 			<Filename>xfce4-terminal-emulator.desktop</Filename>
 			<Filename>thunar.desktop</Filename>
+			<Filename>xreader.desktop</Filename>
+			<Filename>galculator.desktop</Filename>
+			<Filename>gpicview.desktop</Filename>
+			<Filename>nvim.desktop</Filename>
+			<Filename>xfce4-notes.desktop</Filename>
+			<Filename>xfce4-sensors.desktop</Filename>
+			<Filename>codium.desktop</Filename>
+			<Filename>codium-uri-handler.desktop</Filename>
 			<Merge type="files" />
 		</Layout>
 	</Menu>
@@ -124,6 +134,11 @@
 			<Filename>designer.desktop</Filename>
 			<Filename>linguist.desktop</Filename>
 			<Filename>qdbusviewer.desktop</Filename>
+			<Filename>cmake-gui.desktop</Filename>
+			<Filename>electron.desktop</Filename>
+			<Filename>electron20.desktop</Filename>
+			<Filename>codium.desktop</Filename>
+			<Filename>codium-uri-handler.desktop</Filename>
 			<Merge type="files" />
 		</Layout>
 	</Menu>
@@ -153,6 +168,14 @@
 		<Layout>
 			<Merge type="menus" />
 			<Filename>org.freecadweb.FreeCAD.desktop</Filename>
+			<Filename>nl.hjdskes.gcolor3.desktop</Filename>
+			<Filename>gimp.desktop</Filename>
+			<Filename>gpicview.desktop</Filename>
+			<Filename>pinta.desktop</Filename>
+			<Filename>pix.desktop</Filename>
+			<Filename>pix-import.desktop</Filename>
+			<Filename>org.xfce.ristretto.desktop</Filename>
+			<Filename>xdvi.desktop</Filename>
 			<Merge type="files" />
 		</Layout>
 	</Menu>
@@ -167,6 +190,13 @@
 			<Filename>xfce4-web-browser1.desktop</Filename>
 			<Filename>xfce4-mail-reader.desktop</Filename>
 			<Filename>xfce4-web-browser.desktop</Filename>
+			<Filename>brave-browser.desktop</Filename>
+			<Filename>chromium.desktop</Filename>
+			<Filename>org.kde.falkon.desktop</Filename>
+			<Filename>firefox.desktop</Filename>
+			<Filename>freetube.desktop</Filename>
+			<Filename>org.midori_browser.Midori.desktop</Filename>
+			<Filename>org.telegram.desktop.desktop</Filename>
 			<Merge type="files" />
 		</Layout>
 	</Menu>
@@ -180,6 +210,8 @@
 			<Filename>qv4l2.desktop</Filename>
 			<Filename>qvidcap.desktop</Filename>
 			<Filename>vlc.desktop</Filename>
+			<Filename>audacious.desktop</Filename>
+			<Filename>mpv.desktop</Filename>
 			<Merge type="files" />
 		</Layout>
 	</Menu>
@@ -190,6 +222,9 @@
 		<Layout>
 			<Merge type="menus" />
 			<Filename>org.onlyoffice.desktopeditors.desktop</Filename>
+			<Filename>FBReader.desktop</Filename>
+			<Filename>com.github.johnfactotum.Foliate.desktop</Filename>
+			<Filename>texstudio.desktop</Filename>
 			<Merge type="files" />
 		</Layout>
 	</Menu>
@@ -209,12 +244,20 @@
 		<Include>
 			<Filename>gcr-viewer.desktop</Filename>
 		</Include>
+		<Include>
+			<Filename>snap-handle-link.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>io.snapcraft.SessionAgent.desktop</Filename>
+		</Include>
 		<Layout>
 			<Merge type="menus" />
 			<Filename>gcr-prompter.desktop</Filename>
 			<Filename>panel-desktop-handler.desktop</Filename>
 			<Filename>nm-applet.desktop</Filename>
 			<Filename>gcr-viewer.desktop</Filename>
+			<Filename>snap-handle-link.desktop</Filename>
+			<Filename>io.snapcraft.SessionAgent.desktop</Filename>
 			<Merge type="files" />
 		</Layout>
 	</Menu>

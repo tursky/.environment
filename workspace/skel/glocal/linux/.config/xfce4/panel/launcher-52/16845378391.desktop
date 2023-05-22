@@ -1,12 +1,12 @@
 [Desktop Entry]
 Type=Application
 Version=1.0
-Name=Htop
+Name=CPU
 GenericName=Process Viewer
 GenericName[en_GB]=Process Viewer
 Comment=Show System Processes
 Comment[en_GB]=Show System Processes
-Icon=activities
+Icon=find-location
 Exec=htop
 Terminal=true
 Categories=System;Monitor;ConsoleOnly;
