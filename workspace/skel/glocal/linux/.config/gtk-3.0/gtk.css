@@ -17,19 +17,17 @@ VteTerminal, vte-terminal {
 	-gtk-icon-transform: scale(0.7) translateY(-1px);
 }
 
-#whiskermenu-button {
-	padding: 3px;
-}
-
 /* Panel */
 .xfce4-panel button {
 	font-weight: 500;
 }
 
+/* First btn */
 #launcher-44 label {
     padding-left: 6px;
 }
 
+/* Last btn */
 #launcher-52 .flat {
     padding: 0 6px;
 }
@@ -55,8 +53,7 @@ VteTerminal, vte-terminal {
 	background-color: rgba(255, 255, 255, 0.08);
 }
 
+/* Workspace switcher */
 wnck-pager, wnck-pager:selected, wnck-pager:hover {
-	color: #292b2c;
 	color: #195390;
-	
 }
