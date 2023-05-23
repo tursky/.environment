@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=LightDM GTK+ Greeter settings
+NoDisplay=true
+Comment=Configure LightDM GTK+ Greeter
+Icon=lightdm-gtk-greeter-settings
+Exec=lightdm-gtk-greeter-settings-pkexec
+Actions=
+Categories=GNOME;GTK;Settings;System;Utility;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;
+Keywords=Configuration;Utility;
