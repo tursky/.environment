@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=1.1
 Type=Application
-Name=File Manager
+Name=My Computer
 Comment=Browse the file system
 Icon=org.xfce.filemanager
 OnlyShowIn=XFCE;

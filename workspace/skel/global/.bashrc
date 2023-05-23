@@ -136,8 +136,8 @@ ex ()
   fi
 }
 
-# Console patch
-export PS1='\[\033[01;32m\]➞\[\033[00m\] ' # ➣
-
 # Environment presets
 alias workspace='~/.environment/workspace/make.sh'
+
+# Patching
+export PS1='\[\033[01;32m\]➞\[\033[00m\] ' # ➣

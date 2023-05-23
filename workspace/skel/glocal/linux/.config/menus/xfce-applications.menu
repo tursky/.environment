@@ -176,6 +176,7 @@
 			<Filename>pix-import.desktop</Filename>
 			<Filename>org.xfce.ristretto.desktop</Filename>
 			<Filename>xdvi.desktop</Filename>
+			<Filename>org.inkscape.Inkscape.desktop</Filename>
 			<Merge type="files" />
 		</Layout>
 	</Menu>
@@ -279,13 +280,9 @@
 	</Menu>
 	<Layout>
 		<Filename>xfce4-appfinder.desktop</Filename>
-		<Filename>xfce4-run.desktop</Filename>
-		<Filename>xfce4-terminal-emulator.desktop</Filename>
-		<Filename>xfce4-file-manager.desktop</Filename>
-		<Separator />
 		<Menuname>Settings</Menuname>
 		<Menuname>System</Menuname>
-		<Separator />
+		<Filename>xfce4-terminal-emulator.desktop</Filename>
 		<Menuname>Accessories</Menuname>
 		<Menuname>Development</Menuname>
 		<Menuname>Education</Menuname>
@@ -296,6 +293,8 @@
 		<Menuname>Office</Menuname>
 		<Menuname>Other</Menuname>
 		<Menuname>Science</Menuname>
+		<Filename>xfce4-file-manager.desktop</Filename>
+		<Filename>xfce4-run.desktop</Filename>
 		<Filename>xfce4-session-logout.desktop</Filename>
 		<Filename>xfce4-mail-reader1.desktop</Filename>
 		<Filename>xfce4-web-browser1.desktop</Filename>

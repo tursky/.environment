@@ -2,8 +2,8 @@
 
 <channel name="xfce4-appfinder" version="1.0">
   <property name="last" type="empty">
-    <property name="window-height" type="int" value="984"/>
-    <property name="window-width" type="int" value="1680"/>
+    <property name="window-height" type="int" value="348"/>
+    <property name="window-width" type="int" value="487"/>
     <property name="pane-position" type="int" value="180"/>
   </property>
   <property name="actions" type="array">
@@ -43,12 +43,12 @@
       <property name="save" type="bool" value="false"/>
     </property>
   </property>
-  <property name="item-icon-size" type="uint" value="5"/>
-  <property name="icon-view" type="bool" value="true"/>
+  <property name="item-icon-size" type="uint" value="2"/>
+  <property name="icon-view" type="bool" value="false"/>
   <property name="always-center" type="bool" value="true"/>
   <property name="hide-window-decorations" type="bool" value="false"/>
   <property name="hide-category-pane" type="bool" value="true"/>
   <property name="single-window" type="bool" value="true"/>
-  <property name="sort-by-frecency" type="bool" value="true"/>
-  <property name="text-beside-icons" type="bool" value="false"/>
+  <property name="sort-by-frecency" type="bool" value="false"/>
+  <property name="text-beside-icons" type="bool" value="true"/>
 </channel>
