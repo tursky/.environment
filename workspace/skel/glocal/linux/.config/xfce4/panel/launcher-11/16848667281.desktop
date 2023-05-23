@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Application finder
+Comment=XFCE app finder
+Icon=start-here
+OnlyShowIn=XFCE;
+Exec=xfce4-appfinder
+Actions=
+Categories=Utility;X-XFCE;X-Xfce-Toplevel;
+X-XFCE-Source=file:///home/operator/.local/share/applications/xfce4-appfinder.desktop
+Path=
+Terminal=false
+StartupNotify=false
