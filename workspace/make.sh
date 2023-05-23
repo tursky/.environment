@@ -45,7 +45,7 @@ if [[ $directive == 'set' ]]; then
 	read -p '- ' USER_INPUT
 	env=$USER_INPUT
 
-	if [[ $env != 'unix' ]] && [[ $env != 'windows' ]] && [[ $env != 'linux' ]] && [[ $env != 'unity' ]]; then
+	if [[ $env != 'unix' ]] && [[ $env != 'windows' ]] && [[ $env != 'linux' ]] && [[ $env != 'unity' ]] && [[ $env != 'default' ]]; then
 		echo '- wrong data, try again.' && exit 0
 	fi
 
