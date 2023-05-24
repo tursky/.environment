@@ -5,9 +5,9 @@
     <value type="int" value="0"/>
     <value type="int" value="2"/>
     <property name="panel-0" type="empty">
-      <property name="position" type="string" value="p=0;x=861;y=1005"/>
+      <property name="position" type="string" value="p=0;x=989;y=1155"/>
       <property name="length" type="double" value="1"/>
-      <property name="position-locked" type="bool" value="true"/>
+      <property name="position-locked" type="bool" value="false"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="11"/>
         <value type="int" value="1"/>
@@ -111,7 +111,7 @@
     <property name="plugin-12" type="string" value="power-manager-plugin"/>
     <property name="plugin-3" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="firefox.instance1713;firefox.instance2386"/>
+      <property name="mpris-players" type="string" value="firefox.instance1713;firefox.instance2386;vlc"/>
     </property>
     <property name="plugin-4" type="string" value="launcher">
       <property name="items" type="array">
