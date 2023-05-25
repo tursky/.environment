@@ -19,7 +19,7 @@ VteTerminal, vte-terminal {
 
 /* Panel */
 .xfce4-panel button {
-	font-weight: 600;
+	font-weight: 500;
 }
 
 #whiskermenu-button {
@@ -33,16 +33,14 @@ VteTerminal, vte-terminal {
 	padding: 3px;
 	margin: 0 2px;
 	background-image: none;
-	box-shadow: inset 0 -2px rgba(255, 255, 255, 0.08);
+	box-shadow: none;
 }
 
 .xfce4-panel.background .tasklist button:active, .xfce4-panel.background .tasklist button:checked { 
-	box-shadow: inset 0 -2px #277cd5;
 	background-image: none; 
 	background-color: rgba(255, 255, 255, 0.08);
 }
 
 .xfce4-panel.background .tasklist button:hover, .xfce4-panel.background .tasklist button:active:hover, .xfce4-panel.background .tasklist button:checked:hover { 
-	box-shadow: inset 0 -2px #277cd5;
 	background-color: rgba(255, 255, 255, 0.08);
 }
