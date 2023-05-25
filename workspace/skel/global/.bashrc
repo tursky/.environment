@@ -140,4 +140,4 @@ ex ()
 alias workspace='~/.environment/workspace/make.sh'
 
 # Patching
-export PS1='\[\033[01;32m\]➞\[\033[00m\] ' # ➣
+export PS1='\[\033[01;32m\]➣\[\033[00m\]  ' # ➣

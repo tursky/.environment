@@ -51,7 +51,7 @@
         <value type="int" value="4"/>
         <value type="int" value="7"/>
         <value type="int" value="13"/>
-        <value type="int" value="14"/>
+        <value type="int" value="1"/>
       </property>
       <property name="background-style" type="uint" value="0"/>
       <property name="leave-opacity" type="uint" value="100"/>
@@ -88,6 +88,7 @@
         <value type="string" value="blueman"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (60%)"/>
         <value type="string" value="msm notifier"/>
         <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (62%)"/>
         <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (57%)"/>
@@ -122,7 +123,7 @@
       <property name="digital-layout" type="uint" value="3"/>
       <property name="digital-date-format" type="string" value="%Y-%m-%d"/>
       <property name="digital-time-format" type="string" value="%R"/>
-      <property name="digital-time-font" type="string" value="IBM Plex Sans Semi-Bold 11"/>
+      <property name="digital-time-font" type="string" value="Ubuntu Semi-Bold 11"/>
       <property name="tooltip-format" type="string" value="Week %V"/>
       <property name="digital-date-font" type="string" value="Sans 10"/>
       <property name="mode" type="uint" value="2"/>
@@ -200,11 +201,7 @@
     <property name="plugin-29" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-14" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="16850062761.desktop"/>
-      </property>
-    </property>
+    <property name="plugin-1" type="string" value="thunar-tpa"/>
   </property>
   <property name="configver" type="int" value="2"/>
 </channel>

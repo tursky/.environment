@@ -19,7 +19,7 @@ VteTerminal, vte-terminal {
 
 /* Panel */
 .xfce4-panel button {
-	font-weight: 500;
+	font-weight: 600;
 }
 
 #whiskermenu-button {
