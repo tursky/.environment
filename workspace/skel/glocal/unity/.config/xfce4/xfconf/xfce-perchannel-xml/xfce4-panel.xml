@@ -40,7 +40,7 @@
     <property name="dark-mode" type="bool" value="true"/>
     <property name="panel-1" type="empty">
       <property name="position" type="string" value="p=8;x=36;y=638"/>
-      <property name="size" type="uint" value="64"/>
+      <property name="size" type="uint" value="60"/>
       <property name="length" type="double" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="plugin-ids" type="array">
@@ -88,6 +88,9 @@
         <value type="string" value="blueman"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (79%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (56%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (59%)"/>
         <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (60%)"/>
         <value type="string" value="msm notifier"/>
         <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (62%)"/>
@@ -167,7 +170,7 @@
     </property>
     <property name="plugin-3" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="firefox.instance1713;firefox.instance1821;firefox.instance2386"/>
+      <property name="mpris-players" type="string" value="firefox.instance1535;firefox.instance1713;firefox.instance1821;firefox.instance2386"/>
     </property>
     <property name="plugin-4" type="string" value="whiskermenu"/>
     <property name="plugin-9" type="string" value="separator">

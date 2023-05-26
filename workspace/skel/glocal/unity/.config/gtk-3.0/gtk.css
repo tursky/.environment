@@ -44,3 +44,61 @@ VteTerminal, vte-terminal {
 .xfce4-panel.background .tasklist button:hover, .xfce4-panel.background .tasklist button:active:hover, .xfce4-panel.background .tasklist button:checked:hover { 
 	background-color: rgba(255, 255, 255, 0.08);
 }
+
+/* Whisker Menu */
+
+window#whiskermenu-window frame {
+	background-color: transparent;
+}
+
+#whiskermenu-window box > box > button {
+	padding: 2px 10px;
+}
+
+#whiskermenu-window .frame { 
+	margin-bottom: 7px;
+	margin-right: 5px;
+	border-radius: 3px;
+ }
+
+window#whiskermenu-window > frame > stack scrolledwindow .view {
+ 	background-color: transparent;
+}
+
+window#whiskermenu-window > frame > stack scrolledwindow .view:selected:hover {
+	background-color: rgba(255, 255, 255, 0.08);
+}
+
+window#whiskermenu-window > frame > stack scrolledwindow .view:selected {
+	background-color: rgba(255, 255, 255, 0.08);
+}
+
+window#whiskermenu-window > frame > stack button {
+ 	opacity: 0.7;
+}
+
+window#whiskermenu-window > frame > stack button:hover {
+ 	opacity: 1;
+}
+
+window#whiskermenu-window > frame > stack button:checked, window#whiskermenu-window > frame > stack button:active {
+	opacity: 1;
+}
+
+window#whiskermenu-window > frame > stack entry {
+	background-color: transparent;
+}
+
+/* Workspace switcher */
+wnck-pager, wnck-pager:selected, wnck-pager:hover {
+	color: #195390;
+}
+
+
+
+
+
+
+
+
+
