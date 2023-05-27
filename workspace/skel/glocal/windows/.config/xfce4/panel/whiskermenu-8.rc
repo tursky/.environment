@@ -1,5 +1,5 @@
 favorites=org.manjaro.pamac.manager.desktop,xfce4-terminal.desktop,xfce-settings-manager.desktop,xfce4-about.desktop,xfce-session-settings.desktop,htop.desktop,org.xfce.mousepad.desktop,xfce4-file-manager.desktop,xfce4-run.desktop
-recent=org.telegram.desktop.desktop,codium.desktop,firefox.desktop,xfce-wm-settings.desktop,xfce4-about.desktop,xfce-ui-settings.desktop,brave-browser.desktop,org.onlyoffice.desktopeditors.desktop,org.kicad.kicad.desktop,galculator.desktop,org.xfce.mousepad.desktop,gimp.desktop
+recent=firefox.desktop,xfce-ui-settings.desktop,xfce-wm-settings.desktop,org.telegram.desktop.desktop,codium.desktop,xfce4-about.desktop,brave-browser.desktop,org.onlyoffice.desktopeditors.desktop,org.kicad.kicad.desktop,galculator.desktop,org.xfce.mousepad.desktop,gimp.desktop
 button-title=Applications\ \ \ 
 button-icon=pack-less
 button-single-row=false
