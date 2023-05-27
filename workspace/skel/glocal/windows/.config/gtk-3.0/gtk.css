@@ -18,6 +18,21 @@ VteTerminal, vte-terminal {
 }
 
 /* Panel */
+.xfce4-panel {
+	margin-top: -5px;
+}
+
+.xfce4-panel .flat {
+	border-radius: 0px;
+}
+
+.xfce4-panel .flat:hover, .xfce4-panel .flat:active, .xfce4-panel .flat:checked {
+	background-image: none;
+	background-color: rgba(255, 255, 255, 0.08);
+	border-color: transparent;
+	box-shadow: none;
+}
+
 .xfce4-panel.background .tasklist button { 
 	border-radius: 0px;
 	padding: 3px;
@@ -35,4 +50,86 @@ VteTerminal, vte-terminal {
 .xfce4-panel.background .tasklist button:hover, .xfce4-panel.background .tasklist button:active:hover, .xfce4-panel.background .tasklist button:checked:hover { 
 	box-shadow: inset 0 -2px #277cd5;
 	background-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Whisker Menu */
+#whiskermenu-button {
+	border-radius: 0px;
+	padding: 3px;
+	margin: 0 2px;
+}
+
+#whiskermenu-window {
+	background-color: rgba(0, 0, 0, 1);
+}
+
+#whiskermenu-window box > box > button {
+	padding: 2px 5px;
+	opacity: 0.7;
+	background-color: rgba(255, 255, 255, 0.08);
+}
+
+#whiskermenu-window .frame { 
+	border-radius: 3px;
+	border: 2px solid rgba(255, 255, 255, 0.08);
+}
+
+window#whiskermenu-window > frame > stack scrolledwindow scrollbar.overlay-indicator:not(.dragging):not(.hovering) slider {
+	border: 2px solid rgba(255, 255, 255, 0.08);
+}
+
+window#whiskermenu-window > frame > stack scrolledwindow .view {
+ 	background-color: transparent;
+	color: #bbbbbb;
+}
+
+window#whiskermenu-window > frame > stack scrolledwindow .view:selected:hover {
+	background-color: rgba(255, 255, 255, 0.08);
+	color: #fff;
+}
+
+window#whiskermenu-window > frame > stack scrolledwindow .view:selected {
+	background-color: rgba(255, 255, 255, 0.08);
+	color: #fff;
+}
+
+window#whiskermenu-window > frame > stack entry {
+	border-color: rgba(255, 255, 255, 0.08);
+}
+
+window#whiskermenu-window > frame > stack entry:focus {
+	border-color: rgba(255, 255, 255, 0.08);
+}
+
+window#whiskermenu-window > frame > stack entry image {
+	color: #bbbbbb;
+}
+
+window#whiskermenu-window > frame > stack entry:focus image {
+	color: #277cd5;
+}
+
+window#whiskermenu-window > frame > stack button {
+	color: #bbbbbb;
+}
+
+window#whiskermenu-window > frame > stack button:hover {
+ 	opacity: 1;
+	color: #fff;
+	background-color: rgba(255, 255, 255, 0.08);
+}
+
+window#whiskermenu-window > frame > stack button:checked, window#whiskermenu-window > frame > stack button:active {
+	opacity: 1;
+	color: #fff;
+	background-color: #277cd5;
+}
+
+window#whiskermenu-window > frame > stack entry {
+	background-color: transparent;
+}
+
+/* Workspace switcher */
+wnck-pager, wnck-pager:selected, wnck-pager:hover {
+	color: #195390;
 }
