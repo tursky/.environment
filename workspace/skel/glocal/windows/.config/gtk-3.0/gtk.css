@@ -60,7 +60,6 @@ VteTerminal, vte-terminal {
 }
 
 #whiskermenu-window {
-	/* background-color: rgba(4, 8, 4, 1); */
 	background-color: rgba(0, 0, 0, 1);
 }
 
@@ -72,11 +71,11 @@ VteTerminal, vte-terminal {
 
 #whiskermenu-window .frame { 
 	border-radius: 3px;
-	border: 2px double rgba(255, 255, 255, 0.08);
+	border: 2px solid rgba(255, 255, 255, 0.08);
 }
 
 window#whiskermenu-window > frame > stack scrolledwindow scrollbar.overlay-indicator:not(.dragging):not(.hovering) slider {
-	border: 2px double rgba(255, 255, 255, 0.08);
+	border: 2px solid rgba(255, 255, 255, 0.08);
 }
 
 window#whiskermenu-window > frame > stack scrolledwindow .view {

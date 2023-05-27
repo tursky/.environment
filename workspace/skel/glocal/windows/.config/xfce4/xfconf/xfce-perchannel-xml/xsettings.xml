@@ -2,8 +2,8 @@
 
 <channel name="xsettings" version="1.0">
   <property name="Net" type="empty">
-    <property name="ThemeName" type="string" value="Windows-10-Dark-3.2.1-dark"/>
-    <property name="IconThemeName" type="string" value="Tela-yellow"/>
+    <property name="ThemeName" type="string" value="Windows-10-3.2.1"/>
+    <property name="IconThemeName" type="string" value="ePapirus"/>
     <property name="DoubleClickTime" type="int" value="532"/>
     <property name="DoubleClickDistance" type="int" value="8"/>
     <property name="DndDragThreshold" type="int" value="8"/>
