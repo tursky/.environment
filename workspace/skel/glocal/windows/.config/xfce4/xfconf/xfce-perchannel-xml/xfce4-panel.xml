@@ -34,9 +34,9 @@
       <property name="autohide-behavior" type="uint" value="0"/>
       <property name="icon-size" type="uint" value="22"/>
       <property name="background-rgba" type="array">
-        <value type="double" value="0"/>
-        <value type="double" value="0"/>
-        <value type="double" value="0"/>
+        <value type="double" value="0.015686274509803921"/>
+        <value type="double" value="0.031372549019607843"/>
+        <value type="double" value="0.015686274509803921"/>
         <value type="double" value="1"/>
       </property>
       <property name="enable-struts" type="bool" value="true"/>
@@ -63,6 +63,8 @@
         <value type="string" value="blueman"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="no network connection"/>
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (79%)"/>
         <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (84%)"/>
         <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (78%)"/>
         <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (82%)"/>
