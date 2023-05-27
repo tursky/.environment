@@ -1,3 +1,23 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
+[/home/operator/Desktop/Windows-X-Light]
+row=0
+col=0
+
+[/home/operator/Desktop/Windows-Y]
+row=2
+col=0
+
+[/home/operator/Desktop/Windows-X-Night]
+row=1
+col=0
+
+[/home/operator/Desktop/Windows-10-Dark-3.2.1-dark]
+row=4
+col=0
+
+[/home/operator/Desktop/Windows-10-3.2.1]
+row=3
+col=0
+
