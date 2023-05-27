@@ -22,6 +22,17 @@ VteTerminal, vte-terminal {
 	margin-top: -5px;
 }
 
+.xfce4-panel .flat {
+	border-radius: 0px;
+}
+
+.xfce4-panel .flat:hover, .xfce4-panel .flat:active, .xfce4-panel .flat:checked {
+	background-image: none;
+	background-color: rgba(255, 255, 255, 0.08);
+	border-color: transparent;
+	box-shadow: none;
+}
+
 .xfce4-panel.background .tasklist button { 
 	border-radius: 0px;
 	padding: 3px;
@@ -42,7 +53,6 @@ VteTerminal, vte-terminal {
 }
 
 /* Whisker Menu */
-
 #whiskermenu-button {
 	border-radius: 0px;
 	padding: 3px;
@@ -79,7 +89,6 @@ window#whiskermenu-window > frame > stack scrolledwindow .view:selected {
 }
 
 window#whiskermenu-window > frame > stack button {
- 	/* opacity: 0.7; */
 	color: #bbbbbb;
 }
 
@@ -95,4 +104,9 @@ window#whiskermenu-window > frame > stack button:checked, window#whiskermenu-win
 
 window#whiskermenu-window > frame > stack entry {
 	background-color: transparent;
+}
+
+/* Workspace switcher */
+wnck-pager, wnck-pager:selected, wnck-pager:hover {
+	color: #195390;
 }
