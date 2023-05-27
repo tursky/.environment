@@ -1,5 +1,5 @@
 favorites=org.manjaro.pamac.manager.desktop,xfce4-terminal.desktop,xfce-settings-manager.desktop,xfce4-about.desktop,xfce4-power-manager-settings.desktop,xfce-session-settings.desktop,htop.desktop,org.xfce.mousepad.desktop,xfce4-file-manager.desktop,xfce4-run.desktop
-recent=xfce-wm-settings.desktop,xfce-ui-settings.desktop,codium.desktop,nl.hjdskes.gcolor3.desktop,org.kicad.kicad.desktop,gimp.desktop,xfce-wmtweaks-settings.desktop,firefox.desktop,org.telegram.desktop.desktop,kvantummanager.desktop,org.xfce.mousepad.desktop,htop.desktop
+recent=nl.hjdskes.gcolor3.desktop,xfce-wm-settings.desktop,xfce-ui-settings.desktop,codium.desktop,org.kicad.kicad.desktop,gimp.desktop,xfce-wmtweaks-settings.desktop,firefox.desktop,org.telegram.desktop.desktop,kvantummanager.desktop,org.xfce.mousepad.desktop,htop.desktop
 button-title=Applications\ \ \ 
 button-icon=distributor-logo-windows
 button-single-row=false

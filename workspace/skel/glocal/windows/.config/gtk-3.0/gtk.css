@@ -60,16 +60,22 @@ VteTerminal, vte-terminal {
 }
 
 #whiskermenu-window {
-	background-color: rgba(4, 8, 4, 1);
+	/* background-color: rgba(4, 8, 4, 1); */
+	background-color: rgba(0, 0, 0, 1);
 }
 
 #whiskermenu-window box > box > button {
 	padding: 2px 5px;
 	opacity: 0.7;
+	background-color: rgba(255, 255, 255, 0.08);
 }
 
 #whiskermenu-window .frame { 
 	border-radius: 3px;
+	border: 2px double rgba(255, 255, 255, 0.08);
+}
+
+window#whiskermenu-window > frame > stack scrolledwindow scrollbar.overlay-indicator:not(.dragging):not(.hovering) slider {
 	border: 2px double rgba(255, 255, 255, 0.08);
 }
 
@@ -88,6 +94,22 @@ window#whiskermenu-window > frame > stack scrolledwindow .view:selected {
 	color: #fff;
 }
 
+window#whiskermenu-window > frame > stack entry {
+	border-color: rgba(255, 255, 255, 0.08);
+}
+
+window#whiskermenu-window > frame > stack entry:focus {
+	border-color: rgba(255, 255, 255, 0.08);
+}
+
+window#whiskermenu-window > frame > stack entry image {
+	color: #bbbbbb;
+}
+
+window#whiskermenu-window > frame > stack entry:focus image {
+	color: #277cd5;
+}
+
 window#whiskermenu-window > frame > stack button {
 	color: #bbbbbb;
 }
@@ -95,11 +117,13 @@ window#whiskermenu-window > frame > stack button {
 window#whiskermenu-window > frame > stack button:hover {
  	opacity: 1;
 	color: #fff;
+	background-color: rgba(255, 255, 255, 0.08);
 }
 
 window#whiskermenu-window > frame > stack button:checked, window#whiskermenu-window > frame > stack button:active {
 	opacity: 1;
 	color: #fff;
+	background-color: #277cd5;
 }
 
 window#whiskermenu-window > frame > stack entry {
