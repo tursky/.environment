@@ -1,6 +1,5 @@
 /* XPM */
-static char * C:\Users\crime\Shared\Win10dark_elemen_fire\xfwm4\bottom_inactive_xpm[] = {
-"32 1 2 1",
-" 	c None",
-".	c #141414",
-"................................"};
+static char * bottom_inactive_xpm[] = {
+"32 1 1 1",
+" 	c #191919",
+"                                "};
