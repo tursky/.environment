@@ -19,7 +19,7 @@ VteTerminal, vte-terminal {
 
 /* Panel */
 .xfce4-panel {
-	margin-top: -5px;
+	/* font-size: 14px; */
 }
 
 .xfce4-panel .flat {
