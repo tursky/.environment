@@ -507,6 +507,10 @@ colorscheme github_dark_colorblind
 " >> ~/.config/nvim/init.vim
 ```
 
+```
+:PlugInstall
+```
+
 - github_dark
 - github_dark_dimmed
 - github_dark_high_contrast
