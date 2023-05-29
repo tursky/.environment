@@ -481,16 +481,43 @@ sudo pacman -S xclip
 Settings:
 
 ```
-mkdir ~/.config/nvim
-```
-
-```
-touch ~/.config/nvim/init.vim
+mkdir ~/.config/nvim && touch ~/.config/nvim/init.vim
 ```
 
 ```
 echo "set clipboard=unnamedplus" >> ~/.config/nvim/init.vim
 ```
+
+Setup `GitHub` color scheme:
+
+```
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+```
+
+
+```
+echo "
+
+call plug#begin()
+Plug 'projekt0n/github-nvim-theme'
+call plug#end()
+
+colorscheme github_dark_colorblind
+" >> ~/.config/nvim/init.vim
+```
+
+- github_dark
+- github_dark_dimmed
+- github_dark_high_contrast
+- github_dark_colorblind
+- github_dark_tritanopia
+- github_light
+- github_light_default
+- github_light_colorblind
+- github_light_tritanopia
+
+Link: [Github's Neovim themes](https://github.com/projekt0n/github-nvim-theme)
 
 ### Tmux
 
