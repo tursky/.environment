@@ -1,5 +1,5 @@
 /* 
- * User stylesheets
+ * User styles
  */
 
 /* Remove dotted lines from GTK 3 applications */
@@ -14,7 +14,16 @@ VteTerminal, vte-terminal {
 
 /* Resize power indicator */
 #xfce4-power-manager-plugin image {
-	-gtk-icon-transform: scale(0.7) translateY(-1px);
+	margin-top: 3px;
+	-gtk-icon-transform: scale(0.71);
+}
+
+#showdesktop-button image {
+	-gtk-icon-transform: scale(0.85);
+}
+
+#pulseaudio-button image {
+	-gtk-icon-transform: scale(1);
 }
 
 /* Panel */
@@ -35,20 +44,20 @@ VteTerminal, vte-terminal {
 
 .xfce4-panel.background .tasklist button { 
 	border-radius: 0px;
-	padding: 3px;
+	padding: 4px;
 	margin: 0 2px;
 	background-image: none;
-	box-shadow: inset 0 -2px rgba(255, 255, 255, 0.08);
+	box-shadow: inset 0 -1px rgba(255, 255, 255, 0.08);
 }
 
 .xfce4-panel.background .tasklist button:active, .xfce4-panel.background .tasklist button:checked { 
-	box-shadow: inset 0 -2px #277cd5;
+	box-shadow: inset 0 -1px #277cd5;
 	background-image: none; 
 	background-color: rgba(255, 255, 255, 0.08);
 }
 
 .xfce4-panel.background .tasklist button:hover, .xfce4-panel.background .tasklist button:active:hover, .xfce4-panel.background .tasklist button:checked:hover { 
-	box-shadow: inset 0 -2px #277cd5;
+	box-shadow: inset 0 -1px #277cd5;
 	background-color: rgba(255, 255, 255, 0.08);
 }
 

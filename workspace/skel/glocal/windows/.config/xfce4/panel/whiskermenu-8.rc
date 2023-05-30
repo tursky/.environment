@@ -1,7 +1,7 @@
 favorites=org.manjaro.pamac.manager.desktop,xfce4-terminal.desktop,xfce-settings-manager.desktop,xfce4-about.desktop,xfce-session-settings.desktop,htop.desktop,org.xfce.mousepad.desktop,xfce4-file-manager.desktop,xfce4-run.desktop
-recent=org.telegram.desktop.desktop,xfce-wm-settings.desktop,xfce-ui-settings.desktop,org.kicad.kicad.desktop,codium.desktop,firefox.desktop,kvantummanager.desktop,xfce4-about.desktop,brave-browser.desktop,org.onlyoffice.desktopeditors.desktop,galculator.desktop,org.xfce.mousepad.desktop
+recent=codium.desktop,xfce-ui-settings.desktop,org.telegram.desktop.desktop,xfce-wm-settings.desktop,firefox.desktop,org.kicad.kicad.desktop,kvantummanager.desktop,xfce4-about.desktop,brave-browser.desktop,org.onlyoffice.desktopeditors.desktop,galculator.desktop,org.xfce.mousepad.desktop
 button-title=Applications\ \ \ 
-button-icon=pack-less
+button-icon=/home/operator/.themes/favicon/pack-less.svg
 button-single-row=false
 show-button-title=false
 show-button-icon=true

@@ -11,9 +11,8 @@
         <value type="int" value="33"/>
         <value type="int" value="11"/>
         <value type="int" value="3"/>
-        <value type="int" value="7"/>
-        <value type="int" value="15"/>
         <value type="int" value="38"/>
+        <value type="int" value="4"/>
         <value type="int" value="45"/>
         <value type="int" value="14"/>
         <value type="int" value="6"/>
@@ -23,16 +22,16 @@
         <value type="int" value="25"/>
         <value type="int" value="36"/>
         <value type="int" value="5"/>
-        <value type="int" value="39"/>
+        <value type="int" value="1"/>
         <value type="int" value="12"/>
       </property>
       <property name="role" type="string" value="xfce4-panel-12965750720"/>
       <property name="length-adjust" type="bool" value="true"/>
       <property name="background-style" type="uint" value="0"/>
-      <property name="size" type="uint" value="40"/>
+      <property name="size" type="uint" value="38"/>
       <property name="mode" type="uint" value="0"/>
       <property name="autohide-behavior" type="uint" value="0"/>
-      <property name="icon-size" type="uint" value="22"/>
+      <property name="icon-size" type="uint" value="20"/>
       <property name="background-rgba" type="array">
         <value type="double" value="0.015686274509803921"/>
         <value type="double" value="0.031372549019607843"/>
@@ -63,6 +62,8 @@
         <value type="string" value="blueman"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (59%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (62%)"/>
         <value type="string" value="no network connection"/>
         <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (79%)"/>
         <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (84%)"/>
@@ -97,22 +98,18 @@
       <property name="show-wireframes" type="bool" value="false"/>
       <property name="show-handle" type="bool" value="false"/>
     </property>
-    <property name="plugin-7" type="string" value="separator">
-      <property name="expand" type="bool" value="true"/>
-      <property name="style" type="uint" value="0"/>
-    </property>
     <property name="plugin-9" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="vlc"/>
+      <property name="mpris-players" type="string" value="firefox.instance1523;vlc"/>
     </property>
     <property name="plugin-8" type="string" value="whiskermenu"/>
     <property name="plugin-5" type="string" value="clock">
       <property name="digital-layout" type="uint" value="1"/>
       <property name="digital-date-format" type="string" value="%m.%d.%Y"/>
       <property name="digital-time-format" type="string" value="%R"/>
-      <property name="digital-time-font" type="string" value="IBM Plex Sans Light 9"/>
+      <property name="digital-time-font" type="string" value="IBM Plex Sans 9"/>
       <property name="tooltip-format" type="string" value="%A %d %B %Y"/>
-      <property name="digital-date-font" type="string" value="IBM Plex Sans Light 9"/>
+      <property name="digital-date-font" type="string" value="IBM Plex Sans 9"/>
     </property>
     <property name="plugin-10" type="string" value="battery"/>
     <property name="plugin-2" type="string" value="xkb">
@@ -124,9 +121,6 @@
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-14" type="string" value="power-manager-plugin"/>
-    <property name="plugin-15" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
     <property name="plugin-25" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
@@ -139,13 +133,17 @@
     <property name="plugin-38" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-39" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
     <property name="plugin-45" type="string" value="separator">
       <property name="style" type="uint" value="2"/>
     </property>
     <property name="plugin-12" type="string" value="showdesktop"/>
+    <property name="plugin-1" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-4" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
   </property>
   <property name="configver" type="int" value="2"/>
 </channel>
