@@ -62,6 +62,9 @@
         <value type="string" value="blueman"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (58%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (57%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (61%)"/>
         <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (59%)"/>
         <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (62%)"/>
         <value type="string" value="no network connection"/>
@@ -100,7 +103,7 @@
     </property>
     <property name="plugin-9" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="firefox.instance1523;vlc"/>
+      <property name="mpris-players" type="string" value="chromium.instance11154;firefox.instance10219;firefox.instance12988;firefox.instance1523;firefox.instance1585;firefox.instance8548;vlc"/>
     </property>
     <property name="plugin-8" type="string" value="whiskermenu"/>
     <property name="plugin-5" type="string" value="clock">

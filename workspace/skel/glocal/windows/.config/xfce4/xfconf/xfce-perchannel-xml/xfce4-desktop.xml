@@ -4,7 +4,7 @@
   <property name="backdrop" type="empty">
     <property name="screen0" type="empty">
       <property name="monitor0" type="empty">
-        <property name="image-path" type="string" value="/home/operator/Pictures/Prism_flat_rainbow.jpg"/>
+        <property name="image-path" type="string" value="/home/operator/Documents/Prism_flat_rainbow.jpg"/>
         <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/illyria-default.jpg"/>
         <property name="last-single-image" type="string" value="/usr/share/backgrounds/xfce/illyria-default.jpg"/>
         <property name="image-style" type="int" value="5"/>

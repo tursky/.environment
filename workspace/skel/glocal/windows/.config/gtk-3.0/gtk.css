@@ -23,7 +23,7 @@ VteTerminal, vte-terminal {
 }
 
 #pulseaudio-button image {
-	-gtk-icon-transform: scale(1);
+	-gtk-icon-transform: scale(1.05);
 }
 
 /* Panel */
