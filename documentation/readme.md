@@ -1086,6 +1086,7 @@ pamac install vscodium-bin
 - Markdown Preview Enhanced
 - Live Server
 - LaTeX Workshop
+- Atomize (Atom One Dark theme)
 
 ### User settings
 
