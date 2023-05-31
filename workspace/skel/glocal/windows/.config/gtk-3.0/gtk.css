@@ -60,8 +60,7 @@ VteTerminal, vte-terminal {
 /* Whisker Menu */
 #whiskermenu-button {
 	border-radius: 0px;
-	padding: 3px;
-	margin: 0 2px;
+	padding: 0 4px;
 }
 
 #whiskermenu-window {
