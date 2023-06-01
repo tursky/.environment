@@ -4,7 +4,7 @@
   <property name="default-view" type="string" value="void"/>
   <property name="last-compact-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_SMALLEST"/>
   <property name="last-details-view-column-order" type="string" value="THUNAR_COLUMN_NAME,THUNAR_COLUMN_SIZE,THUNAR_COLUMN_TYPE,THUNAR_COLUMN_DATE_MODIFIED"/>
-  <property name="last-details-view-column-widths" type="string" value="50,50,124,50,50,259,50,50,175,50,50,74,50,222"/>
+  <property name="last-details-view-column-widths" type="string" value="50,50,143,50,50,259,50,50,189,50,50,77,50,66"/>
   <property name="last-details-view-fixed-columns" type="bool" value="false"/>
   <property name="last-details-view-visible-columns" type="string" value="THUNAR_COLUMN_DATE_MODIFIED,THUNAR_COLUMN_NAME,THUNAR_COLUMN_SIZE,THUNAR_COLUMN_TYPE"/>
   <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_38_PERCENT"/>
@@ -18,7 +18,7 @@
   <property name="last-statusbar-visible" type="bool" value="false"/>
   <property name="last-view" type="string" value="ThunarIconView"/>
   <property name="last-window-height" type="int" value="468"/>
-  <property name="last-window-width" type="int" value="673"/>
+  <property name="last-window-width" type="int" value="677"/>
   <property name="last-window-maximized" type="bool" value="false"/>
   <property name="misc-volume-management" type="bool" value="true"/>
   <property name="misc-case-sensitive" type="bool" value="false"/>
@@ -39,6 +39,6 @@
   <property name="misc-highlighting-enabled" type="bool" value="true"/>
   <property name="last-menubar-visible" type="bool" value="true"/>
   <property name="last-toolbar-item-order" type="string" value="0,1,2,3,4,5,6,7,8,9,12,15,16,18,14,17,11,10,13,19"/>
-  <property name="last-toolbar-visible-buttons" type="string" value="0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0"/>
+  <property name="last-toolbar-visible-buttons" type="string" value="0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0"/>
   <property name="last-splitview-separator-position" type="int" value="221"/>
 </channel>

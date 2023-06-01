@@ -9,7 +9,7 @@
       <property name="length" type="uint" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="plugin-ids" type="array">
-        <value type="int" value="29"/>
+        <value type="int" value="18"/>
         <value type="int" value="4"/>
         <value type="int" value="16"/>
         <value type="int" value="14"/>
@@ -56,15 +56,15 @@
       </property>
       <property name="role" type="string" value="xfce4-panel-12965750720"/>
       <property name="length-adjust" type="bool" value="true"/>
-      <property name="background-style" type="uint" value="0"/>
-      <property name="size" type="uint" value="40"/>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="size" type="uint" value="38"/>
       <property name="mode" type="uint" value="0"/>
       <property name="autohide-behavior" type="uint" value="0"/>
-      <property name="icon-size" type="uint" value="22"/>
+      <property name="icon-size" type="uint" value="20"/>
       <property name="background-rgba" type="array">
-        <value type="double" value="0.078431372549019607"/>
-        <value type="double" value="0.10196078431372549"/>
-        <value type="double" value="0.10588235294117647"/>
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
         <value type="double" value="1"/>
       </property>
       <property name="enable-struts" type="bool" value="true"/>
@@ -115,6 +115,8 @@
         <value type="string" value="blueman"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (60%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (62%)"/>
         <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (63%)"/>
         <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (81%)"/>
         <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (100%)"/>
@@ -143,15 +145,15 @@
     </property>
     <property name="plugin-9" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="firefox.instance1300;firefox.instance1743;vlc"/>
+      <property name="mpris-players" type="string" value="firefox.instance12808;firefox.instance1300;firefox.instance1743;vlc"/>
     </property>
     <property name="plugin-5" type="string" value="clock">
-      <property name="digital-layout" type="uint" value="3"/>
-      <property name="digital-date-format" type="string" value=""/>
-      <property name="digital-time-format" type="string" value="&lt;b&gt;%a  %I:%M  %p&lt;/b&gt;"/>
+      <property name="digital-layout" type="uint" value="2"/>
+      <property name="digital-date-format" type="string" value="%a  %d  %b  %R"/>
+      <property name="digital-time-format" type="string" value="%R"/>
       <property name="digital-time-font" type="string" value="IBM Plex Sans 11"/>
       <property name="tooltip-format" type="string" value="%A %d %B %Y"/>
-      <property name="digital-date-font" type="string" value="Sans 10"/>
+      <property name="digital-date-font" type="string" value="IBM Plex Sans Medium 10"/>
     </property>
     <property name="plugin-2" type="string" value="xkb">
       <property name="display-type" type="uint" value="2"/>
@@ -160,7 +162,7 @@
     </property>
     <property name="plugin-4" type="string" value="applicationsmenu">
       <property name="button-icon" type="string" value="basilisk2"/>
-      <property name="button-title" type="string" value="      Applications"/>
+      <property name="button-title" type="string" value="   Applications"/>
     </property>
     <property name="plugin-8" type="string" value="actions">
       <property name="button-title" type="uint" value="3"/>
@@ -204,9 +206,6 @@
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-3" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-29" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-30" type="string" value="separator">
@@ -285,7 +284,7 @@
     </property>
     <property name="plugin-52" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="16843248581.desktop"/>
+        <value type="string" value="16856455761.desktop"/>
       </property>
     </property>
     <property name="plugin-53" type="string" value="separator">
@@ -318,6 +317,9 @@
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-16" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-18" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
   </property>

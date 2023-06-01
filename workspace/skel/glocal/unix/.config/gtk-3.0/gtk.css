@@ -18,8 +18,8 @@ VteTerminal, vte-terminal {
 }
 
 /* Panel */
-.xfce4-panel button {
-	font-weight: 600;
+.xfce4-panel {
+	font-weight: 500;
 }
 
 .xfce4-panel.background .tasklist button { 

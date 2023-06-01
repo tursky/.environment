@@ -27,6 +27,6 @@ title_vertical_offset_inactive=1
   #    M = maximize
   #    C = close
   #    | = title
-button_layout=CMH|OTS
+button_layout=CMH|SOT
 
 show_app_icon=false
