@@ -69,8 +69,9 @@
         <value type="int" value="60"/>
         <value type="int" value="61"/>
         <value type="int" value="7"/>
-        <value type="int" value="21"/>
         <value type="int" value="9"/>
+        <value type="int" value="42"/>
+        <value type="int" value="21"/>
         <value type="int" value="25"/>
         <value type="int" value="23"/>
         <value type="int" value="30"/>
@@ -308,6 +309,9 @@
     </property>
     <property name="plugin-45" type="string" value="separator"/>
     <property name="plugin-3" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-42" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
   </property>
