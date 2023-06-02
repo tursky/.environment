@@ -27,3 +27,14 @@ echo $ui
 ---
 
 Tested on a machine with **Manjaro OS**. The entire responsibility lies with the **UNIX** operator.
+
+## Note
+Config file has been removed from `git` watch:
+
+```
+git update-index --assume-unchanged workspace/config
+```
+
+```
+git update-index --no-assume-unchanged workspace/config
+```
