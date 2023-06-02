@@ -68,6 +68,10 @@ calendar.highlight {
 	-gtk-icon-theme: 'Adwaita';
 }
 
+#directorymenu-button image {
+	-gtk-icon-transform: scale(0.88);
+}
+
 .xfce4-panel .horizontal .tasklist button, #showdesktop-button, #directorymenu-button { 
 	border-radius: 20px;
 	margin: 5px;
