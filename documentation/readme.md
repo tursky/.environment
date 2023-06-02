@@ -162,6 +162,7 @@ List of mounted partitions:
 
 ```
 sudo fdisk -l
+sudo lsblk
 ```
 
 Type the command to write the OS image, where `/sdc` is the target flash drive:
