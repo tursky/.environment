@@ -7,6 +7,7 @@
 5. [Console color palette and geometry](#console-color-palette-and-geometry)
 6. [Keyboard shortcuts](#keyboard-shortcuts)
 7. [Application menu](#application-menu)
+8. [Lifechaks](#lifechaks)
 
 ---
 
@@ -237,4 +238,18 @@ mkdir ~/.config/menus
 cd ~/.config/menus
 cp /etc/xdg/menus/xfce-applications.menu .
 ls -a
+```
+
+## Lifechaks
+
+To start a GTK3 app in `inspector` debug mode:
+
+```
+GTK_DEBUG=interactive app
+```
+
+To start it with xfce4-panel:
+
+```
+xfce4-panel -q && GTK_DEBUG=interactive xfce4-panel
 ```
