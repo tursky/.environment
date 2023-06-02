@@ -97,7 +97,7 @@
   <property name="plugins" type="empty">
     <property name="plugin-9" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="brave.instance2295;firefox.instance12808;firefox.instance1300;firefox.instance1603;firefox.instance1743;vlc"/>
+      <property name="mpris-players" type="string" value="brave.instance2295;firefox.instance12300;firefox.instance12808;firefox.instance1300;firefox.instance1603;firefox.instance1743;vlc"/>
     </property>
     <property name="plugin-5" type="string" value="clock">
       <property name="digital-layout" type="uint" value="2"/>
