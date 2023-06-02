@@ -18,25 +18,88 @@ VteTerminal, vte-terminal {
 }
 
 /* Panel */
-.xfce4-panel {
+.xfce4-panel.background {
 	font-weight: 500;
 }
 
-.xfce4-panel.background .tasklist button { 
-	border-radius: 0px;
-	padding: 3px;
-	margin: 0 0px;
+.xfce4-panel.background button:hover,
+.xfce4-panel.background button:checked {
 	background-image: none;
-	box-shadow: inset 0 -2px rgba(255, 255, 255, 0.08);
+	border-color: transparent;
+	box-shadow: none;
+	background-color: rgba(0, 0, 0, 1);
+	color: rgba(255, 255, 255, 0.7);
 }
 
-.xfce4-panel.background .tasklist button:active, .xfce4-panel.background .tasklist button:checked { 
-	box-shadow: inset 0 -2px #277cd5;
-	background-image: none; 
+.xfce4-panel.background button:active {
 	background-color: rgba(255, 255, 255, 0.08);
 }
 
-.xfce4-panel.background .tasklist button:hover, .xfce4-panel.background .tasklist button:active:hover, .xfce4-panel.background .tasklist button:checked:hover { 
+#applicationmenu-button {
+	padding-left: 5px;
+}
+
+menu {
+	background-color: rgba(0, 0, 0, 1);
+	color: rgba(255, 255, 255, 0.7);
+}
+
+calendar {
+	background-color: rgba(0, 0, 0, 1);
+	color: rgba(255, 255, 255, 0.7);
+}
+
+calendar.highlight { 
+	color: #277cd5;
+}
+
+#launcher-52 .flat { /* Last btn */
+    padding: 0 12px;
+}
+
+/* Bottom panel */
+.xfce4-panel.horizontal {
+	border-radius: 20px;
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+#showdesktop-button image {
+	-gtk-icon-transform: scale(0.45);
+	-gtk-icon-theme: 'Adwaita';
+}
+
+.xfce4-panel .horizontal .tasklist button, #showdesktop-button, #directorymenu-button { 
+	border-radius: 20px;
+	margin: 5px;
+	background-image: none;
+	border: none;
+	font-weight: 400;
+}
+
+.xfce4-panel .horizontal .tasklist button:active,
+.xfce4-panel.background .tasklist button:checked,
+#showdesktop-button:checked,
+#directorymenu-button:checked { 
 	box-shadow: inset 0 -2px #277cd5;
+	box-shadow: none;
+	background-image: none;
+	border: none;
+	opacity: 0.9;
 	background-color: rgba(255, 255, 255, 0.08);
+}
+
+.xfce4-panel .horizontal .tasklist button:hover,
+.xfce4-panel.background .tasklist button:active:hover,
+.xfce4-panel.background .tasklist button:checked:hover,
+#showdesktop-button:hover, #directorymenu-button:hover { 
+	box-shadow: inset 0 -2px #277cd5;
+	box-shadow: none;
+	background-image: none;
+	background-color: rgba(255, 255, 255, 0.08);
+	opacity: 1;
+}
+
+/* Workspace switcher */
+wnck-pager, wnck-pager:selected, wnck-pager:hover {
+	color: #195390;
 }

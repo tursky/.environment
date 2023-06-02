@@ -5,62 +5,16 @@
     <value type="int" value="0"/>
     <value type="int" value="1"/>
     <property name="panel-0" type="empty">
-      <property name="position" type="string" value="p=6;x=960;y=20"/>
-      <property name="length" type="uint" value="100"/>
+      <property name="position" type="string" value="p=0;x=852;y=1003"/>
+      <property name="length" type="double" value="5.9523809523809526"/>
       <property name="position-locked" type="bool" value="true"/>
-      <property name="plugin-ids" type="array">
-        <value type="int" value="18"/>
-        <value type="int" value="4"/>
-        <value type="int" value="16"/>
-        <value type="int" value="14"/>
-        <value type="int" value="13"/>
-        <value type="int" value="32"/>
-        <value type="int" value="34"/>
-        <value type="int" value="43"/>
-        <value type="int" value="38"/>
-        <value type="int" value="10"/>
-        <value type="int" value="20"/>
-        <value type="int" value="26"/>
-        <value type="int" value="28"/>
-        <value type="int" value="11"/>
-        <value type="int" value="60"/>
-        <value type="int" value="58"/>
-        <value type="int" value="59"/>
-        <value type="int" value="61"/>
-        <value type="int" value="53"/>
-        <value type="int" value="24"/>
-        <value type="int" value="23"/>
-        <value type="int" value="21"/>
-        <value type="int" value="6"/>
-        <value type="int" value="9"/>
-        <value type="int" value="30"/>
-        <value type="int" value="42"/>
-        <value type="int" value="25"/>
-        <value type="int" value="2"/>
-        <value type="int" value="12"/>
-        <value type="int" value="41"/>
-        <value type="int" value="3"/>
-        <value type="int" value="39"/>
-        <value type="int" value="35"/>
-        <value type="int" value="5"/>
-        <value type="int" value="33"/>
-        <value type="int" value="15"/>
-        <value type="int" value="40"/>
-        <value type="int" value="37"/>
-        <value type="int" value="36"/>
-        <value type="int" value="8"/>
-        <value type="int" value="1"/>
-        <value type="int" value="57"/>
-        <value type="int" value="50"/>
-        <value type="int" value="52"/>
-      </property>
       <property name="role" type="string" value="xfce4-panel-12965750720"/>
       <property name="length-adjust" type="bool" value="true"/>
       <property name="background-style" type="uint" value="1"/>
-      <property name="size" type="uint" value="38"/>
+      <property name="size" type="uint" value="70"/>
       <property name="mode" type="uint" value="0"/>
       <property name="autohide-behavior" type="uint" value="0"/>
-      <property name="icon-size" type="uint" value="20"/>
+      <property name="icon-size" type="uint" value="0"/>
       <property name="background-rgba" type="array">
         <value type="double" value="0"/>
         <value type="double" value="0"/>
@@ -68,84 +22,81 @@
         <value type="double" value="1"/>
       </property>
       <property name="enable-struts" type="bool" value="true"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="22"/>
+        <value type="int" value="19"/>
+        <value type="int" value="27"/>
+        <value type="int" value="31"/>
+        <value type="int" value="17"/>
+        <value type="int" value="45"/>
+        <value type="int" value="6"/>
+        <value type="int" value="29"/>
+      </property>
+      <property name="leave-opacity" type="uint" value="0"/>
     </property>
     <property name="dark-mode" type="bool" value="true"/>
     <property name="panel-1" type="empty">
-      <property name="position" type="string" value="p=10;x=968;y=1169"/>
-      <property name="size" type="uint" value="48"/>
-      <property name="length" type="double" value="1"/>
-      <property name="position-locked" type="bool" value="true"/>
-      <property name="plugin-ids" type="array">
-        <value type="int" value="7"/>
-        <value type="int" value="56"/>
-      </property>
-      <property name="background-style" type="uint" value="0"/>
-      <property name="leave-opacity" type="uint" value="0"/>
-      <property name="autohide-behavior" type="uint" value="2"/>
-      <property name="enable-struts" type="bool" value="false"/>
-      <property name="mode" type="uint" value="0"/>
+      <property name="position" type="string" value="p=6;x=840;y=20"/>
+      <property name="size" type="uint" value="38"/>
+      <property name="length" type="double" value="100"/>
+      <property name="background-style" type="uint" value="1"/>
       <property name="background-rgba" type="array">
         <value type="double" value="0"/>
         <value type="double" value="0"/>
         <value type="double" value="0"/>
         <value type="double" value="1"/>
       </property>
-      <property name="enter-opacity" type="uint" value="100"/>
-      <property name="icon-size" type="uint" value="0"/>
-      <property name="nrows" type="uint" value="1"/>
+      <property name="icon-size" type="uint" value="20"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="3"/>
+        <value type="int" value="4"/>
+        <value type="int" value="38"/>
+        <value type="int" value="43"/>
+        <value type="int" value="34"/>
+        <value type="int" value="32"/>
+        <value type="int" value="13"/>
+        <value type="int" value="14"/>
+        <value type="int" value="16"/>
+        <value type="int" value="10"/>
+        <value type="int" value="20"/>
+        <value type="int" value="26"/>
+        <value type="int" value="28"/>
+        <value type="int" value="11"/>
+        <value type="int" value="59"/>
+        <value type="int" value="58"/>
+        <value type="int" value="60"/>
+        <value type="int" value="61"/>
+        <value type="int" value="7"/>
+        <value type="int" value="21"/>
+        <value type="int" value="9"/>
+        <value type="int" value="25"/>
+        <value type="int" value="23"/>
+        <value type="int" value="30"/>
+        <value type="int" value="2"/>
+        <value type="int" value="12"/>
+        <value type="int" value="35"/>
+        <value type="int" value="24"/>
+        <value type="int" value="39"/>
+        <value type="int" value="41"/>
+        <value type="int" value="5"/>
+        <value type="int" value="37"/>
+        <value type="int" value="15"/>
+        <value type="int" value="36"/>
+        <value type="int" value="40"/>
+        <value type="int" value="33"/>
+        <value type="int" value="8"/>
+        <value type="int" value="50"/>
+        <value type="int" value="57"/>
+        <value type="int" value="1"/>
+        <value type="int" value="52"/>
+      </property>
     </property>
   </property>
   <property name="plugins" type="empty">
-    <property name="plugin-6" type="string" value="systray">
-      <property name="names-visible" type="array">
-        <value type="string" value="pnmixer"/>
-        <value type="string" value="manjaro-settings-manager-daemon"/>
-        <value type="string" value="networkmanager applet"/>
-        <value type="string" value="orage"/>
-        <value type="string" value="pamac-tray"/>
-        <value type="string" value="blueman-applet"/>
-        <value type="string" value="clipman"/>
-        <value type="string" value="xfce4-power-manager"/>
-        <value type="string" value="xnoise"/>
-      </property>
-      <property name="show-frame" type="bool" value="false"/>
-      <property name="known-items" type="array">
-        <value type="string" value="vlc"/>
-        <value type="string" value="MSM Notifier"/>
-        <value type="string" value="blueman"/>
-      </property>
-      <property name="known-legacy-items" type="array">
-        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (60%)"/>
-        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (62%)"/>
-        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (63%)"/>
-        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (81%)"/>
-        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (100%)"/>
-        <value type="string" value="blueman"/>
-        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (78%)"/>
-        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (80%)"/>
-        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (84%)"/>
-        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (77%)"/>
-        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (85%)"/>
-        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (71%)"/>
-        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (65%)"/>
-        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (66%)"/>
-        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (68%)"/>
-        <value type="string" value="xfce4-power-manager"/>
-        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (74%)"/>
-        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (76%)"/>
-        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (69%)"/>
-        <value type="string" value="clipman"/>
-        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (67%)"/>
-        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (70%)"/>
-        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (75%)"/>
-        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (73%)"/>
-        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (72%)"/>
-        <value type="string" value="networkmanager applet"/>
-      </property>
-    </property>
     <property name="plugin-9" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="firefox.instance12808;firefox.instance1300;firefox.instance1743;vlc"/>
+      <property name="mpris-players" type="string" value="brave.instance2295;firefox.instance12808;firefox.instance1300;firefox.instance1743;vlc"/>
     </property>
     <property name="plugin-5" type="string" value="clock">
       <property name="digital-layout" type="uint" value="2"/>
@@ -183,29 +134,10 @@
       </property>
       <property name="ask-confirmation" type="bool" value="false"/>
     </property>
-    <property name="plugin-21" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-23" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-24" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
     <property name="plugin-25" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-7" type="string" value="tasklist">
-      <property name="show-labels" type="bool" value="false"/>
-      <property name="show-handle" type="bool" value="false"/>
-      <property name="show-tooltips" type="bool" value="false"/>
-      <property name="grouping" type="bool" value="true"/>
-      <property name="sort-order" type="uint" value="4"/>
-    </property>
     <property name="plugin-1" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-3" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-30" type="string" value="separator">
@@ -232,14 +164,10 @@
     <property name="plugin-41" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-42" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
     <property name="plugin-12" type="string" value="power-manager-plugin"/>
     <property name="plugin-15" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-56" type="string" value="showdesktop"/>
     <property name="plugin-10" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="16843211121.desktop"/>
@@ -287,10 +215,6 @@
         <value type="string" value="16856455761.desktop"/>
       </property>
     </property>
-    <property name="plugin-53" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-      <property name="expand" type="bool" value="true"/>
-    </property>
     <property name="plugin-57" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
@@ -319,7 +243,65 @@
     <property name="plugin-16" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-18" type="string" value="separator">
+    <property name="plugin-7" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-21" type="string" value="systray">
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (59%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (55%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (56%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (57%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (72%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (71%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (70%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (58%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (68%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (61%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (66%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (69%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (62%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (65%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (63%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_b598” active: tp-link_b598 (67%)"/>
+      </property>
+    </property>
+    <property name="plugin-23" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-24" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-27" type="string" value="tasklist">
+      <property name="show-handle" type="bool" value="false"/>
+      <property name="grouping" type="bool" value="true"/>
+      <property name="flat-buttons" type="bool" value="true"/>
+      <property name="show-labels" type="bool" value="false"/>
+      <property name="show-tooltips" type="bool" value="false"/>
+      <property name="sort-order" type="uint" value="0"/>
+    </property>
+    <property name="plugin-22" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-19" type="string" value="directorymenu">
+      <property name="base-directory" type="string" value="/home/operator"/>
+      <property name="icon-name" type="string" value="system-file-manager-panel"/>
+      <property name="new-folder" type="bool" value="false"/>
+      <property name="new-document" type="bool" value="false"/>
+    </property>
+    <property name="plugin-6" type="string" value="showdesktop"/>
+    <property name="plugin-17" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-29" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-31" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-45" type="string" value="separator"/>
+    <property name="plugin-3" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
   </property>
