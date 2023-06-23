@@ -762,19 +762,19 @@ sudo wget https://www.python.org/ftp/python/3.11.3/Python-3.11.3.tgz
 Unzip:
 
 ```
-tar -xvf Python-3.11.3.tgz && mv Python-3.11.3 3.11.3 && cd 3.11.3
+tar -xf Python-3.11.*.tgz && cd Python-3.11.*/
 ```
 
 Run configurations:
 
 ```
-./configure --prefix=/home/operator/.python/3.11.3 --enable-optimizations
+./configure --prefix=/usr/local --enable-optimizations --enable-shared LDFLAGS="-Wl,-rpath /usr/local/lib"
 ```
 
 Make optimization (by the number of cores):
 
 ```
-make -j8
+make -j $(nproc)
 ```
 
 Install:
