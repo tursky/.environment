@@ -1160,7 +1160,7 @@ pamac build codeblocks
 ## LaTeX
 
 ```
-sudo pacman -S texlive-most
+sudo pacman -S texlive-meta texlive-doc
 ```
 
 Formatting with `latexindent` requires some Perl libraries:
